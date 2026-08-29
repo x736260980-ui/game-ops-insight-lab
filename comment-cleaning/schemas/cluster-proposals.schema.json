@@ -1,0 +1,40 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "High-homogeneity cluster proposals",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["clusters"],
+  "properties": {
+    "clusters": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "cluster_id",
+          "representative_id",
+          "member_ids",
+          "shared_viewpoint",
+          "merge_basis"
+        ],
+        "properties": {
+          "cluster_id": {"type": "string", "minLength": 1},
+          "representative_id": {"type": "string", "minLength": 1},
+          "member_ids": {
+            "type": "array",
+            "minItems": 2,
+            "uniqueItems": true,
+            "items": {"type": "string", "minLength": 1}
+          },
+          "shared_viewpoint": {"type": "string", "minLength": 1},
+          "merge_basis": {
+            "type": "array",
+            "minItems": 3,
+            "items": {"type": "string", "minLength": 1}
+          }
+        }
+      }
+    }
+  }
+}
+

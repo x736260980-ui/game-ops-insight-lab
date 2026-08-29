@@ -1,0 +1,7 @@
+interface:
+  display_name: "游戏运营洞察工作台"
+  short_description: "采集、清洗、分析、双Agent复核与证据看板"
+  default_prompt: "使用 $game-ops-insight-suite 研究这个游戏运营事件，并从我现有材料所在阶段开始。"
+policy:
+  allow_implicit_invocation: true
+

@@ -1,0 +1,40 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "xiaohongshu-collect-task.schema.json",
+  "title": "Xiaohongshu collection task",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "searches": {
+      "type": "array",
+      "maxItems": 10,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["keyword"],
+        "properties": {
+          "keyword": {"type": "string", "minLength": 1, "maxLength": 200},
+          "order": {"enum": ["comprehensive", "most_popular", "newest"], "default": "comprehensive"},
+          "note_type": {"enum": ["all", "video", "image"], "default": "all"},
+          "max_notes": {"type": "integer", "minimum": 1, "maximum": 50, "default": 10},
+          "page_budget": {"type": "integer", "minimum": 1, "maximum": 10, "default": 3}
+        }
+      }
+    },
+    "pinned_note_urls": {
+      "type": "array",
+      "maxItems": 20,
+      "items": {"type": "string", "format": "uri"}
+    },
+    "default_comments_per_note": {"type": "integer", "minimum": 0, "maximum": 1000, "default": 100},
+    "comments_per_note": {
+      "type": "object",
+      "additionalProperties": {"type": "integer", "minimum": 0, "maximum": 1000}
+    },
+    "include_replies": {"const": false, "default": false}
+  },
+  "anyOf": [
+    {"required": ["searches"], "properties": {"searches": {"minItems": 1}}},
+    {"required": ["pinned_note_urls"], "properties": {"pinned_note_urls": {"minItems": 1}}}
+  ]
+}

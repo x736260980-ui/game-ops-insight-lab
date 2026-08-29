@@ -1,0 +1,47 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "bilibili-collect-task.schema.json",
+  "title": "Bilibili collection task",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "searches": {
+      "type": "array",
+      "maxItems": 10,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["keyword"],
+        "properties": {
+          "keyword": {"type": "string", "minLength": 1, "maxLength": 200},
+          "order": {"enum": ["totalrank", "click", "pubdate"], "default": "totalrank"},
+          "publish_time": {"enum": ["all", "1d", "7d", "30d", "180d"], "default": "all"},
+          "max_videos": {"type": "integer", "minimum": 1, "maximum": 50, "default": 10},
+          "page_budget": {"type": "integer", "minimum": 1, "maximum": 10, "default": 3}
+        }
+      }
+    },
+    "pinned_video_ids": {
+      "type": "array",
+      "maxItems": 20,
+      "items": {"type": "string", "pattern": "^BV[0-9A-Za-z]+$"}
+    },
+    "default_comments_per_video": {"type": "integer", "minimum": 0, "maximum": 1000, "default": 100},
+    "comments_per_video": {
+      "type": "object",
+      "propertyNames": {"pattern": "^BV[0-9A-Za-z]+$"},
+      "additionalProperties": {"type": "integer", "minimum": 0, "maximum": 1000}
+    },
+    "default_danmaku_per_video": {"type": "integer", "minimum": 0, "maximum": 1000, "default": 100},
+    "danmaku_per_video": {
+      "type": "object",
+      "propertyNames": {"pattern": "^BV[0-9A-Za-z]+$"},
+      "additionalProperties": {"type": "integer", "minimum": 0, "maximum": 1000}
+    },
+    "include_replies": {"const": false, "default": false}
+  },
+  "anyOf": [
+    {"required": ["searches"], "properties": {"searches": {"minItems": 1}}},
+    {"required": ["pinned_video_ids"], "properties": {"pinned_video_ids": {"minItems": 1}}}
+  ]
+}

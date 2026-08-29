@@ -1,0 +1,42 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "douyin-collect-task.schema.json",
+  "title": "Douyin collection task",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "searches": {
+      "type": "array",
+      "maxItems": 10,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["keyword"],
+        "properties": {
+          "keyword": {"type": "string", "minLength": 1, "maxLength": 200},
+          "order": {"enum": ["comprehensive", "most_liked", "newest"], "default": "comprehensive"},
+          "publish_time": {"enum": ["all", "1d", "7d", "180d"], "default": "all"},
+          "max_videos": {"type": "integer", "minimum": 1, "maximum": 50, "default": 10},
+          "page_budget": {"type": "integer", "minimum": 1, "maximum": 10, "default": 3}
+        }
+      }
+    },
+    "pinned_video_ids": {
+      "type": "array",
+      "maxItems": 20,
+      "items": {"type": "string", "pattern": "^[0-9]{5,30}$"}
+    },
+    "default_comments_per_video": {"type": "integer", "minimum": 0, "maximum": 1000, "default": 100},
+    "comments_per_video": {
+      "type": "object",
+      "propertyNames": {"pattern": "^[0-9]{5,30}$"},
+      "additionalProperties": {"type": "integer", "minimum": 0, "maximum": 1000}
+    },
+    "include_replies": {"const": false, "default": false},
+    "comment_mode": {"const": "api_only", "default": "api_only"}
+  },
+  "anyOf": [
+    {"required": ["searches"], "properties": {"searches": {"minItems": 1}}},
+    {"required": ["pinned_video_ids"], "properties": {"pinned_video_ids": {"minItems": 1}}}
+  ]
+}

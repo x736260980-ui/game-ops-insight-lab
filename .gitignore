@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+.venv/
+
+# Frontend
+node_modules/
+.npm-cache/
+insight-dashboard/dist/
+*.tsbuildinfo
+
+# Local credentials and browser state
+.env
+.env.*
+!.env.example
+source/browser_data/
+source/cache/
+source/data/
+source/store/
+
+# Research runs: keep only curated examples
+runs/*
+!runs/.gitkeep
+
+# Agent runtime and local packages
+**/.runtime/
+**/logs/
+dist-skills/
+*.log
+*.tmp
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db

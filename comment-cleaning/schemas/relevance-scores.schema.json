@@ -1,0 +1,35 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Comment relevance scores",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["results"],
+  "properties": {
+    "results": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["record_id", "relevance_score"],
+        "properties": {
+          "record_id": {"type": "string", "minLength": 1},
+          "relevance_score": {"type": "number", "minimum": 0, "maximum": 1},
+          "reason": {"type": "string", "minLength": 1}
+        },
+        "allOf": [
+          {
+            "if": {
+              "properties": {
+                "relevance_score": {"minimum": 0.3, "exclusiveMaximum": 0.7}
+              },
+              "required": ["relevance_score"]
+            },
+            "then": {"required": ["reason"]},
+            "else": {"not": {"required": ["reason"]}}
+          }
+        ]
+      }
+    }
+  }
+}
+
