@@ -1520,6 +1520,8 @@ async def run_workflow(args: argparse.Namespace) -> int:
     initial_paths = {"codex": output_dir / "01-codex-initial.md", "claude": output_dir / "02-claude-initial.md"}
     final_report_path = output_dir / "05-final-analysis.md"
     final_summary_path = output_dir / "05-final-summary.json"
+    authoritative_report_path = run_dir / "final-analysis.md"
+    authoritative_summary_path = run_dir / "final-summary.json"
     output_dir.mkdir(parents=True, exist_ok=True)
     if args.force:
         archive_existing(output_dir)
@@ -1795,9 +1797,16 @@ async def run_workflow(args: argparse.Namespace) -> int:
             write_json(state_path, state)
             dashboard.set_agent_status("claude", "分析摘要完成")
 
+        shutil.copyfile(final_report_path, authoritative_report_path)
+        shutil.copyfile(final_summary_path, authoritative_summary_path)
+
         dashboard.set_stage("已完成")
         dashboard.message("完成", "唯一统一终稿与分析摘要已经生成", "green")
-        for path in (*initial_paths.values(), transcript_path, disputes_path, final_report_path, final_summary_path):
+        for path in (
+            *initial_paths.values(), transcript_path, disputes_path,
+            final_report_path, final_summary_path,
+            authoritative_report_path, authoritative_summary_path,
+        ):
             dashboard.message("文件", str(path), "blue")
     return 0
 

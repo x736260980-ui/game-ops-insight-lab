@@ -1,6 +1,6 @@
 # Dashboard 与证据回溯
 
-Dashboard 的主数据源是事件目录中的 `dashboard.json`。存在 `dual-agent/05-final-summary.json` 时，后端自动补充核心判断、风险、关键发现和运营方向；没有双 Agent 的普通调查仍可正常展示。
+Dashboard 的主数据源是事件目录中的 `dashboard.json`。存在根目录 `final-summary.json` 时，后端自动补充核心判断、风险、关键发现和运营方向。旧调查可以继续回退读取 `dual-agent/05-final-summary.json`；没有摘要的普通调查仍可展示分类与评论证据。
 
 ## 展示口径
 
@@ -11,4 +11,3 @@ Dashboard 的主数据源是事件目录中的 `dashboard.json`。存在 `dual-a
 - 评论卡使用“代表 N 条相似表达”，避免把代表卡片数误解为原始评论数。
 
 Dashboard 是结果层，不展示 Agent 的内部对话。README 和技术文档可以单独展示双 Agent 机制。
-

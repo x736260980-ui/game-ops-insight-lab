@@ -8,8 +8,8 @@
 4. 按研究主题做相关性判断，再保守折叠高度同质表达。
 5. 生成统一 `analysis-input.json`，提出动态分类并由用户确认。
 6. 生成 `semantic-analysis.json`、`classification-plan.json`、`analysis-audit.json` 和 `dashboard.json`。
-7. 默认执行单 Agent 分析；用户明确要求时执行双 Agent。
-8. Dashboard 动态读取结构化结果，支持从结论回溯到评论证据。
+7. 默认执行单 Agent 分析；用户明确要求时执行双 Agent。两种方式都在事件根目录生成统一终稿。
+8. Dashboard 动态读取统一终稿和结构化结果，支持从结论回溯到评论证据。
 
 ## 恢复与重跑
 
@@ -18,7 +18,16 @@
 - 不覆盖原始采集文件。
 - 任一必要阶段失败时停止，不生成伪完整报告。
 
-## 双 Agent 稳定输出
+## 统一稳定输出
+
+无论使用单 Agent 还是双 Agent，事件目录的权威结果都是：
+
+```text
+final-analysis.md
+final-summary.json
+```
+
+双 Agent 的初审和讨论过程继续保存在子目录：
 
 ```text
 dual-agent/
@@ -26,9 +35,8 @@ dual-agent/
 ├─ 02-claude-initial.md
 ├─ 03-transcript.md
 ├─ 04-disputes.json
-├─ 05-final-analysis.md
-└─ 05-final-summary.json
+├─ 05-final-analysis.md        旧版本兼容文件
+└─ 05-final-summary.json       旧版本兼容文件
 ```
 
 `.runtime/`、Session、CLI 原始日志和历史失败稿只属于本地运行状态，不进入公开案例。
-

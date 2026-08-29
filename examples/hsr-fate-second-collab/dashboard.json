@@ -1,0 +1,578 @@
+{
+  "schema_version": "game-comment-dashboard-1.1",
+  "research_target": "《崩坏：星穹铁道》× Fate 二次联动的玩家反馈",
+  "counts": {
+    "input_relevance_count": 650,
+    "folded_record_count": 615,
+    "represented_comment_count": 650,
+    "secondary_excluded_count": 2,
+    "final_analyzed_count": 648
+  },
+  "platforms": [
+    {
+      "platform": "douyin",
+      "relevance_count": 205,
+      "folded_count": 189,
+      "represented_count": 205,
+      "included_folded_count": 189,
+      "included_represented_count": 205,
+      "secondary_excluded_count": 0
+    },
+    {
+      "platform": "bilibili",
+      "relevance_count": 167,
+      "folded_count": 159,
+      "represented_count": 167,
+      "included_folded_count": 159,
+      "included_represented_count": 167,
+      "secondary_excluded_count": 0
+    },
+    {
+      "platform": "xiaohongshu",
+      "relevance_count": 278,
+      "folded_count": 267,
+      "represented_count": 278,
+      "included_folded_count": 265,
+      "included_represented_count": 276,
+      "secondary_excluded_count": 2
+    }
+  ],
+  "overall_sentiment": {
+    "positive": {
+      "count": 212,
+      "ratio": 0.3272
+    },
+    "negative": {
+      "count": 125,
+      "ratio": 0.1929
+    },
+    "neutral": {
+      "count": 280,
+      "ratio": 0.4321
+    },
+    "mixed": {
+      "count": 31,
+      "ratio": 0.0478
+    }
+  },
+  "category_statistics_non_exclusive": true,
+  "categories": [
+    {
+      "category_id": "story_presentation",
+      "name": "联动剧情与演出",
+      "count": 240,
+      "ratio_of_final_analyzed": 0.3704,
+      "sentiment": {
+        "positive": {
+          "count": 94,
+          "ratio": 0.3917
+        },
+        "negative": {
+          "count": 45,
+          "ratio": 0.1875
+        },
+        "neutral": {
+          "count": 97,
+          "ratio": 0.4042
+        },
+        "mixed": {
+          "count": 4,
+          "ratio": 0.0167
+        }
+      },
+      "summary": "剧情与演出是三平台最稳定的讨论核心。玩家大量围绕遐蝶拉车、枪兵幸存、星穹同框、列车互动等具体场面玩梗和表达喜爱，同时也出现剧情偏短、PV与正式内容差异、默剧动作单调、角色互动不足等负面反馈。高召回重跑后，许多“笑死”“谁绷得住”“这一幕”等短反应也被保留为有效演出反馈。",
+      "representative_comments": [
+        {
+          "record_id": "XHS-0033",
+          "platform": "xiaohongshu",
+          "text": "老米你咋搞pv诈骗啊[哭惹R]我全看完了也没找到小蝶拉车[生气R][生气R]，也没看到星宝被公主抱[哭惹R]",
+          "support_count": 1
+        },
+        {
+          "record_id": "BILI-0012",
+          "platform": "bilibili",
+          "text": "呜呜呜Lancer真好他是为了把开拓者拉开才被击中的——[FGO_跪]",
+          "support_count": 1
+        }
+      ]
+    },
+    {
+      "category_id": "source_lore_fidelity",
+      "name": "原作设定与还原度",
+      "count": 131,
+      "ratio_of_final_analyzed": 0.2022,
+      "sentiment": {
+        "positive": {
+          "count": 38,
+          "ratio": 0.2901
+        },
+        "negative": {
+          "count": 17,
+          "ratio": 0.1298
+        },
+        "neutral": {
+          "count": 76,
+          "ratio": 0.5802
+        },
+        "mixed": {
+          "count": 0,
+          "ratio": 0.0
+        }
+      },
+      "summary": "Fate原作设定与还原度贯穿抖音、B站和小红书。讨论包括UBW/FSF/HF元素混用、伊什塔尔/远坂凛表现、职阶、宝具、天之锁、Lancer幸运E等。部分玩家认可致敬和彩蛋，另一部分认为多条线路和设定被混合后产生违和或OOC感。",
+      "representative_comments": [
+        {
+          "record_id": "DY-0030",
+          "platform": "douyin",
+          "text": "这官号联动前真了解过fate吗[笑哭] pv联动fsf 标题是ubw线 开幕的大眼凛用横飞姬的姿势与台词 凛装扮和武器是绝对经费战线里的女神 但又有hf线的宝石剑 还给狗哥继续幸运E被闪爹一脚踹死 成分复杂成啥了全是槽点[笑哭]",
+          "support_count": 1
+        },
+        {
+          "record_id": "BILI-0090",
+          "platform": "bilibili",
+          "text": "话说1:50后的那部分宝具动画有点意思啊，喊出的宝具名是伊什塔尔的，但前半部分穿梭宇宙的画面是宇宙凛的，后面握着星球的的部分又是伊什塔尔的，所以你到底是？[思考]\n不过话又说回来，宇宙凛的正式名称是“太空伊什塔尔”，那么伊什塔尔来到了太空世界观的崩铁后是不是也是一种“太空伊什塔尔”？",
+          "support_count": 1
+        }
+      ]
+    },
+    {
+      "category_id": "visual_character_design",
+      "name": "美术与角色呈现",
+      "count": 116,
+      "ratio_of_final_analyzed": 0.179,
+      "sentiment": {
+        "positive": {
+          "count": 59,
+          "ratio": 0.5086
+        },
+        "negative": {
+          "count": 30,
+          "ratio": 0.2586
+        },
+        "neutral": {
+          "count": 26,
+          "ratio": 0.2241
+        },
+        "mixed": {
+          "count": 1,
+          "ratio": 0.0086
+        }
+      },
+      "summary": "角色美术呈现存在明显分化。远坂凛、Saber、遐蝶等角色的可爱度、建模和部分服装设计获得大量短而直接的正向评价；同时也有对吉尔伽美什服装、腿甲/袜装、手套、士郎建模、立绘元素堆叠和局部人体细节的批评。",
+      "representative_comments": [
+        {
+          "record_id": "XHS-0066",
+          "platform": "xiaohongshu",
+          "text": "凛一点也不像凛，应该来的魔法师设定啥的其实来点十字架元素会好点",
+          "support_count": 1
+        },
+        {
+          "record_id": "BILI-0118",
+          "platform": "bilibili",
+          "text": "不知道为什么，这只动起来的呆毛王比内鬼那游戏里的呆毛王要好看的感觉，是因为这个模型被修过了吗？",
+          "support_count": 1
+        }
+      ]
+    },
+    {
+      "category_id": "roster_playability",
+      "name": "实装阵容与角色诉求",
+      "count": 77,
+      "ratio_of_final_analyzed": 0.1188,
+      "sentiment": {
+        "positive": {
+          "count": 45,
+          "ratio": 0.5844
+        },
+        "negative": {
+          "count": 15,
+          "ratio": 0.1948
+        },
+        "neutral": {
+          "count": 17,
+          "ratio": 0.2208
+        },
+        "mixed": {
+          "count": 0,
+          "ratio": 0.0
+        }
+      },
+      "summary": "角色实装诉求覆盖当前二期阵容和更早的联动期待。狗哥、士郎、伊莉雅、间桐樱、R姐、绮礼等被频繁点名；部分历史期待直接指向远坂凛与吉尔伽美什，说明二期人选与长期玩家愿望存在承接关系。已有建模却未实装也是持续争论点。",
+      "representative_comments": [
+        {
+          "record_id": "XHS-0069",
+          "platform": "xiaohongshu",
+          "text": "Lancer厨悬着的心终于死了[哭惹R]一期的时候就客串，当时就传二期是狗哥和闪，其实也有人猜远坂凛，但普遍都觉得远坂凛是御主不是从者应该不太会实装。（没有说远坂凛不好的意思，红丝绒蛋糕实装我也很高兴）狗哥你实装吧，就算是四星我也愿意",
+          "support_count": 1
+        },
+        {
+          "record_id": "BILI-0070",
+          "platform": "bilibili",
+          "text": "明年把樱和伊莉雅端上来把，真求求了，两个都是活宝角色",
+          "support_count": 1
+        }
+      ]
+    },
+    {
+      "category_id": "combat_build_value",
+      "name": "强度、配队与养成价值",
+      "count": 71,
+      "ratio_of_final_analyzed": 0.1096,
+      "sentiment": {
+        "positive": {
+          "count": 3,
+          "ratio": 0.0423
+        },
+        "negative": {
+          "count": 1,
+          "ratio": 0.0141
+        },
+        "neutral": {
+          "count": 67,
+          "ratio": 0.9437
+        },
+        "mixed": {
+          "count": 0,
+          "ratio": 0.0
+        }
+      },
+      "summary": "强度、配队与养成讨论主要集中在小红书，围绕远坂凛、Archer、吉尔伽美什的命座、光锥、遗器、主C/辅助定位和队友替换。大量评论带有具体账号BOX、预算和已有角色条件，说明联动角色已进入真实资源配置决策，而非只停留在厨力表达。",
+      "representative_comments": [
+        {
+          "record_id": "XHS-0197",
+          "platform": "xiaohongshu",
+          "text": "你好，我想问问大佬，我现在是01红a61日00花，想补强红a队，本来打算抽个01凛再补个1命红a，但是看了一下攻略发现21凛也很强，请问我在11红a61日00花的基础上围绕红a主c的话凛要怎么抽呢？抽11还是21比较好呢？",
+          "support_count": 1
+        },
+        {
+          "record_id": "XHS-0215",
+          "platform": "xiaohongshu",
+          "text": "01红A 11鸟 11花 11盾丹 11日，抽00凛（塔专）有提升吗？主要是红A清杂不太行[笑哭R]",
+          "support_count": 1
+        }
+      ]
+    },
+    {
+      "category_id": "gacha_rewards_schedule",
+      "name": "抽卡、赠送与活动规则",
+      "count": 112,
+      "ratio_of_final_analyzed": 0.1728,
+      "sentiment": {
+        "positive": {
+          "count": 22,
+          "ratio": 0.1964
+        },
+        "negative": {
+          "count": 15,
+          "ratio": 0.1339
+        },
+        "neutral": {
+          "count": 72,
+          "ratio": 0.6429
+        },
+        "mixed": {
+          "count": 3,
+          "ratio": 0.0268
+        }
+      },
+      "summary": "抽卡与规则讨论包括免费角色、200抽奖励、保底继承、长期卡池、复刻时间、开放时间以及具体抽数成本。高召回后也纳入了“十连三金”“一发拿下”“几百抽6+1”“抽歪”等简短但有效的获取体验，使福利与成本感知更完整。",
+      "representative_comments": [
+        {
+          "record_id": "XHS-0090",
+          "platform": "xiaohongshu",
+          "text": "哎，不是，哎？金闪闪免费送？？？凛反而要抽？？？[呃R]",
+          "support_count": 1
+        },
+        {
+          "record_id": "XHS-0169",
+          "platform": "xiaohongshu",
+          "text": "想问下saber和红a的卡池会还在吗还是说会换成新的那两位🤔",
+          "support_count": 1
+        }
+      ]
+    },
+    {
+      "category_id": "event_gameplay_technical",
+      "name": "活动玩法与技术体验",
+      "count": 13,
+      "ratio_of_final_analyzed": 0.0201,
+      "sentiment": {
+        "positive": {
+          "count": 0,
+          "ratio": 0.0
+        },
+        "negative": {
+          "count": 7,
+          "ratio": 0.5385
+        },
+        "neutral": {
+          "count": 6,
+          "ratio": 0.4615
+        },
+        "mixed": {
+          "count": 0,
+          "ratio": 0.0
+        }
+      },
+      "summary": "活动玩法与技术问题数量不如剧情和角色讨论多，但信号明确：包括活动入口缺失或无法进入、页面跳转/重启无效、活动难度、刷新怪、音乐与语音设置等。此类反馈主要集中在抖音，是此前过严筛选最容易漏掉的一类短体验信号。",
+      "representative_comments": [
+        {
+          "record_id": "DY-0139",
+          "platform": "douyin",
+          "text": "我点了活动界面为什么给我跳转？[呲牙][赞]重启也进不去我生气了",
+          "support_count": 1
+        },
+        {
+          "record_id": "DY-0142",
+          "platform": "douyin",
+          "text": "这活动打的太难受了[流泪]等级七好不容易凹了10弓箭羁绊出来，还是打不赢[绿帽子]",
+          "support_count": 1
+        }
+      ]
+    },
+    {
+      "category_id": "overall_collab_response",
+      "name": "整体联动评价与行为反应",
+      "count": 86,
+      "ratio_of_final_analyzed": 0.1327,
+      "sentiment": {
+        "positive": {
+          "count": 36,
+          "ratio": 0.4186
+        },
+        "negative": {
+          "count": 35,
+          "ratio": 0.407
+        },
+        "neutral": {
+          "count": 9,
+          "ratio": 0.1047
+        },
+        "mixed": {
+          "count": 6,
+          "ratio": 0.0698
+        }
+      },
+      "summary": "整体联动评价呈分化。一部分玩家因联动明确回游、下载游戏、补番或提前攒抽，并强调“双厨狂喜”；另一部分认为联动质量、圈层互动或制作完成度低于期待。早期对远坂凛、吉尔伽美什的需求与二期实际阵容形成了可观察的期待—兑现链条。",
+      "representative_comments": [
+        {
+          "record_id": "XHS-0154",
+          "platform": "xiaohongshu",
+          "text": "就是看到凛才回游的，她真好看",
+          "support_count": 1
+        },
+        {
+          "record_id": "DY-0239",
+          "platform": "douyin",
+          "text": "接下来你们可以看到：接下来你们可以看到：接下来你可以看到《没有米谁知道你们fate》《fate比不上原》《这个角色好像原里的XX》[捂脸][OK]。有些人不带点节奏就会死，本来挺双厨狂喜的事情，就是有两边的人互相疯狂的带[哈欠]",
+          "support_count": 1
+        }
+      ]
+    },
+    {
+      "category_id": "other",
+      "name": "其他",
+      "count": 5,
+      "ratio_of_final_analyzed": 0.0077,
+      "sentiment": {
+        "positive": {
+          "count": 0,
+          "ratio": 0.0
+        },
+        "negative": {
+          "count": 0,
+          "ratio": 0.0
+        },
+        "neutral": {
+          "count": 5,
+          "ratio": 1.0
+        },
+        "mixed": {
+          "count": 0,
+          "ratio": 0.0
+        }
+      },
+      "summary": "少量有效评论主要是对联动基本形态、IP来源、合作背景的认知性问题，无法稳定归入剧情、美术、战斗或规则类别，因此保留在其他项中。",
+      "representative_comments": [
+        {
+          "record_id": "XHS-0099",
+          "platform": "xiaohongshu",
+          "text": "不是不能联动日IP吗？为啥崩铁可以联动？",
+          "support_count": 1
+        },
+        {
+          "record_id": "XHS-0136",
+          "platform": "xiaohongshu",
+          "text": "我玩原神的 想问崩铁的联动是皮肤那种类型还是直接出一个全新的角色",
+          "support_count": 1
+        }
+      ]
+    }
+  ],
+  "web_context": {
+    "status": "enriched",
+    "candidate_count": 10,
+    "used_source_count": 9,
+    "event_background": [
+      {
+        "text": "《崩坏：星穹铁道》4.4版本于7月15日开启，官方明确说明Fate二次联动开拓续闻、联动跃迁和联动活动于7月24日开启。",
+        "source_refs": [
+          "WEB-001"
+        ]
+      },
+      {
+        "text": "二期新增远坂凛与吉尔伽美什；活动期内可在吉尔伽美什与Archer之间免费二选一，累计200张专票可自选联动五星光锥，并存在与一期联动的保底继承关系。",
+        "source_refs": [
+          "WEB-002",
+          "WEB-003"
+        ]
+      },
+      {
+        "text": "联动活动包含圣杯战争主题内容和卡牌回合制玩法；远坂凛/Archer、吉尔伽美什/Saber存在联动连携机制，解释了评论中大量配队与机制讨论。",
+        "source_refs": [
+          "WEB-004",
+          "WEB-006"
+        ]
+      }
+    ],
+    "corroborations": [
+      {
+        "dashboard_category_id": "visual_character_design",
+        "text": "TapTap围绕远坂凛立绘的128人投票中82%选择喜欢、18%不喜欢，与样本中视觉评价总体偏正向但存在明显负面设计争议的结构一致。",
+        "source_refs": [
+          "WEB-008"
+        ]
+      },
+      {
+        "dashboard_category_id": "overall_collab_response",
+        "text": "TapTap二期话题页既出现88%期待的投票，也有玩家因二期官宣明确回游，外部讨论同样显示联动能够触发回流与强期待。",
+        "source_refs": [
+          "WEB-005"
+        ]
+      },
+      {
+        "dashboard_category_id": "combat_build_value",
+        "text": "4.4攻略合集集中讨论远坂凛、吉尔伽美什与一期角色的配队、免费角色选择和强度价值，佐证本次样本中大量账号配置与资源决策型评论并非孤立现象。",
+        "source_refs": [
+          "WEB-004",
+          "WEB-007"
+        ]
+      },
+      {
+        "dashboard_category_id": "gacha_rewards_schedule",
+        "text": "上线后社区继续围绕免费五星二选一和200抽光锥奖励讨论，并出现吉尔伽美什与Archer选择投票，佐证赠送机制本身是独立关注点。",
+        "source_refs": [
+          "WEB-003",
+          "WEB-010"
+        ]
+      }
+    ],
+    "counter_signals": [
+      {
+        "dashboard_category_id": "overall_collab_response",
+        "text": "官宣期TapTap小样本投票显示期待比例高达88%，明显比本次三平台评论中更分化的整体评价乐观，提示“官宣前期待”与“上线后具体体验”不能直接混为同一口碑阶段。",
+        "source_refs": [
+          "WEB-005"
+        ]
+      },
+      {
+        "dashboard_category_id": "visual_character_design",
+        "text": "远坂凛立绘投票以正向为主，但仍有18%选择不喜欢；官方公告页同时可见对吉尔伽美什造型和前次联动建模的负面留言，说明视觉争议并非仅存在于本次样本。",
+        "source_refs": [
+          "WEB-002",
+          "WEB-008"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "web_id": "WEB-001",
+        "title": "4.4版本「鸣笛于归寂之时」已开启",
+        "url": "https://www.taptap.cn/moment/826155463815990910",
+        "source": "TapTap《崩坏：星穹铁道》官方",
+        "source_hint": "official",
+        "published_at": "2026-07-15"
+      },
+      {
+        "web_id": "WEB-002",
+        "title": "崩坏：星穹铁道 官方公告｜天外卫星通信：远坂凛、吉尔伽美什",
+        "url": "https://www.taptap.cn/app/224267/topic?page=12&sort=created&type=official",
+        "source": "TapTap《崩坏：星穹铁道》官方版主",
+        "source_hint": "official",
+        "published_at": "2026-05-22"
+      },
+      {
+        "web_id": "WEB-003",
+        "title": "《崩坏：星穹铁道》×《Fate/stay night》二期联动定档7月24日",
+        "url": "https://www.taptap.cn/moment/829056872525859835",
+        "source": "TapTap社区资讯",
+        "source_hint": "media",
+        "published_at": "2026-07-22"
+      },
+      {
+        "web_id": "WEB-004",
+        "title": "〖V4.3攻略〗4.4前瞻汇总｜新角色技能解析，Fate联动介绍",
+        "url": "https://www.taptap.cn/moment/822252094286204746",
+        "source": "TapTap攻略作者",
+        "source_hint": "review",
+        "published_at": null
+      },
+      {
+        "web_id": "WEB-005",
+        "title": "崩铁Fate二期联动官宣",
+        "url": "https://www.taptap.cn/hashtag/%E5%B4%A9%E9%93%81Fate%E4%BA%8C%E6%9C%9F%E8%81%94%E5%8A%A8%E5%AE%98%E5%AE%A3",
+        "source": "TapTap话题页",
+        "source_hint": "taptap",
+        "published_at": "2026-05-22"
+      },
+      {
+        "web_id": "WEB-006",
+        "title": "上线就领红A金闪闪！崩铁Fate二期正式开启",
+        "url": "https://www.taptap.cn/moment/829679128188814405",
+        "source": "TapTap社区资讯",
+        "source_hint": "media",
+        "published_at": "2026-07-24"
+      },
+      {
+        "web_id": "WEB-007",
+        "title": "崩坏：星穹铁道综合指南",
+        "url": "https://www.taptap.cn/app/224267/strategy/entity-collection/302459",
+        "source": "TapTap攻略合集",
+        "source_hint": "review",
+        "published_at": null
+      },
+      {
+        "web_id": "WEB-008",
+        "title": "崩铁xFate二期联动角色远坂凛立绘公布",
+        "url": "https://www.taptap.cn/moment/807009398424604621",
+        "source": "TapTap社区资讯",
+        "source_hint": "taptap",
+        "published_at": "2026-05-22"
+      },
+      {
+        "web_id": "WEB-010",
+        "title": "星穹铁道Fate联动开冲，登录免费领五星~",
+        "url": "https://www.taptap.cn/moment/830183193045893148?group_id=311675",
+        "source": "TapTap社区资讯",
+        "source_hint": "taptap",
+        "published_at": "2026-07-25"
+      }
+    ],
+    "source_limitations": [
+      "网页资料不是系统抽样的玩家样本，不能参与三平台评论数量、情绪或类别占比统计。",
+      "TapTap投票样本量较小且存在自选择偏差，只能作为定性佐证。",
+      "部分社区资讯属于对官方信息的二次整理，事实字段优先以官方TapTap公告/官方角色通信为准。",
+      "官宣前、上线后和攻略期的讨论阶段不同，不能把不同时间点的态度直接合并为一个总体民意比例。"
+    ]
+  },
+  "methodology": {
+    "weighting": "所有数量按 support_count 加权；同质折叠的代表评论代表其全部成员。",
+    "category_scope": "类别为多选且互不排斥，类别数量与占比之和可以超过最终评论量或 100%。",
+    "overall_sentiment_scope": "每个折叠代表记录只进行一次总体情绪判断；统计时按 support_count 计入其代表的全部评论。",
+    "limitations": [
+      "公开平台评论是有偏样本，不代表全体玩家。",
+      "Python只校验编号、原文和数量，不重新判断Dify折叠的语义正确性。",
+      "网页资料如有仅在独立 web_context 中展示"
+    ]
+  }
+}

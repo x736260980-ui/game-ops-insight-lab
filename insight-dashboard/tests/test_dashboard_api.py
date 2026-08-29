@@ -234,6 +234,31 @@ def test_detail_merges_authoritative_summary_and_list_uses_short_title(runs_dir:
     assert listing.json()["runs"][0]["research_title"] == "绯英 PV 争议"
 
 
+def test_root_summary_takes_priority_over_legacy_dual_agent_summary(runs_dir: Path) -> None:
+    run_dir = write_dashboard(runs_dir, "unified-summary", {"research_target": "统一协议", "categories": []})
+    legacy_dir = run_dir / "dual-agent"
+    legacy_dir.mkdir()
+    base = {
+        "schema_version": "game-ops-final-summary-1.0",
+        "research_title": "旧标题",
+        "core_judgment": "旧判断",
+        "risk": {"score": 0.2, "level": "low", "rationale": "旧风险"},
+        "confidence": {"level": "low", "rationale": "旧置信度"},
+        "key_findings": ["旧发现"],
+        "operation_directions": ["旧方向"],
+        "evidence_refs": [],
+        "evidence_gaps": [],
+    }
+    (legacy_dir / "05-final-summary.json").write_text(json.dumps(base, ensure_ascii=False), encoding="utf-8")
+    unified = {**base, "research_title": "统一标题", "core_judgment": "统一判断"}
+    (run_dir / "final-summary.json").write_text(json.dumps(unified, ensure_ascii=False), encoding="utf-8")
+
+    response = client_for(runs_dir).get("/api/dashboard/runs/unified-summary")
+
+    assert response.status_code == 200
+    assert response.json()["analysis_summary"] == unified
+
+
 def test_category_sentiment_drilldown_distinguishes_weighted_expressions_and_records(runs_dir: Path) -> None:
     run_dir = write_dashboard(runs_dir, "drill", {"research_target": "测试", "categories": []})
     (run_dir / "analysis-input.json").write_text(json.dumps({
@@ -310,6 +335,20 @@ def test_report_returns_utf8_text_and_missing_report_is_404(runs_dir: Path) -> N
         "content": "# 游戏洞察\n\n结论：值得关注。",
     }
     assert missing.status_code == 404
+
+
+def test_root_final_analysis_takes_priority_over_legacy_reports(runs_dir: Path) -> None:
+    report_dir = write_dashboard(runs_dir, "unified-report", {})
+    legacy_dir = report_dir / "dual-agent"
+    legacy_dir.mkdir()
+    (report_dir / "report.md").write_text("旧单 Agent 报告", encoding="utf-8")
+    (legacy_dir / "05-final-analysis.md").write_text("旧双 Agent 报告", encoding="utf-8")
+    (report_dir / "final-analysis.md").write_text("统一权威报告", encoding="utf-8")
+
+    response = client_for(runs_dir).get("/api/dashboard/runs/unified-report/report")
+
+    assert response.status_code == 200
+    assert response.json()["content"] == "统一权威报告"
 
 
 def test_report_read_oserror_returns_clear_4xx(runs_dir: Path, monkeypatch: pytest.MonkeyPatch) -> None:

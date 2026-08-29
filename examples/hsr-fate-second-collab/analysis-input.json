@@ -1,0 +1,5596 @@
+{
+  "schema_version": "game-comment-insight-input-1.0",
+  "research_target": "《崩坏：星穹铁道》× Fate 二次联动的玩家反馈",
+  "platforms": [
+    {
+      "platform": "douyin",
+      "relevance_count": 205,
+      "folded_count": 189,
+      "represented_count": 205
+    },
+    {
+      "platform": "bilibili",
+      "relevance_count": 167,
+      "folded_count": 159,
+      "represented_count": 167
+    },
+    {
+      "platform": "xiaohongshu",
+      "relevance_count": 278,
+      "folded_count": 267,
+      "represented_count": 278
+    }
+  ],
+  "comments": [
+    {
+      "record_id": "DY-0001",
+      "platform": "douyin",
+      "text": "此时就有十连三金的小浣熊疑惑了",
+      "support_count": 2,
+      "merged_record_ids": [
+        "DY-0001",
+        "DY-0033"
+      ]
+    },
+    {
+      "record_id": "DY-0060",
+      "platform": "douyin",
+      "text": "这是…骆驼遐子[泪奔]",
+      "support_count": 2,
+      "merged_record_ids": [
+        "DY-0002",
+        "DY-0060"
+      ]
+    },
+    {
+      "record_id": "DY-0056",
+      "platform": "douyin",
+      "text": "星穹同框可爱捏[惊喜]",
+      "support_count": 2,
+      "merged_record_ids": [
+        "DY-0013",
+        "DY-0056"
+      ]
+    },
+    {
+      "record_id": "DY-0022",
+      "platform": "douyin",
+      "text": "遐蝶：我不搬你们看什么 [微笑]",
+      "support_count": 4,
+      "merged_record_ids": [
+        "DY-0022",
+        "DY-0079",
+        "DY-0083",
+        "DY-0091"
+      ]
+    },
+    {
+      "record_id": "DY-0037",
+      "platform": "douyin",
+      "text": "这个蝶好萌",
+      "support_count": 4,
+      "merged_record_ids": [
+        "DY-0037",
+        "DY-0043",
+        "DY-0052",
+        "DY-0077"
+      ]
+    },
+    {
+      "record_id": "DY-0038",
+      "platform": "douyin",
+      "text": "狗哥这回幸运S",
+      "support_count": 2,
+      "merged_record_ids": [
+        "DY-0038",
+        "DY-0068"
+      ]
+    },
+    {
+      "record_id": "DY-0062",
+      "platform": "douyin",
+      "text": "遐蝶探头太可爱了吧",
+      "support_count": 2,
+      "merged_record_ids": [
+        "DY-0062",
+        "DY-0092"
+      ]
+    },
+    {
+      "record_id": "DY-0240",
+      "platform": "douyin",
+      "text": "没有崩铁谁知道你fate[捂脸]",
+      "support_count": 4,
+      "merged_record_ids": [
+        "DY-0211",
+        "DY-0240",
+        "DY-0265",
+        "DY-0286"
+      ]
+    },
+    {
+      "record_id": "DY-0235",
+      "platform": "douyin",
+      "text": "ubw都联动了，跟着把FGO的330保底也联动进去吧[捂脸]",
+      "support_count": 3,
+      "merged_record_ids": [
+        "DY-0216",
+        "DY-0235",
+        "DY-0252"
+      ]
+    },
+    {
+      "record_id": "DY-0003",
+      "platform": "douyin",
+      "text": "这也要还原吗[憨笑]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "DY-0003"
+      ]
+    },
+    {
+      "record_id": "DY-0004",
+      "platform": "douyin",
+      "text": "谁绷得住[捂脸]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "DY-0004"
+      ]
+    },
+    {
+      "record_id": "DY-0005",
+      "platform": "douyin",
+      "text": "1.遐蝶把他们从冥界送回来更多是玩遐蝶仓库技的梗。并不代表遐蝶能管其他地方的死人。\n2.联动剧情肯定有崩铁角色，但不一定会出现在pv里因为主场还是四个联动角色+主角。\n3.真要是特别好奇自担有没有联动剧情就去看爆料，在这个plq问照样会有看爆料的回复你。[无语流汗]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "DY-0005"
+      ]
+    },
+    {
+      "record_id": "DY-0007",
+      "platform": "douyin",
+      "text": "这波我支持谜之双马尾[憨笑]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "DY-0007"
+      ]
+    },
+    {
+      "record_id": "DY-0008",
+      "platform": "douyin",
+      "text": "坏消息：想要圣杯得先要英雄王同意。好消息：英雄王好像每次都同意[捂脸]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "DY-0008"
+      ]
+    },
+    {
+      "record_id": "DY-0009",
+      "platform": "douyin",
+      "text": "我说金闪闪的中配怎么这么耳熟，原来是高泰明[撇嘴]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "DY-0009"
+      ]
+    },
+    {
+      "record_id": "DY-0010",
+      "platform": "douyin",
+      "text": "还有小蝶友情客串呢哈哈哈[捂脸]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "DY-0010"
+      ]
+    },
+    {
+      "record_id": "DY-0011",
+      "platform": "douyin",
+      "text": "虚假的拉一车人：爻老板\n真正的拉一车人：遐蝶[钱]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "DY-0011"
+      ]
+    },
+    {
+      "record_id": "DY-0012",
+      "platform": "douyin",
+      "text": "瑕蝶拉车何尝不是瑕蝶拉了，所以加强瑕蝶[微笑]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "DY-0012"
+      ]
+    },
+    {
+      "record_id": "DY-0014",
+      "platform": "douyin",
+      "text": "好可爱[舔屏]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "DY-0014"
+      ]
+    },
+    {
+      "record_id": "DY-0015",
+      "platform": "douyin",
+      "text": "小蝶幸苦了",
+      "support_count": 1,
+      "merged_record_ids": [
+        "DY-0015"
+      ]
+    },
+    {
+      "record_id": "DY-0017",
+      "platform": "douyin",
+      "text": "闪大哥依旧稳定发挥[笑哭]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "DY-0017"
+      ]
+    },
+    {
+      "record_id": "DY-0018",
+      "platform": "douyin",
+      "text": "遐蝶那两声嘿咻嘿咻好萌啊！！！",
+      "support_count": 1,
+      "merged_record_ids": [
+        "DY-0018"
+      ]
+    },
+    {
+      "record_id": "DY-0019",
+      "platform": "douyin",
+      "text": "上吧老己，这就是我们热血沸腾的组合啊",
+      "support_count": 1,
+      "merged_record_ids": [
+        "DY-0019"
+      ]
+    },
+    {
+      "record_id": "DY-0020",
+      "platform": "douyin",
+      "text": "笑得我不行",
+      "support_count": 1,
+      "merged_record_ids": [
+        "DY-0020"
+      ]
+    },
+    {
+      "record_id": "DY-0021",
+      "platform": "douyin",
+      "text": "蝴蝶祥子[钱]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "DY-0021"
+      ]
+    },
+    {
+      "record_id": "DY-0023",
+      "platform": "douyin",
+      "text": "画师应该是累了记得多休息[比心]，俩人手套画反了",
+      "support_count": 1,
+      "merged_record_ids": [
+        "DY-0023"
+      ]
+    },
+    {
+      "record_id": "DY-0025",
+      "platform": "douyin",
+      "text": "救命吧，小蝶就这样萌萌的冒出来[流泪]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "DY-0025"
+      ]
+    },
+    {
+      "record_id": "DY-0026",
+      "platform": "douyin",
+      "text": "伊什塔尔作为乌鲁克的守护神，在吉尔伽美什取得王位后，他短暂的继承了天之权柄。然后为了救他在预言中选择的丈夫牧神，亲自前往冥界，然后被拥有冥界权柄的冥神羞辱。在那没多久，提亚马特为了丈夫发动灭世。马尔杜克应天神安的预言，作为木星之神，杀死了提亚马特，取得了四方权柄成为神王。（当然，伊什塔尔的原型伊南娜没有完全成为神王。而马尔杜克也是巴比伦继承书面文化所自己创造的神灵。）",
+      "support_count": 1,
+      "merged_record_ids": [
+        "DY-0026"
+      ]
+    },
+    {
+      "record_id": "DY-0027",
+      "platform": "douyin",
+      "text": "我严重怀疑白厄在嘲讽万敌[流泪]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "DY-0027"
+      ]
+    },
+    {
+      "record_id": "DY-0028",
+      "platform": "douyin",
+      "text": "有人说穹怎么不在这，实则穹哥留了一手",
+      "support_count": 1,
+      "merged_record_ids": [
+        "DY-0028"
+      ]
+    },
+    {
+      "record_id": "DY-0030",
+      "platform": "douyin",
+      "text": "这官号联动前真了解过fate吗[笑哭] pv联动fsf 标题是ubw线 开幕的大眼凛用横飞姬的姿势与台词 凛装扮和武器是绝对经费战线里的女神 但又有hf线的宝石剑 还给狗哥继续幸运E被闪爹一脚踹死 成分复杂成啥了全是槽点[笑哭]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "DY-0030"
+      ]
+    },
+    {
+      "record_id": "DY-0031",
+      "platform": "douyin",
+      "text": "我将用最直白，最直接，最不绕弯子，最客观、最正确，最系统，最真实，最简略，最容易理解.最不卖关子的方式告诉你，遐蝶拉了",
+      "support_count": 1,
+      "merged_record_ids": [
+        "DY-0031"
+      ]
+    },
+    {
+      "record_id": "DY-0032",
+      "platform": "douyin",
+      "text": "天上掉下个星妹妹[钱][赞]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "DY-0032"
+      ]
+    },
+    {
+      "record_id": "DY-0036",
+      "platform": "douyin",
+      "text": "闪大哥梦碎二相乐园[赞]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "DY-0036"
+      ]
+    },
+    {
+      "record_id": "DY-0039",
+      "platform": "douyin",
+      "text": "可爱",
+      "support_count": 1,
+      "merged_record_ids": [
+        "DY-0039"
+      ]
+    },
+    {
+      "record_id": "DY-0040",
+      "platform": "douyin",
+      "text": "劳（模）蝶[杀马特]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "DY-0040"
+      ]
+    },
+    {
+      "record_id": "DY-0041",
+      "platform": "douyin",
+      "text": "现在不应该是草履虫吗[钱]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "DY-0041"
+      ]
+    },
+    {
+      "record_id": "DY-0042",
+      "platform": "douyin",
+      "text": "我说这期pv是端水最平的一次有感觉吗？",
+      "support_count": 1,
+      "merged_record_ids": [
+        "DY-0042"
+      ]
+    },
+    {
+      "record_id": "DY-0044",
+      "platform": "douyin",
+      "text": "初露锋芒",
+      "support_count": 1,
+      "merged_record_ids": [
+        "DY-0044"
+      ]
+    },
+    {
+      "record_id": "DY-0045",
+      "platform": "douyin",
+      "text": "台下从者欣喜若狂，我有两个星核精",
+      "support_count": 1,
+      "merged_record_ids": [
+        "DY-0045"
+      ]
+    },
+    {
+      "record_id": "DY-0046",
+      "platform": "douyin",
+      "text": "（说了一些遐蝶世一萌的话）",
+      "support_count": 1,
+      "merged_record_ids": [
+        "DY-0046"
+      ]
+    },
+    {
+      "record_id": "DY-0047",
+      "platform": "douyin",
+      "text": "不是说好了圣杯战争是秘密进行的吗？[抠鼻]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "DY-0047"
+      ]
+    },
+    {
+      "record_id": "DY-0048",
+      "platform": "douyin",
+      "text": "我绷不住了...",
+      "support_count": 1,
+      "merged_record_ids": [
+        "DY-0048"
+      ]
+    },
+    {
+      "record_id": "DY-0049",
+      "platform": "douyin",
+      "text": "萌[送心][送心]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "DY-0049"
+      ]
+    },
+    {
+      "record_id": "DY-0050",
+      "platform": "douyin",
+      "text": "（说了一些夸奖蝶宝好的话）",
+      "support_count": 1,
+      "merged_record_ids": [
+        "DY-0050"
+      ]
+    },
+    {
+      "record_id": "DY-0051",
+      "platform": "douyin",
+      "text": "把最后遐蝶的表情包截给我一下呗，求求了！",
+      "support_count": 1,
+      "merged_record_ids": [
+        "DY-0051"
+      ]
+    },
+    {
+      "record_id": "DY-0053",
+      "platform": "douyin",
+      "text": "最后一幕是不是该叫《骆驼蝶子》",
+      "support_count": 1,
+      "merged_record_ids": [
+        "DY-0053"
+      ]
+    },
+    {
+      "record_id": "DY-0054",
+      "platform": "douyin",
+      "text": "这个星宝就这么萌萌的[舔屏]我亲亲亲亲亲[舔屏][舔屏][舔屏]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "DY-0054"
+      ]
+    },
+    {
+      "record_id": "DY-0055",
+      "platform": "douyin",
+      "text": "对不起蝶宝，委屈你了哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈",
+      "support_count": 1,
+      "merged_record_ids": [
+        "DY-0055"
+      ]
+    },
+    {
+      "record_id": "DY-0058",
+      "platform": "douyin",
+      "text": "一想到遐蝶要把我们一个个复活，我就绷不住了[笑哭]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "DY-0058"
+      ]
+    },
+    {
+      "record_id": "DY-0059",
+      "platform": "douyin",
+      "text": "还有老自老己同框环节。@森. @AAA西北风批发商（温迪是男的！）",
+      "support_count": 1,
+      "merged_record_ids": [
+        "DY-0059"
+      ]
+    },
+    {
+      "record_id": "DY-0061",
+      "platform": "douyin",
+      "text": "这时候就有人要问了，蝶宝蝶宝你怎么这么可爱啊[憨笑]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "DY-0061"
+      ]
+    },
+    {
+      "record_id": "DY-0063",
+      "platform": "douyin",
+      "text": "最后压力一只蝶对吗 [杀马特]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "DY-0063"
+      ]
+    },
+    {
+      "record_id": "DY-0064",
+      "platform": "douyin",
+      "text": "没人看见遐蝶吗？",
+      "support_count": 1,
+      "merged_record_ids": [
+        "DY-0064"
+      ]
+    },
+    {
+      "record_id": "DY-0065",
+      "platform": "douyin",
+      "text": "看给孩子震惊的",
+      "support_count": 1,
+      "merged_record_ids": [
+        "DY-0065"
+      ]
+    },
+    {
+      "record_id": "DY-0066",
+      "platform": "douyin",
+      "text": "怎么还有这种环节",
+      "support_count": 1,
+      "merged_record_ids": [
+        "DY-0066"
+      ]
+    },
+    {
+      "record_id": "DY-0069",
+      "platform": "douyin",
+      "text": "当你面对一个有梗必玩的制作组\n玩家：闪大王又要梦碎了吗？\n枪兵老是幸运E怎么办？\n如何保证联动剧情的节目效果？\n制作组：",
+      "support_count": 1,
+      "merged_record_ids": [
+        "DY-0069"
+      ]
+    },
+    {
+      "record_id": "DY-0070",
+      "platform": "douyin",
+      "text": "互相指认",
+      "support_count": 1,
+      "merged_record_ids": [
+        "DY-0070"
+      ]
+    },
+    {
+      "record_id": "DY-0071",
+      "platform": "douyin",
+      "text": "你继续笑死我了做到这里突然来句大狗狗是狼[撇嘴]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "DY-0071"
+      ]
+    },
+    {
+      "record_id": "DY-0072",
+      "platform": "douyin",
+      "text": "我没看错吧，星穹同时出场了[流泪][流泪][流泪]老米，你知道我等了多久吗？",
+      "support_count": 1,
+      "merged_record_ids": [
+        "DY-0072"
+      ]
+    },
+    {
+      "record_id": "DY-0073",
+      "platform": "douyin",
+      "text": "最后遐蝶拉一车面包人这谁绷得住[捂脸]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "DY-0073"
+      ]
+    },
+    {
+      "record_id": "DY-0075",
+      "platform": "douyin",
+      "text": "[钱]拿下",
+      "support_count": 1,
+      "merged_record_ids": [
+        "DY-0075"
+      ]
+    },
+    {
+      "record_id": "DY-0076",
+      "platform": "douyin",
+      "text": "蝶宝[流泪]好命苦",
+      "support_count": 1,
+      "merged_record_ids": [
+        "DY-0076"
+      ]
+    },
+    {
+      "record_id": "DY-0078",
+      "platform": "douyin",
+      "text": "原来遐蝶仓库技能是这样复活的啊[泪奔]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "DY-0078"
+      ]
+    },
+    {
+      "record_id": "DY-0081",
+      "platform": "douyin",
+      "text": "毁灭这命途有点说法，基本都被捅对穿[憨笑]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "DY-0081"
+      ]
+    },
+    {
+      "record_id": "DY-0082",
+      "platform": "douyin",
+      "text": "我了蝶车[捂脸]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "DY-0082"
+      ]
+    },
+    {
+      "record_id": "DY-0084",
+      "platform": "douyin",
+      "text": "谁懂这一幕[捂脸]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "DY-0084"
+      ]
+    },
+    {
+      "record_id": "DY-0085",
+      "platform": "douyin",
+      "text": "笑死我了[捂脸]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "DY-0085"
+      ]
+    },
+    {
+      "record_id": "DY-0086",
+      "platform": "douyin",
+      "text": "金闪闪的配音是高泰明",
+      "support_count": 1,
+      "merged_record_ids": [
+        "DY-0086"
+      ]
+    },
+    {
+      "record_id": "DY-0087",
+      "platform": "douyin",
+      "text": "各位没发现吗？谈笑间，狗哥又死了一次😂😂😂",
+      "support_count": 1,
+      "merged_record_ids": [
+        "DY-0087"
+      ]
+    },
+    {
+      "record_id": "DY-0088",
+      "platform": "douyin",
+      "text": "狗哥最舒服的一集?[发呆]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "DY-0088"
+      ]
+    },
+    {
+      "record_id": "DY-0089",
+      "platform": "douyin",
+      "text": "我蝶宝怎么出现在pv里面了？",
+      "support_count": 1,
+      "merged_record_ids": [
+        "DY-0089"
+      ]
+    },
+    {
+      "record_id": "DY-0090",
+      "platform": "douyin",
+      "text": "狗哥这人最精了，知道越晚出数值越高，才不是因为幸运E呢[看]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "DY-0090"
+      ]
+    },
+    {
+      "record_id": "DY-0093",
+      "platform": "douyin",
+      "text": "这里的星好娇啊[捂脸]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "DY-0093"
+      ]
+    },
+    {
+      "record_id": "DY-0094",
+      "platform": "douyin",
+      "text": "遐蝶发动仓库技ing",
+      "support_count": 1,
+      "merged_record_ids": [
+        "DY-0094"
+      ]
+    },
+    {
+      "record_id": "DY-0095",
+      "platform": "douyin",
+      "text": "我去，好可爱！！",
+      "support_count": 1,
+      "merged_record_ids": [
+        "DY-0095"
+      ]
+    },
+    {
+      "record_id": "DY-0096",
+      "platform": "douyin",
+      "text": "狗哥仗义[流泪]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "DY-0096"
+      ]
+    },
+    {
+      "record_id": "DY-0097",
+      "platform": "douyin",
+      "text": "下次周年庆开拓报告可不可以看小碟仓库技使用次数，看看我们被小碟背过多少次[色]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "DY-0097"
+      ]
+    },
+    {
+      "record_id": "DY-0098",
+      "platform": "douyin",
+      "text": "太有意思了这次咱们成从者了[钱]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "DY-0098"
+      ]
+    },
+    {
+      "record_id": "DY-0099",
+      "platform": "douyin",
+      "text": "没看过原著，凛到底是红眼睛那个还是蓝眼睛那个啊，为什么红眼睛的那个说把身体还给她",
+      "support_count": 1,
+      "merged_record_ids": [
+        "DY-0099"
+      ]
+    },
+    {
+      "record_id": "DY-0100",
+      "platform": "douyin",
+      "text": "省流:苦命的遐蝶和躺赢的狗哥",
+      "support_count": 1,
+      "merged_record_ids": [
+        "DY-0100"
+      ]
+    },
+    {
+      "record_id": "DY-0102",
+      "platform": "douyin",
+      "text": "兄弟们拉矢真的很爽[憨笑]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "DY-0102"
+      ]
+    },
+    {
+      "record_id": "DY-0103",
+      "platform": "douyin",
+      "text": "这联动剧情是我的问题吗，感觉一般般[黑脸]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "DY-0103"
+      ]
+    },
+    {
+      "record_id": "DY-0104",
+      "platform": "douyin",
+      "text": "做完我以为大家都会夸的……这是怎么了[发呆][发呆][发呆]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "DY-0104"
+      ]
+    },
+    {
+      "record_id": "DY-0105",
+      "platform": "douyin",
+      "text": "都是咖喱棒 小白有没有人用[泣不成声][泣不成声]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "DY-0105"
+      ]
+    },
+    {
+      "record_id": "DY-0106",
+      "platform": "douyin",
+      "text": "美[爱心]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "DY-0106"
+      ]
+    },
+    {
+      "record_id": "DY-0107",
+      "platform": "douyin",
+      "text": "砂金在中间萌成啥样了[憨笑]砂金厨时隔一年见到砂金剧情意满离[憨笑]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "DY-0107"
+      ]
+    },
+    {
+      "record_id": "DY-0108",
+      "platform": "douyin",
+      "text": "银狼是不是开了[憨笑]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "DY-0108"
+      ]
+    },
+    {
+      "record_id": "DY-0109",
+      "platform": "douyin",
+      "text": "能不能出单个角色切换语音的设置啊，其他角色习惯中文，联动角色习惯日语[捂脸]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "DY-0109"
+      ]
+    },
+    {
+      "record_id": "DY-0110",
+      "platform": "douyin",
+      "text": "不是哥们这玩意好像看起来好熟悉啊[酷拽]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "DY-0110"
+      ]
+    },
+    {
+      "record_id": "DY-0111",
+      "platform": "douyin",
+      "text": "就因为最后提了某个人一嘴，导致的歪了（歪的姬子）[微笑]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "DY-0111"
+      ]
+    },
+    {
+      "record_id": "DY-0113",
+      "platform": "douyin",
+      "text": "哇，这张脸很有反派气质呢[憨笑]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "DY-0113"
+      ]
+    },
+    {
+      "record_id": "DY-0115",
+      "platform": "douyin",
+      "text": "以后会复刻吗？",
+      "support_count": 1,
+      "merged_record_ids": [
+        "DY-0115"
+      ]
+    },
+    {
+      "record_id": "DY-0118",
+      "platform": "douyin",
+      "text": "做完的和我走[憨笑]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "DY-0118"
+      ]
+    },
+    {
+      "record_id": "DY-0119",
+      "platform": "douyin",
+      "text": "原来文案组和剧情策划不是一伙的，文案组才是懂我们的吧，又玩梗又吐槽[捂脸]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "DY-0119"
+      ]
+    },
+    {
+      "record_id": "DY-0120",
+      "platform": "douyin",
+      "text": "为什么我的saber是红发",
+      "support_count": 1,
+      "merged_record_ids": [
+        "DY-0120"
+      ]
+    },
+    {
+      "record_id": "DY-0122",
+      "platform": "douyin",
+      "text": "耗费了这么多宝石召唤出来的竟然不是saber",
+      "support_count": 1,
+      "merged_record_ids": [
+        "DY-0122"
+      ]
+    },
+    {
+      "record_id": "DY-0123",
+      "platform": "douyin",
+      "text": "看了一圈发现就我觉得剧情好玩[泪奔]不过白厄老家有点尴尬",
+      "support_count": 1,
+      "merged_record_ids": [
+        "DY-0123"
+      ]
+    },
+    {
+      "record_id": "DY-0124",
+      "platform": "douyin",
+      "text": "剧情太少了吧[抱抱你]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "DY-0124"
+      ]
+    },
+    {
+      "record_id": "DY-0125",
+      "platform": "douyin",
+      "text": "需要好友位吗[不失礼貌的微笑]虽然只是6+1",
+      "support_count": 1,
+      "merged_record_ids": [
+        "DY-0125"
+      ]
+    },
+    {
+      "record_id": "DY-0126",
+      "platform": "douyin",
+      "text": "拿下了，有没有要好友的[看][比心]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "DY-0126"
+      ]
+    },
+    {
+      "record_id": "DY-0127",
+      "platform": "douyin",
+      "text": "转嫁危机这一块/.",
+      "support_count": 1,
+      "merged_record_ids": [
+        "DY-0127"
+      ]
+    },
+    {
+      "record_id": "DY-0128",
+      "platform": "douyin",
+      "text": "为什么我的saber是男的？出来回应一下[抱抱你][抱抱你]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "DY-0128"
+      ]
+    },
+    {
+      "record_id": "DY-0131",
+      "platform": "douyin",
+      "text": "我就想知道这间奏，叫啥[泣不成声]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "DY-0131"
+      ]
+    },
+    {
+      "record_id": "DY-0132",
+      "platform": "douyin",
+      "text": "为什么活动没有啊，又出bug了吗",
+      "support_count": 1,
+      "merged_record_ids": [
+        "DY-0132"
+      ]
+    },
+    {
+      "record_id": "DY-0133",
+      "platform": "douyin",
+      "text": "孩子们刷新怪了[微笑]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "DY-0133"
+      ]
+    },
+    {
+      "record_id": "DY-0134",
+      "platform": "douyin",
+      "text": "回归，来个邀请码",
+      "support_count": 1,
+      "merged_record_ids": [
+        "DY-0134"
+      ]
+    },
+    {
+      "record_id": "DY-0135",
+      "platform": "douyin",
+      "text": "居然还有米沙，不亏是老米你啊[看][看]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "DY-0135"
+      ]
+    },
+    {
+      "record_id": "DY-0136",
+      "platform": "douyin",
+      "text": "哥们穿越了?",
+      "support_count": 1,
+      "merged_record_ids": [
+        "DY-0136"
+      ]
+    },
+    {
+      "record_id": "DY-0138",
+      "platform": "douyin",
+      "text": "砂金很懂嘛[白眼]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "DY-0138"
+      ]
+    },
+    {
+      "record_id": "DY-0139",
+      "platform": "douyin",
+      "text": "我点了活动界面为什么给我跳转？[呲牙][赞]重启也进不去我生气了",
+      "support_count": 1,
+      "merged_record_ids": [
+        "DY-0139"
+      ]
+    },
+    {
+      "record_id": "DY-0140",
+      "platform": "douyin",
+      "text": "咋不一起把这个送了[黑脸][黑脸]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "DY-0140"
+      ]
+    },
+    {
+      "record_id": "DY-0141",
+      "platform": "douyin",
+      "text": "这联动剧情做的啥呀，就依托[尬笑]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "DY-0141"
+      ]
+    },
+    {
+      "record_id": "DY-0142",
+      "platform": "douyin",
+      "text": "这活动打的太难受了[流泪]等级七好不容易凹了10弓箭羁绊出来，还是打不赢[绿帽子]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "DY-0142"
+      ]
+    },
+    {
+      "record_id": "DY-0146",
+      "platform": "douyin",
+      "text": "活动入口",
+      "support_count": 1,
+      "merged_record_ids": [
+        "DY-0146"
+      ]
+    },
+    {
+      "record_id": "DY-0147",
+      "platform": "douyin",
+      "text": "官方你在找茬[微笑]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "DY-0147"
+      ]
+    },
+    {
+      "record_id": "DY-0149",
+      "platform": "douyin",
+      "text": "为啥我感觉这个人好熟悉呀[疑问]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "DY-0149"
+      ]
+    },
+    {
+      "record_id": "DY-0151",
+      "platform": "douyin",
+      "text": "[看]狠狠拿下",
+      "support_count": 1,
+      "merged_record_ids": [
+        "DY-0151"
+      ]
+    },
+    {
+      "record_id": "DY-0152",
+      "platform": "douyin",
+      "text": "有没有要借用的[害羞]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "DY-0152"
+      ]
+    },
+    {
+      "record_id": "DY-0154",
+      "platform": "douyin",
+      "text": "老米给我换个灯泡呗[微笑]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "DY-0154"
+      ]
+    },
+    {
+      "record_id": "DY-0156",
+      "platform": "douyin",
+      "text": "小白追杀来古士珍贵记录[看]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "DY-0156"
+      ]
+    },
+    {
+      "record_id": "DY-0157",
+      "platform": "douyin",
+      "text": "活动进不去",
+      "support_count": 1,
+      "merged_record_ids": [
+        "DY-0157"
+      ]
+    },
+    {
+      "record_id": "DY-0158",
+      "platform": "douyin",
+      "text": "优化士郎建模[发怒][发怒][发怒]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "DY-0158"
+      ]
+    },
+    {
+      "record_id": "DY-0159",
+      "platform": "douyin",
+      "text": "停停停，老米我活动入口呢？[抱抱你]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "DY-0159"
+      ]
+    },
+    {
+      "record_id": "DY-0160",
+      "platform": "douyin",
+      "text": "这次联动质量太好了。剧情演出无可挑剔，特别是地图真是太棒了，让白厄睹图思情，还有那默剧真的是太有艺术气息了，不喜欢的都是没品味的。希望米哈游继续保持这种高质量。[抱抱你][抱抱你][抱抱你][抱抱你]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "DY-0160"
+      ]
+    },
+    {
+      "record_id": "DY-0162",
+      "platform": "douyin",
+      "text": "你想干什么，mhy",
+      "support_count": 1,
+      "merged_record_ids": [
+        "DY-0162"
+      ]
+    },
+    {
+      "record_id": "DY-0165",
+      "platform": "douyin",
+      "text": "我活动呢，我请问呢",
+      "support_count": 1,
+      "merged_record_ids": [
+        "DY-0165"
+      ]
+    },
+    {
+      "record_id": "DY-0166",
+      "platform": "douyin",
+      "text": "不是吧官方你搁这逗我呢，你看这个人[微笑]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "DY-0166"
+      ]
+    },
+    {
+      "record_id": "DY-0167",
+      "platform": "douyin",
+      "text": "老米我真得夸夸你了[抱抱你]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "DY-0167"
+      ]
+    },
+    {
+      "record_id": "DY-0168",
+      "platform": "douyin",
+      "text": "这个活动角色文案谁写的我问你个事[憨笑][憨笑][憨笑][憨笑]逮着我家萨摩耶不放了啊[憨笑]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "DY-0168"
+      ]
+    },
+    {
+      "record_id": "DY-0169",
+      "platform": "douyin",
+      "text": "有点像那位[微笑]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "DY-0169"
+      ]
+    },
+    {
+      "record_id": "DY-0170",
+      "platform": "douyin",
+      "text": "@崩坏星穹铁道 官方！！！为什么我的Sader是这样的？！",
+      "support_count": 1,
+      "merged_record_ids": [
+        "DY-0170"
+      ]
+    },
+    {
+      "record_id": "DY-0171",
+      "platform": "douyin",
+      "text": "希望白露大人能妙手回春",
+      "support_count": 1,
+      "merged_record_ids": [
+        "DY-0171"
+      ]
+    },
+    {
+      "record_id": "DY-0172",
+      "platform": "douyin",
+      "text": "260抽1+0[憨笑]出了五个金歪了三个[憨笑]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "DY-0172"
+      ]
+    },
+    {
+      "record_id": "DY-0173",
+      "platform": "douyin",
+      "text": "为什么最后还突然刀我一下[抱抱你][抱抱你][抱抱你]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "DY-0173"
+      ]
+    },
+    {
+      "record_id": "DY-0175",
+      "platform": "douyin",
+      "text": "900抽[泣不成声]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "DY-0175"
+      ]
+    },
+    {
+      "record_id": "DY-0177",
+      "platform": "douyin",
+      "text": "这脸一看就是武内画的[憨笑]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "DY-0177"
+      ]
+    },
+    {
+      "record_id": "DY-0178",
+      "platform": "douyin",
+      "text": "一发[憨笑]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "DY-0178"
+      ]
+    },
+    {
+      "record_id": "DY-0180",
+      "platform": "douyin",
+      "text": "谁说saber在崩铁里待遇不好，人家都有专属坐骑了[还得是我]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "DY-0180"
+      ]
+    },
+    {
+      "record_id": "DY-0181",
+      "platform": "douyin",
+      "text": "做默剧就算了，我肢体动作呢？只会摆手捂胸摸头这几个嘛，要是有声我也不说你啥了，怎么地自以为觉得这么做很高级是吗？[憨笑]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "DY-0181"
+      ]
+    },
+    {
+      "record_id": "DY-0182",
+      "platform": "douyin",
+      "text": "老米管管啊[抱抱你]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "DY-0182"
+      ]
+    },
+    {
+      "record_id": "DY-0185",
+      "platform": "douyin",
+      "text": "老米新活动页面是被砍爆了吗？已经面壁两个小时了[抱抱你]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "DY-0185"
+      ]
+    },
+    {
+      "record_id": "DY-0186",
+      "platform": "douyin",
+      "text": "拿下[舔屏]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "DY-0186"
+      ]
+    },
+    {
+      "record_id": "DY-0187",
+      "platform": "douyin",
+      "text": "怎么还顺带把姬子抽到七命了[恐惧]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "DY-0187"
+      ]
+    },
+    {
+      "record_id": "DY-0189",
+      "platform": "douyin",
+      "text": "已经没有想玩下去的心情了[流泪]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "DY-0189"
+      ]
+    },
+    {
+      "record_id": "DY-0190",
+      "platform": "douyin",
+      "text": "来嘛宝宝。6+1",
+      "support_count": 1,
+      "merged_record_ids": [
+        "DY-0190"
+      ]
+    },
+    {
+      "record_id": "DY-0191",
+      "platform": "douyin",
+      "text": "730抽拿下[流泪][流泪][流泪]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "DY-0191"
+      ]
+    },
+    {
+      "record_id": "DY-0192",
+      "platform": "douyin",
+      "text": "抽不到歪了[泪奔]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "DY-0192"
+      ]
+    },
+    {
+      "record_id": "DY-0193",
+      "platform": "douyin",
+      "text": "有点意思，百分之零的小保底[不失礼貌的微笑]，还是你们会做游戏[不失礼貌的微笑][玫瑰]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "DY-0193"
+      ]
+    },
+    {
+      "record_id": "DY-0194",
+      "platform": "douyin",
+      "text": "五百抽6+1吗宝子继续对我这么好好不好[抱抱你]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "DY-0194"
+      ]
+    },
+    {
+      "record_id": "DY-0195",
+      "platform": "douyin",
+      "text": "什么剧情，不想配音直说[愉快]\n就我看到这里就很烦了，圣杯战争过家家呢",
+      "support_count": 1,
+      "merged_record_ids": [
+        "DY-0195"
+      ]
+    },
+    {
+      "record_id": "DY-0196",
+      "platform": "douyin",
+      "text": "570抽拿下6+1[舔屏]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "DY-0196"
+      ]
+    },
+    {
+      "record_id": "DY-0197",
+      "platform": "douyin",
+      "text": "这脚这边有点不对劲[黑脸]，是我的错觉吗？",
+      "support_count": 1,
+      "merged_record_ids": [
+        "DY-0197"
+      ]
+    },
+    {
+      "record_id": "DY-0198",
+      "platform": "douyin",
+      "text": "20抽[看][看]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "DY-0198"
+      ]
+    },
+    {
+      "record_id": "DY-0199",
+      "platform": "douyin",
+      "text": "不愧是武内脸，第一眼我还觉得是FGO的新礼装呢[看]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "DY-0199"
+      ]
+    },
+    {
+      "record_id": "DY-0206",
+      "platform": "douyin",
+      "text": "五星虚数毁灭金闪闪 [捂脸]  [OK]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "DY-0206"
+      ]
+    },
+    {
+      "record_id": "DY-0215",
+      "platform": "douyin",
+      "text": "最希望别联动，这样对两个圈子都好[捂脸]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "DY-0215"
+      ]
+    },
+    {
+      "record_id": "DY-0219",
+      "platform": "douyin",
+      "text": "fate也是沾上石了[捂脸][OK]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "DY-0219"
+      ]
+    },
+    {
+      "record_id": "DY-0220",
+      "platform": "douyin",
+      "text": "这联动的是谁，动漫看的比较少[捂脸]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "DY-0220"
+      ]
+    },
+    {
+      "record_id": "DY-0223",
+      "platform": "douyin",
+      "text": "米哈游全部拿下吧[捂脸][OK]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "DY-0223"
+      ]
+    },
+    {
+      "record_id": "DY-0224",
+      "platform": "douyin",
+      "text": "不是\n没有崩铁\n谁知道你fate啊",
+      "support_count": 1,
+      "merged_record_ids": [
+        "DY-0224"
+      ]
+    },
+    {
+      "record_id": "DY-0226",
+      "platform": "douyin",
+      "text": "能不能七个从者和闪闪都一起出[看]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "DY-0226"
+      ]
+    },
+    {
+      "record_id": "DY-0227",
+      "platform": "douyin",
+      "text": "最大概率，ubw线的红a/士郎，凛（男女主角）。\n其次往下排，呆毛王（人气太高了），狗哥，金闪闪（一样，人气高，但是因为在ubw是反派所以下放）",
+      "support_count": 1,
+      "merged_record_ids": [
+        "DY-0227"
+      ]
+    },
+    {
+      "record_id": "DY-0229",
+      "platform": "douyin",
+      "text": "ubw是凛线，凛应该是必出的\n\n狗哥四星皮肤给丹恒，免费\n伊莉雅五星皮肤给克拉拉，198\n角色up闪闪，红a\n然后凛，r姐，c妈，saber当我老婆[绿帽子][OK]\n那个不知名的玩刀小角色给我当个保镖算了",
+      "support_count": 1,
+      "merged_record_ids": [
+        "DY-0229"
+      ]
+    },
+    {
+      "record_id": "DY-0234",
+      "platform": "douyin",
+      "text": "首先，最有可能的是两个王，红a，Lancer，伊利亚，凛",
+      "support_count": 1,
+      "merged_record_ids": [
+        "DY-0234"
+      ]
+    },
+    {
+      "record_id": "DY-0238",
+      "platform": "douyin",
+      "text": "伊莉雅联动克拉拉皮肤，金闪闪和呆毛王上卡池[微笑]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "DY-0238"
+      ]
+    },
+    {
+      "record_id": "DY-0239",
+      "platform": "douyin",
+      "text": "接下来你们可以看到：接下来你们可以看到：接下来你可以看到《没有米谁知道你们fate》《fate比不上原》《这个角色好像原里的XX》[捂脸][OK]。有些人不带点节奏就会死，本来挺双厨狂喜的事情，就是有两边的人互相疯狂的带[哈欠]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "DY-0239"
+      ]
+    },
+    {
+      "record_id": "DY-0242",
+      "platform": "douyin",
+      "text": "竟然会有人说fate不火[捂脸]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "DY-0242"
+      ]
+    },
+    {
+      "record_id": "DY-0243",
+      "platform": "douyin",
+      "text": "玩崩铁的都想着双厨狂喜，人家隔壁fate吧联动声明刚发就把米鹰给办了[捂脸]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "DY-0243"
+      ]
+    },
+    {
+      "record_id": "DY-0244",
+      "platform": "douyin",
+      "text": "吉尔伽美什！！！[舔屏]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "DY-0244"
+      ]
+    },
+    {
+      "record_id": "DY-0246",
+      "platform": "douyin",
+      "text": "不联动远坂凛我退游[流泪]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "DY-0246"
+      ]
+    },
+    {
+      "record_id": "DY-0247",
+      "platform": "douyin",
+      "text": "全上全上，全送全送[看]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "DY-0247"
+      ]
+    },
+    {
+      "record_id": "DY-0257",
+      "platform": "douyin",
+      "text": "隔壁原神联动邮箱直接送埃洛伊，咱们也不能示弱邮箱直接送saber吧！\n 邮箱连saber都送了，再送金闪闪也不过分吧！\n既然都把闪闪送过来了，那就也把麻婆带上，偷税双人组可不能落下。\n麻婆都送了，不一起把狗哥也送了，主从绑一起送很正常吧。\n既然都送狗哥了，这不得把土狼和凛拉过来撒点狗粮，既然土狼都要来，那伊利亚这个作姐姐的但然也是要陪他一起来的吧，既然伊利亚要来，那b叔肯定要因为保护伊利亚跟过来的吧，既然都来这么多了，干脆把UBW线的全叫过来一起嗨，应该没什么问题吧！",
+      "support_count": 1,
+      "merged_record_ids": [
+        "DY-0257"
+      ]
+    },
+    {
+      "record_id": "DY-0258",
+      "platform": "douyin",
+      "text": "想要红a和凛",
+      "support_count": 1,
+      "merged_record_ids": [
+        "DY-0258"
+      ]
+    },
+    {
+      "record_id": "DY-0260",
+      "platform": "douyin",
+      "text": "主要是米不喜欢出皮肤，如果出皮肤就很容易猜了，什么丹恒给蓝枪，克拉拉给伊莉雅之类的[捂脸]出角色的话，master大概率不会出，考虑到米哈游为了自己的战力系统不崩，上线角色如果是五星最多上两个，红a、金闪闪和亚瑟王三选二，如果是四星，那就好办了，全上[捂脸]不过我感觉大概率会出几个四星光锥给“纪念”一下",
+      "support_count": 1,
+      "merged_record_ids": [
+        "DY-0260"
+      ]
+    },
+    {
+      "record_id": "DY-0263",
+      "platform": "douyin",
+      "text": "不联动金闪闪也是白瞎[捂脸]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "DY-0263"
+      ]
+    },
+    {
+      "record_id": "DY-0268",
+      "platform": "douyin",
+      "text": "fate是什么冷门啊，都没听说过，它配和崩铁联动吗？[捂脸][捂脸][捂脸]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "DY-0268"
+      ]
+    },
+    {
+      "record_id": "DY-0269",
+      "platform": "douyin",
+      "text": "也算是给fate一波热度了，看他能不能接住了[捂脸]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "DY-0269"
+      ]
+    },
+    {
+      "record_id": "DY-0270",
+      "platform": "douyin",
+      "text": "都写了ubw线了[笑哭]应该就是士郎（红A）、saber、远坂凛，三选一了吧",
+      "support_count": 1,
+      "merged_record_ids": [
+        "DY-0270"
+      ]
+    },
+    {
+      "record_id": "DY-0274",
+      "platform": "douyin",
+      "text": "金闪闪，呆毛王",
+      "support_count": 1,
+      "merged_record_ids": [
+        "DY-0274"
+      ]
+    },
+    {
+      "record_id": "DY-0275",
+      "platform": "douyin",
+      "text": "想要黑呆，或者金闪闪都行，弓凛也行啊[看]或者礼服金呆也不错",
+      "support_count": 1,
+      "merged_record_ids": [
+        "DY-0275"
+      ]
+    },
+    {
+      "record_id": "DY-0276",
+      "platform": "douyin",
+      "text": "给我们留了一年时间补番[捂脸][赞]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "DY-0276"
+      ]
+    },
+    {
+      "record_id": "DY-0278",
+      "platform": "douyin",
+      "text": "要是是五星那我现在可就开攒了",
+      "support_count": 1,
+      "merged_record_ids": [
+        "DY-0278"
+      ]
+    },
+    {
+      "record_id": "DY-0280",
+      "platform": "douyin",
+      "text": "金闪闪，saber，土郎快来吧，这一年都不抽了[动动脑子]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "DY-0280"
+      ]
+    },
+    {
+      "record_id": "DY-0281",
+      "platform": "douyin",
+      "text": "fate是什么啊？不认识啊？联动的时候能不能送我呆毛狗哥和闪闪啊？[绿帽子][绿帽子][绿帽子][绿帽子]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "DY-0281"
+      ]
+    },
+    {
+      "record_id": "DY-0283",
+      "platform": "douyin",
+      "text": "金闪闪，呆毛王，黑呆[微笑]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "DY-0283"
+      ]
+    },
+    {
+      "record_id": "DY-0287",
+      "platform": "douyin",
+      "text": "星铁和什么冷门番联动都没看过，好看吗[不是吧]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "DY-0287"
+      ]
+    },
+    {
+      "record_id": "DY-0292",
+      "platform": "douyin",
+      "text": "我感肯定呆毛王必出，我觉得呆毛王算是fate人尽皆知甚至圈外人也知道的角色，算是个代表了，还有金闪闪和红A也是，如果只是出皮肤的话克拉拉包是伊利雅巴萨卡[灵机一动][灵机一动][灵机一动]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "DY-0292"
+      ]
+    },
+    {
+      "record_id": "DY-0300",
+      "platform": "douyin",
+      "text": "“哇，小姐姐cos的是我们星穹铁道的远坂凛吗？”[色][色][色]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "DY-0300"
+      ]
+    },
+    {
+      "record_id": "BILI-0011",
+      "platform": "bilibili",
+      "text": "我说崩铁是狗哥运气最好的地方有没有懂的",
+      "support_count": 2,
+      "merged_record_ids": [
+        "BILI-0011",
+        "BILI-0055"
+      ]
+    },
+    {
+      "record_id": "BILI-0013",
+      "platform": "bilibili",
+      "text": "关于fate从哪一部开始补，我的推荐是…",
+      "support_count": 2,
+      "merged_record_ids": [
+        "BILI-0013",
+        "BILI-0063"
+      ]
+    },
+    {
+      "record_id": "BILI-0019",
+      "platform": "bilibili",
+      "text": "金闪闪梦碎星穹铁道",
+      "support_count": 5,
+      "merged_record_ids": [
+        "BILI-0019",
+        "BILI-0059",
+        "BILI-0081",
+        "BILI-0086",
+        "BILI-0093"
+      ]
+    },
+    {
+      "record_id": "BILI-0044",
+      "platform": "bilibili",
+      "text": "看把我碟累的",
+      "support_count": 2,
+      "merged_record_ids": [
+        "BILI-0044",
+        "BILI-0078"
+      ]
+    },
+    {
+      "record_id": "BILI-0101",
+      "platform": "bilibili",
+      "text": "以防各位不知道，这两位是车上最正经的两个人",
+      "support_count": 2,
+      "merged_record_ids": [
+        "BILI-0101",
+        "BILI-0124"
+      ]
+    },
+    {
+      "record_id": "BILI-0001",
+      "platform": "bilibili",
+      "text": "世界名画:《冥河河畔的纤夫》",
+      "support_count": 1,
+      "merged_record_ids": [
+        "BILI-0001"
+      ]
+    },
+    {
+      "record_id": "BILI-0002",
+      "platform": "bilibili",
+      "text": "确认了，遐蝶职阶是Rider",
+      "support_count": 1,
+      "merged_record_ids": [
+        "BILI-0002"
+      ]
+    },
+    {
+      "record_id": "BILI-0003",
+      "platform": "bilibili",
+      "text": "论【战斗续行】的实用性。[笑哭]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "BILI-0003"
+      ]
+    },
+    {
+      "record_id": "BILI-0004",
+      "platform": "bilibili",
+      "text": "小彩蛋一则：大狗旁边的海报，致敬15版ubw动画封面",
+      "support_count": 1,
+      "merged_record_ids": [
+        "BILI-0004"
+      ]
+    },
+    {
+      "record_id": "BILI-0005",
+      "platform": "bilibili",
+      "text": "孩子们，现在知道遐蝶掰手腕为什么能赢万敌了吧，力气这一块",
+      "support_count": 1,
+      "merged_record_ids": [
+        "BILI-0005"
+      ]
+    },
+    {
+      "record_id": "BILI-0006",
+      "platform": "bilibili",
+      "text": "以防你不知道狗哥中途离场的原因是把星酱丢出去时中剑了",
+      "support_count": 1,
+      "merged_record_ids": [
+        "BILI-0006"
+      ]
+    },
+    {
+      "record_id": "BILI-0007",
+      "platform": "bilibili",
+      "text": "你的避矢之加护差一点就能帮你避开王财了，幸好你的幸运E又很好的抵消了这一点",
+      "support_count": 1,
+      "merged_record_ids": [
+        "BILI-0007"
+      ]
+    },
+    {
+      "record_id": "BILI-0008",
+      "platform": "bilibili",
+      "text": "Lancer没死！太有人性了！",
+      "support_count": 1,
+      "merged_record_ids": [
+        "BILI-0008"
+      ]
+    },
+    {
+      "record_id": "BILI-0009",
+      "platform": "bilibili",
+      "text": "凛你借的是哪个伊什塔尔啊😧？！这怎么那么像太空伊什塔尔的宝具啊？伊什塔尔被艾蕾关起来了改借宇宙凛了是吧，吓哭了啊[Ave Mujica_害怕]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "BILI-0009"
+      ]
+    },
+    {
+      "record_id": "BILI-0010",
+      "platform": "bilibili",
+      "text": "这意思是saber御主还是穹吗",
+      "support_count": 1,
+      "merged_record_ids": [
+        "BILI-0010"
+      ]
+    },
+    {
+      "record_id": "BILI-0012",
+      "platform": "bilibili",
+      "text": "呜呜呜Lancer真好他是为了把开拓者拉开才被击中的——[FGO_跪]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "BILI-0012"
+      ]
+    },
+    {
+      "record_id": "BILI-0014",
+      "platform": "bilibili",
+      "text": "致敬这一块儿",
+      "support_count": 1,
+      "merged_record_ids": [
+        "BILI-0014"
+      ]
+    },
+    {
+      "record_id": "BILI-0015",
+      "platform": "bilibili",
+      "text": "话说遐蝶觉得累其实可以喊“帮帮我，史瓦罗先生”，因为车上拉着一群客人，她何尝不是一位名副其实的“客拉拉”[doge]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "BILI-0015"
+      ]
+    },
+    {
+      "record_id": "BILI-0016",
+      "platform": "bilibili",
+      "text": "这是否可以简称为FSF呢[星绘·沐春灼华 应援装扮_铸币大头]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "BILI-0016"
+      ]
+    },
+    {
+      "record_id": "BILI-0017",
+      "platform": "bilibili",
+      "text": "哈哈哈哈哈哈哈哈哈哈哈所以两个宝具对轰全都可以炸完然后靠遐蝶回收进行复活吗，这波枪哥居然没嘎？？？幸运值全用在没啥用的地方了[笑哭][笑哭][笑哭]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "BILI-0017"
+      ]
+    },
+    {
+      "record_id": "BILI-0018",
+      "platform": "bilibili",
+      "text": "[25年度表情包_坏笑]明年会不会有第三期联动，开拓者们希望哪些角色能进池子？会联动其他IP吗？",
+      "support_count": 1,
+      "merged_record_ids": [
+        "BILI-0018"
+      ]
+    },
+    {
+      "record_id": "BILI-0020",
+      "platform": "bilibili",
+      "text": "有人说穹没在木板车上，但其实你穹哥留了一手[doge_金箍]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "BILI-0020"
+      ]
+    },
+    {
+      "record_id": "BILI-0021",
+      "platform": "bilibili",
+      "text": "遐蝶探头.jpd\n死亡泰坦的权能太好用了（",
+      "support_count": 1,
+      "merged_record_ids": [
+        "BILI-0021"
+      ]
+    },
+    {
+      "record_id": "BILI-0022",
+      "platform": "bilibili",
+      "text": "遐蝶在拉车？这次联动背景是开拓者还在翁星时候的？",
+      "support_count": 1,
+      "merged_record_ids": [
+        "BILI-0022"
+      ]
+    },
+    {
+      "record_id": "BILI-0023",
+      "platform": "bilibili",
+      "text": "话说，这里一堆人说艾蕾，是因为金闪闪复活时连上了冥界，又连锁召唤了一个压制伊什塔尔是吗？[哦呼]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "BILI-0023"
+      ]
+    },
+    {
+      "record_id": "BILI-0024",
+      "platform": "bilibili",
+      "text": "大家不用担心蝶会累死，她力气很大的，我逝过了，真掰不动，我上辈子跟她掰手腕掰输了。",
+      "support_count": 1,
+      "merged_record_ids": [
+        "BILI-0024"
+      ]
+    },
+    {
+      "record_id": "BILI-0025",
+      "platform": "bilibili",
+      "text": "遐蝶拉人出冥界，蝶好\n万敌能自己跑出冥界，让蝶省心，敌好\n让遐蝶当车夫，圣杯坏！",
+      "support_count": 1,
+      "merged_record_ids": [
+        "BILI-0025"
+      ]
+    },
+    {
+      "record_id": "BILI-0026",
+      "platform": "bilibili",
+      "text": "骑兵瑕蝶说是，宝具解放板车冲锋",
+      "support_count": 1,
+      "merged_record_ids": [
+        "BILI-0026"
+      ]
+    },
+    {
+      "record_id": "BILI-0027",
+      "platform": "bilibili",
+      "text": "无奖竞猜，这次二相乐园要经历几次瓦斯爆炸？",
+      "support_count": 1,
+      "merged_record_ids": [
+        "BILI-0027"
+      ]
+    },
+    {
+      "record_id": "BILI-0028",
+      "platform": "bilibili",
+      "text": "狗哥又是有建模但不up的一期[doge]最早备战下一期的从者了属于是",
+      "support_count": 1,
+      "merged_record_ids": [
+        "BILI-0028"
+      ]
+    },
+    {
+      "record_id": "BILI-0029",
+      "platform": "bilibili",
+      "text": "官宣车队站位，遐蝶不是主推，遐蝶拉了😭",
+      "support_count": 1,
+      "merged_record_ids": [
+        "BILI-0029"
+      ]
+    },
+    {
+      "record_id": "BILI-0030",
+      "platform": "bilibili",
+      "text": "还得是你啊，金星女神。大概剧情随便推测一下是：金闪闪碾压众人拿到圣杯，结果闪闪/恩奇都（触发对伊什塔尔连携召唤）+凛在场，导致伊什塔尔附身远坂凛背刺金闪闪，然后遐蝶作为冥界女神，顶替了伊什塔尔死对头，艾蕾什基伽勒的生态位，把死亡的金闪闪捞了回来，协助大伙击败伊什塔尔",
+      "support_count": 1,
+      "merged_record_ids": [
+        "BILI-0030"
+      ]
+    },
+    {
+      "record_id": "BILI-0031",
+      "platform": "bilibili",
+      "text": "我说致敬怪猎有没有懂的？",
+      "support_count": 1,
+      "merged_record_ids": [
+        "BILI-0031"
+      ]
+    },
+    {
+      "record_id": "BILI-0032",
+      "platform": "bilibili",
+      "text": "“死之泰坦逆流而上，将命运尚存于世的灵魂渡回彼岸”\n小蝶:工作前也没人跟我说是这么渡啊",
+      "support_count": 1,
+      "merged_record_ids": [
+        "BILI-0032"
+      ]
+    },
+    {
+      "record_id": "BILI-0033",
+      "platform": "bilibili",
+      "text": "蝶因为人善而显得命苦",
+      "support_count": 1,
+      "merged_record_ids": [
+        "BILI-0033"
+      ]
+    },
+    {
+      "record_id": "BILI-0034",
+      "platform": "bilibili",
+      "text": "Lancer不仅没自杀还活到最后拿到了圣杯，这一定是太一之梦[崩坏：星穹铁道-匹诺康尼_花火]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "BILI-0034"
+      ]
+    },
+    {
+      "record_id": "BILI-0035",
+      "platform": "bilibili",
+      "text": "达成闭环",
+      "support_count": 1,
+      "merged_record_ids": [
+        "BILI-0035"
+      ]
+    },
+    {
+      "record_id": "BILI-0036",
+      "platform": "bilibili",
+      "text": "金闪闪怎么长胸口長角了[喜极而泣]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "BILI-0036"
+      ]
+    },
+    {
+      "record_id": "BILI-0037",
+      "platform": "bilibili",
+      "text": "有没有对fate系列了解比较多的朋友帮我解答一下，这位是？[思考]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "BILI-0037"
+      ]
+    },
+    {
+      "record_id": "BILI-0039",
+      "platform": "bilibili",
+      "text": "现实世界为什么会有冥界啊？遐蝶应该只能执掌翁法罗斯的生死权能吧。难道去翁法罗斯打的？记得之前说是二相乐园啊[思考]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "BILI-0039"
+      ]
+    },
+    {
+      "record_id": "BILI-0040",
+      "platform": "bilibili",
+      "text": "孩子们，现在知道什么站姿最权威了吧",
+      "support_count": 1,
+      "merged_record_ids": [
+        "BILI-0040"
+      ]
+    },
+    {
+      "record_id": "BILI-0041",
+      "platform": "bilibili",
+      "text": "这是星穹的手套互换了",
+      "support_count": 1,
+      "merged_record_ids": [
+        "BILI-0041"
+      ]
+    },
+    {
+      "record_id": "BILI-0042",
+      "platform": "bilibili",
+      "text": "怎么？狗哥避矢之加护和战斗续行发力了是吧。不愧是三个技能都是生存的枪兵。[FGO_偷看]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "BILI-0042"
+      ]
+    },
+    {
+      "record_id": "BILI-0043",
+      "platform": "bilibili",
+      "text": "如果圣杯战争是这样的规格，那谁会赢？[doge_金箍]\n剑阶：二阶段焚风\n弓阶：浮黎涟\n枪阶：接头铁墓\n骑阶：半步星神周日\n术阶：if线狼尊\n杀阶：天才杀手波尔卡\n狂阶：肘击毁灭火厄",
+      "support_count": 1,
+      "merged_record_ids": [
+        "BILI-0043"
+      ]
+    },
+    {
+      "record_id": "BILI-0045",
+      "platform": "bilibili",
+      "text": "saber组间的羁绊",
+      "support_count": 1,
+      "merged_record_ids": [
+        "BILI-0045"
+      ]
+    },
+    {
+      "record_id": "BILI-0046",
+      "platform": "bilibili",
+      "text": "明年联动巡猎大狗和虚无樱有感觉吗",
+      "support_count": 1,
+      "merged_record_ids": [
+        "BILI-0046"
+      ]
+    },
+    {
+      "record_id": "BILI-0048",
+      "platform": "bilibili",
+      "text": "此时真正的翁法罗斯:",
+      "support_count": 1,
+      "merged_record_ids": [
+        "BILI-0048"
+      ]
+    },
+    {
+      "record_id": "BILI-0049",
+      "platform": "bilibili",
+      "text": "不愧是英雄王，真有逼格啊，遐蝶的仓库技都能用两次!",
+      "support_count": 1,
+      "merged_record_ids": [
+        "BILI-0049"
+      ]
+    },
+    {
+      "record_id": "BILI-0050",
+      "platform": "bilibili",
+      "text": "背后这海报还致敬了ubw的动画封面",
+      "support_count": 1,
+      "merged_record_ids": [
+        "BILI-0050"
+      ]
+    },
+    {
+      "record_id": "BILI-0051",
+      "platform": "bilibili",
+      "text": "冷知识：崩铁制作组是人类",
+      "support_count": 1,
+      "merged_record_ids": [
+        "BILI-0051"
+      ]
+    },
+    {
+      "record_id": "BILI-0052",
+      "platform": "bilibili",
+      "text": "布豪！远坂凛有危险！申请交换位置！",
+      "support_count": 1,
+      "merged_record_ids": [
+        "BILI-0052"
+      ]
+    },
+    {
+      "record_id": "BILI-0053",
+      "platform": "bilibili",
+      "text": "在冥界的源头遐蝶冒头，是不是可以叫“源头冒蝶”[微笑]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "BILI-0053"
+      ]
+    },
+    {
+      "record_id": "BILI-0054",
+      "platform": "bilibili",
+      "text": "一拉五，蝶宝才是最强拉条！！！",
+      "support_count": 1,
+      "merged_record_ids": [
+        "BILI-0054"
+      ]
+    },
+    {
+      "record_id": "BILI-0056",
+      "platform": "bilibili",
+      "text": "没绷住[笑哭]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "BILI-0056"
+      ]
+    },
+    {
+      "record_id": "BILI-0057",
+      "platform": "bilibili",
+      "text": "那双眼睛毋庸置疑，最强的战绩铭记于二相乐园！也就是说是lancer赢了！",
+      "support_count": 1,
+      "merged_record_ids": [
+        "BILI-0057"
+      ]
+    },
+    {
+      "record_id": "BILI-0058",
+      "platform": "bilibili",
+      "text": "发型和瞳色是艾蕾或者伊什塔尔，但是需要注意的是艾蕾和伊什塔尔的耳环样式是不同的，艾蕾的耳饰是类似8字形，伊什塔尔的耳饰则是图中这样的大圆环\n所以这个黑影就是伊什塔尔",
+      "support_count": 1,
+      "merged_record_ids": [
+        "BILI-0058"
+      ]
+    },
+    {
+      "record_id": "BILI-0061",
+      "platform": "bilibili",
+      "text": "以前的伊斯塔是用自己宇宙的金星，现在她用的，是薇塔老家了[doge]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "BILI-0061"
+      ]
+    },
+    {
+      "record_id": "BILI-0062",
+      "platform": "bilibili",
+      "text": "《猫和老鼠》亦有记载",
+      "support_count": 1,
+      "merged_record_ids": [
+        "BILI-0062"
+      ]
+    },
+    {
+      "record_id": "BILI-0064",
+      "platform": "bilibili",
+      "text": "00:36 哇，星穹见面",
+      "support_count": 1,
+      "merged_record_ids": [
+        "BILI-0064"
+      ]
+    },
+    {
+      "record_id": "BILI-0065",
+      "platform": "bilibili",
+      "text": "根据后面一幕穹在archer背后可得小蝶拉车的时候穹也在archer背后（",
+      "support_count": 1,
+      "merged_record_ids": [
+        "BILI-0065"
+      ]
+    },
+    {
+      "record_id": "BILI-0066",
+      "platform": "bilibili",
+      "text": "你红大哥日常开演，宝具是不带复制的，干将莫邪是必须要用的，弓是没有必要用的，剑制是日常不开的[笑哭][笑哭][笑哭]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "BILI-0066"
+      ]
+    },
+    {
+      "record_id": "BILI-0069",
+      "platform": "bilibili",
+      "text": "战斗续行最有用的一次",
+      "support_count": 1,
+      "merged_record_ids": [
+        "BILI-0069"
+      ]
+    },
+    {
+      "record_id": "BILI-0070",
+      "platform": "bilibili",
+      "text": "明年把樱和伊莉雅端上来把，真求求了，两个都是活宝角色",
+      "support_count": 1,
+      "merged_record_ids": [
+        "BILI-0070"
+      ]
+    },
+    {
+      "record_id": "BILI-0071",
+      "platform": "bilibili",
+      "text": "星星们，该干活了",
+      "support_count": 1,
+      "merged_record_ids": [
+        "BILI-0071"
+      ]
+    },
+    {
+      "record_id": "BILI-0072",
+      "platform": "bilibili",
+      "text": "战斗续行小子[吃瓜]自古枪兵幸运E的魔咒被打破了，这次枪兵的幸运值是A+",
+      "support_count": 1,
+      "merged_record_ids": [
+        "BILI-0072"
+      ]
+    },
+    {
+      "record_id": "BILI-0073",
+      "platform": "bilibili",
+      "text": "星铁恐怕成为最宠库丘林之人",
+      "support_count": 1,
+      "merged_record_ids": [
+        "BILI-0073"
+      ]
+    },
+    {
+      "record_id": "BILI-0074",
+      "platform": "bilibili",
+      "text": "麻婆背刺时辰，魔伊背刺麻婆，现在崩铁伊士塔尔背刺闪大王[吃瓜]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "BILI-0074"
+      ]
+    },
+    {
+      "record_id": "BILI-0076",
+      "platform": "bilibili",
+      "text": "没绷住",
+      "support_count": 1,
+      "merged_record_ids": [
+        "BILI-0076"
+      ]
+    },
+    {
+      "record_id": "BILI-0077",
+      "platform": "bilibili",
+      "text": "02:10 骆驼蝶子可爱捏[doge_金箍]蝶在这种地方，之前的白厄跑哪去了",
+      "support_count": 1,
+      "merged_record_ids": [
+        "BILI-0077"
+      ]
+    },
+    {
+      "record_id": "BILI-0079",
+      "platform": "bilibili",
+      "text": "冷知识：最ooc的是狗子居然两次活到最后",
+      "support_count": 1,
+      "merged_record_ids": [
+        "BILI-0079"
+      ]
+    },
+    {
+      "record_id": "BILI-0082",
+      "platform": "bilibili",
+      "text": "世界名画:《遐蝶一直堆》",
+      "support_count": 1,
+      "merged_record_ids": [
+        "BILI-0082"
+      ]
+    },
+    {
+      "record_id": "BILI-0083",
+      "platform": "bilibili",
+      "text": "星穹同框了？ 00:30",
+      "support_count": 1,
+      "merged_record_ids": [
+        "BILI-0083"
+      ]
+    },
+    {
+      "record_id": "BILI-0084",
+      "platform": "bilibili",
+      "text": "圣杯战争打到一半：小蝶小白快跟我来，给你们看样好东西，看！是划动鞭毛的你们，旁边那个鞭毛最长的是「天谴之毛·无敌」",
+      "support_count": 1,
+      "merged_record_ids": [
+        "BILI-0084"
+      ]
+    },
+    {
+      "record_id": "BILI-0085",
+      "platform": "bilibili",
+      "text": "有弓凛在凛是怎么拜托天之锁的？明明神性这么高",
+      "support_count": 1,
+      "merged_record_ids": [
+        "BILI-0085"
+      ]
+    },
+    {
+      "record_id": "BILI-0087",
+      "platform": "bilibili",
+      "text": "“金色之王，我所知晓的众王之中，无人能比拟的强大的王啊，同时也是弱小的战士啊，下一次，你潜藏在最深处的神力，我必定会亲自取出”",
+      "support_count": 1,
+      "merged_record_ids": [
+        "BILI-0087"
+      ]
+    },
+    {
+      "record_id": "BILI-0088",
+      "platform": "bilibili",
+      "text": "可怜的小蝶，实在不行用死龙拉了呗，毕竟某个大胖鸟已经用过了",
+      "support_count": 1,
+      "merged_record_ids": [
+        "BILI-0088"
+      ]
+    },
+    {
+      "record_id": "BILI-0089",
+      "platform": "bilibili",
+      "text": "这次联动应该是致敬奇异赝品。\n剑:呆毛和白厄\n弓:闪闪和红a\n枪:狗哥和？\n骑:遐蝶和？\n法:？\n杀:？\n狂:？",
+      "support_count": 1,
+      "merged_record_ids": [
+        "BILI-0089"
+      ]
+    },
+    {
+      "record_id": "BILI-0090",
+      "platform": "bilibili",
+      "text": "话说1:50后的那部分宝具动画有点意思啊，喊出的宝具名是伊什塔尔的，但前半部分穿梭宇宙的画面是宇宙凛的，后面握着星球的的部分又是伊什塔尔的，所以你到底是？[思考]\n不过话又说回来，宇宙凛的正式名称是“太空伊什塔尔”，那么伊什塔尔来到了太空世界观的崩铁后是不是也是一种“太空伊什塔尔”？",
+      "support_count": 1,
+      "merged_record_ids": [
+        "BILI-0090"
+      ]
+    },
+    {
+      "record_id": "BILI-0092",
+      "platform": "bilibili",
+      "text": "万敌还是太有实力了，想出冥界都是靠自己腿跑的，根本不知道遐蝶可以捞人",
+      "support_count": 1,
+      "merged_record_ids": [
+        "BILI-0092"
+      ]
+    },
+    {
+      "record_id": "BILI-0094",
+      "platform": "bilibili",
+      "text": "明年能不能继续联动伊莉雅啊，正好最终章上映[星星眼]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "BILI-0094"
+      ]
+    },
+    {
+      "record_id": "BILI-0095",
+      "platform": "bilibili",
+      "text": "fsf致敬过这段[doge_金箍]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "BILI-0095"
+      ]
+    },
+    {
+      "record_id": "BILI-0096",
+      "platform": "bilibili",
+      "text": "等等！翁法洛斯不还是无脊椎的时代吗[doge_金箍]，小蝶你是怎么回事",
+      "support_count": 1,
+      "merged_record_ids": [
+        "BILI-0096"
+      ]
+    },
+    {
+      "record_id": "BILI-0097",
+      "platform": "bilibili",
+      "text": "伊什塔尔是金星女神，宝具会把金星发射出去，众所周知小薇是金星人，所以每开一次宝具小薇就会失去一次家乡[崩坏3_快乐][崩坏3_快乐]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "BILI-0097"
+      ]
+    },
+    {
+      "record_id": "BILI-0098",
+      "platform": "bilibili",
+      "text": "狗哥最精了，明明可以用蝶宝被动，非要给闪大王然后自己跑条，硬是把别人熬死了自己提前复活",
+      "support_count": 1,
+      "merged_record_ids": [
+        "BILI-0098"
+      ]
+    },
+    {
+      "record_id": "BILI-0099",
+      "platform": "bilibili",
+      "text": "这眼睛颜色不对吧、还有这第三张图是上面的绳索、难不成小恩也来了？",
+      "support_count": 1,
+      "merged_record_ids": [
+        "BILI-0099"
+      ]
+    },
+    {
+      "record_id": "BILI-0100",
+      "platform": "bilibili",
+      "text": "万敌呢，出来帮忙推个车啊",
+      "support_count": 1,
+      "merged_record_ids": [
+        "BILI-0100"
+      ]
+    },
+    {
+      "record_id": "BILI-0102",
+      "platform": "bilibili",
+      "text": "欢迎来到神经铁道[笑哭]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "BILI-0102"
+      ]
+    },
+    {
+      "record_id": "BILI-0104",
+      "platform": "bilibili",
+      "text": "细看感觉还行啊",
+      "support_count": 1,
+      "merged_record_ids": [
+        "BILI-0104"
+      ]
+    },
+    {
+      "record_id": "BILI-0105",
+      "platform": "bilibili",
+      "text": "杨叔：是地球的味道啊[崩坏3·终焉归始_咀嚼]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "BILI-0105"
+      ]
+    },
+    {
+      "record_id": "BILI-0106",
+      "platform": "bilibili",
+      "text": "我灰毛为什么不在[Mygo表情包_生气][Mygo表情包_生气]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "BILI-0106"
+      ]
+    },
+    {
+      "record_id": "BILI-0108",
+      "platform": "bilibili",
+      "text": "这可能是米家游戏里第一个经历过r18女角色",
+      "support_count": 1,
+      "merged_record_ids": [
+        "BILI-0108"
+      ]
+    },
+    {
+      "record_id": "BILI-0109",
+      "platform": "bilibili",
+      "text": "杨叔，我害怕[笑哭]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "BILI-0109"
+      ]
+    },
+    {
+      "record_id": "BILI-0110",
+      "platform": "bilibili",
+      "text": "如果放希望有羽毛和翅膀呢周天哥站着一动不动老杨跳过去用头撞他吗",
+      "support_count": 1,
+      "merged_record_ids": [
+        "BILI-0110"
+      ]
+    },
+    {
+      "record_id": "BILI-0111",
+      "platform": "bilibili",
+      "text": "这是我们星穹列车最冷静的两个人.jpg",
+      "support_count": 1,
+      "merged_record_ids": [
+        "BILI-0111"
+      ]
+    },
+    {
+      "record_id": "BILI-0112",
+      "platform": "bilibili",
+      "text": "等等，列车上是不是没有厨子[笑哭]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "BILI-0112"
+      ]
+    },
+    {
+      "record_id": "BILI-0113",
+      "platform": "bilibili",
+      "text": "saber模型已经出来了？",
+      "support_count": 1,
+      "merged_record_ids": [
+        "BILI-0113"
+      ]
+    },
+    {
+      "record_id": "BILI-0114",
+      "platform": "bilibili",
+      "text": "为啥我没看过这段剧情[黑桐谷歌_疑惑]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "BILI-0114"
+      ]
+    },
+    {
+      "record_id": "BILI-0115",
+      "platform": "bilibili",
+      "text": "有谁能告诉我这两首歌是什么（他们跳舞的bgm，尤其是第一首，这对我很重要[大哭]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "BILI-0115"
+      ]
+    },
+    {
+      "record_id": "BILI-0117",
+      "platform": "bilibili",
+      "text": "更像是老杨在跳，万维克点了跟跳，然后周日不忍心下场让老杨一个尬舞[思考]所以老杨腰闪了他晃的更快了想让注意力在他身上",
+      "support_count": 1,
+      "merged_record_ids": [
+        "BILI-0117"
+      ]
+    },
+    {
+      "record_id": "BILI-0118",
+      "platform": "bilibili",
+      "text": "不知道为什么，这只动起来的呆毛王比内鬼那游戏里的呆毛王要好看的感觉，是因为这个模型被修过了吗？",
+      "support_count": 1,
+      "merged_record_ids": [
+        "BILI-0118"
+      ]
+    },
+    {
+      "record_id": "BILI-0119",
+      "platform": "bilibili",
+      "text": "呆毛王：这比起兰斯洛特卿的野兽，崔斯坦卿的闷骚，以及高文卿的土豆泥来说，都是小意思，尤其是比起某白色梦魔的魔术来说[doge]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "BILI-0119"
+      ]
+    },
+    {
+      "record_id": "BILI-0121",
+      "platform": "bilibili",
+      "text": "怎么模型都有了？",
+      "support_count": 1,
+      "merged_record_ids": [
+        "BILI-0121"
+      ]
+    },
+    {
+      "record_id": "BILI-0122",
+      "platform": "bilibili",
+      "text": "感觉大脑被强兼了，但又感觉北朝的好爽[原神·枫丹_登场]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "BILI-0122"
+      ]
+    },
+    {
+      "record_id": "BILI-0123",
+      "platform": "bilibili",
+      "text": "质量一直很稳定啊[doge]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "BILI-0123"
+      ]
+    },
+    {
+      "record_id": "BILI-0125",
+      "platform": "bilibili",
+      "text": "立马PTSD",
+      "support_count": 1,
+      "merged_record_ids": [
+        "BILI-0125"
+      ]
+    },
+    {
+      "record_id": "BILI-0126",
+      "platform": "bilibili",
+      "text": "这么一看吾王的建模也不错啊",
+      "support_count": 1,
+      "merged_record_ids": [
+        "BILI-0126"
+      ]
+    },
+    {
+      "record_id": "BILI-0127",
+      "platform": "bilibili",
+      "text": "周天哥被威胁了就眨眨眼[笑哭]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "BILI-0127"
+      ]
+    },
+    {
+      "record_id": "BILI-0129",
+      "platform": "bilibili",
+      "text": "那我问你，后面那句‘’银色佩拉‘’呢",
+      "support_count": 1,
+      "merged_record_ids": [
+        "BILI-0129"
+      ]
+    },
+    {
+      "record_id": "BILI-0130",
+      "platform": "bilibili",
+      "text": "[笑哭]看起来很好玩，但我不喜欢玩回合制游戏，并不是说回合制游戏不好，[笑哭]仙剑也要通关过",
+      "support_count": 1,
+      "merged_record_ids": [
+        "BILI-0130"
+      ]
+    },
+    {
+      "record_id": "BILI-0132",
+      "platform": "bilibili",
+      "text": "周天哥已经变谐星了[笑哭]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "BILI-0132"
+      ]
+    },
+    {
+      "record_id": "BILI-0133",
+      "platform": "bilibili",
+      "text": "主角和蛋黄老师在翁法罗斯，小三月在“睡觉”，姬子和黑天鹅在照看小三月，所以只有老杨和周天哥。\nsaber你先别怕，后面有你害怕的日子呢[滑稽]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "BILI-0133"
+      ]
+    },
+    {
+      "record_id": "BILI-0134",
+      "platform": "bilibili",
+      "text": "知更鸟别看，那不是你哥哥，是假的。",
+      "support_count": 1,
+      "merged_record_ids": [
+        "BILI-0134"
+      ]
+    },
+    {
+      "record_id": "BILI-0135",
+      "platform": "bilibili",
+      "text": "老日：瓦尔特先生，是这样吗？",
+      "support_count": 1,
+      "merged_record_ids": [
+        "BILI-0135"
+      ]
+    },
+    {
+      "record_id": "BILI-0136",
+      "platform": "bilibili",
+      "text": "这列车太危险了，saber还是来迦勒底吧，这里都是正常人（大嘘）",
+      "support_count": 1,
+      "merged_record_ids": [
+        "BILI-0136"
+      ]
+    },
+    {
+      "record_id": "BILI-0138",
+      "platform": "bilibili",
+      "text": "攒了一年了[笑哭]没怎么肝才200多",
+      "support_count": 1,
+      "merged_record_ids": [
+        "BILI-0138"
+      ]
+    },
+    {
+      "record_id": "BILI-0139",
+      "platform": "bilibili",
+      "text": "呆毛：仿佛特里斯坦卿和兰斯洛特卿在一起一般的温馨环境啊（",
+      "support_count": 1,
+      "merged_record_ids": [
+        "BILI-0139"
+      ]
+    },
+    {
+      "record_id": "BILI-0142",
+      "platform": "bilibili",
+      "text": "我还是觉得主角更合适[笑哭]之前崩三老杨入脑，我很难想象老杨做这些",
+      "support_count": 1,
+      "merged_record_ids": [
+        "BILI-0142"
+      ]
+    },
+    {
+      "record_id": "BILI-0143",
+      "platform": "bilibili",
+      "text": "周天：在银河中孤独的摇摆",
+      "support_count": 1,
+      "merged_record_ids": [
+        "BILI-0143"
+      ]
+    },
+    {
+      "record_id": "BILI-0144",
+      "platform": "bilibili",
+      "text": "真的，要不是爷人在翁法罗斯，高低也得跳一下",
+      "support_count": 1,
+      "merged_record_ids": [
+        "BILI-0144"
+      ]
+    },
+    {
+      "record_id": "BILI-0145",
+      "platform": "bilibili",
+      "text": "saber:有种回到嘉年华的感觉",
+      "support_count": 1,
+      "merged_record_ids": [
+        "BILI-0145"
+      ]
+    },
+    {
+      "record_id": "BILI-0146",
+      "platform": "bilibili",
+      "text": "兄弟们讲实话，两个联动角色做到这样已经很不错了，看看他们街机的那个模型就知道了[笑哭]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "BILI-0146"
+      ]
+    },
+    {
+      "record_id": "BILI-0147",
+      "platform": "bilibili",
+      "text": "我想看到 Saber 被闭嘴机器人的冷笑话气到双手发抖的场面。",
+      "support_count": 1,
+      "merged_record_ids": [
+        "BILI-0147"
+      ]
+    },
+    {
+      "record_id": "BILI-0148",
+      "platform": "bilibili",
+      "text": "呆毛：给我干哪来了，怎么回迦勒底了[辣眼睛]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "BILI-0148"
+      ]
+    },
+    {
+      "record_id": "BILI-0149",
+      "platform": "bilibili",
+      "text": "saber：下一站就下车！\n（下一站，匹诺康尼，接版本剧情）[脱单doge]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "BILI-0149"
+      ]
+    },
+    {
+      "record_id": "BILI-0151",
+      "platform": "bilibili",
+      "text": "列车，呆毛，手机.jpg",
+      "support_count": 1,
+      "merged_record_ids": [
+        "BILI-0151"
+      ]
+    },
+    {
+      "record_id": "BILI-0152",
+      "platform": "bilibili",
+      "text": "其实感觉更像c呆",
+      "support_count": 1,
+      "merged_record_ids": [
+        "BILI-0152"
+      ]
+    },
+    {
+      "record_id": "BILI-0153",
+      "platform": "bilibili",
+      "text": "我已经能想象到接下来“银—色—佩—拉——”周日会配以super橡胶人来回拉伸更加激烈的摇摆的舞步",
+      "support_count": 1,
+      "merged_record_ids": [
+        "BILI-0153"
+      ]
+    },
+    {
+      "record_id": "BILI-0155",
+      "platform": "bilibili",
+      "text": "C8：好呆也是打过很多圣杯战争的老将，没想这次依然出乎意料啊[思考]\n红A：么事，我哪一次遇到的马斯塔正常了[辣眼睛]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "BILI-0155"
+      ]
+    },
+    {
+      "record_id": "BILI-0160",
+      "platform": "bilibili",
+      "text": "其实匹诺康尼这个地方跟奥伯龙相性很好……",
+      "support_count": 1,
+      "merged_record_ids": [
+        "BILI-0160"
+      ]
+    },
+    {
+      "record_id": "BILI-0161",
+      "platform": "bilibili",
+      "text": "音乐一放，立即开跳",
+      "support_count": 1,
+      "merged_record_ids": [
+        "BILI-0161"
+      ]
+    },
+    {
+      "record_id": "BILI-0167",
+      "platform": "bilibili",
+      "text": "没事的吾王，你看到的是这车上最正常的几个人之二了[大笑]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "BILI-0167"
+      ]
+    },
+    {
+      "record_id": "BILI-0168",
+      "platform": "bilibili",
+      "text": "我银色佩拉呢！！！😡",
+      "support_count": 1,
+      "merged_record_ids": [
+        "BILI-0168"
+      ]
+    },
+    {
+      "record_id": "BILI-0169",
+      "platform": "bilibili",
+      "text": "杨叔：地铁，老杨，手机.jpg\n卫宫：微妙的表情.jpg",
+      "support_count": 1,
+      "merged_record_ids": [
+        "BILI-0169"
+      ]
+    },
+    {
+      "record_id": "BILI-0173",
+      "platform": "bilibili",
+      "text": "这模型还不赖啊",
+      "support_count": 1,
+      "merged_record_ids": [
+        "BILI-0173"
+      ]
+    },
+    {
+      "record_id": "BILI-0177",
+      "platform": "bilibili",
+      "text": "古老的饿肚之王啊，我以为你备好了美食[doge]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "BILI-0177"
+      ]
+    },
+    {
+      "record_id": "BILI-0181",
+      "platform": "bilibili",
+      "text": "这个Saber不对劲啊，不应该是托马么？",
+      "support_count": 1,
+      "merged_record_ids": [
+        "BILI-0181"
+      ]
+    },
+    {
+      "record_id": "BILI-0190",
+      "platform": "bilibili",
+      "text": "按照星核精的设定 岂不是随便放咖喱棒 魔力压根用不完啊[笑哭]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "BILI-0190"
+      ]
+    },
+    {
+      "record_id": "BILI-0191",
+      "platform": "bilibili",
+      "text": "精神铁道",
+      "support_count": 1,
+      "merged_record_ids": [
+        "BILI-0191"
+      ]
+    },
+    {
+      "record_id": "BILI-0193",
+      "platform": "bilibili",
+      "text": "胸甲没了总感觉少了点什么",
+      "support_count": 1,
+      "merged_record_ids": [
+        "BILI-0193"
+      ]
+    },
+    {
+      "record_id": "BILI-0194",
+      "platform": "bilibili",
+      "text": "可爱捏😊老婆",
+      "support_count": 1,
+      "merged_record_ids": [
+        "BILI-0194"
+      ]
+    },
+    {
+      "record_id": "BILI-0195",
+      "platform": "bilibili",
+      "text": "有点意思",
+      "support_count": 1,
+      "merged_record_ids": [
+        "BILI-0195"
+      ]
+    },
+    {
+      "record_id": "BILI-0196",
+      "platform": "bilibili",
+      "text": "saber有史以来最精致的模型[doge]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "BILI-0196"
+      ]
+    },
+    {
+      "record_id": "BILI-0200",
+      "platform": "bilibili",
+      "text": "原神怎么不联动呢？这都多少年了感觉好像被抛弃了一样。",
+      "support_count": 1,
+      "merged_record_ids": [
+        "BILI-0200"
+      ]
+    },
+    {
+      "record_id": "BILI-0202",
+      "platform": "bilibili",
+      "text": "原来那只是凛是您，事已至此",
+      "support_count": 1,
+      "merged_record_ids": [
+        "BILI-0202"
+      ]
+    },
+    {
+      "record_id": "BILI-0206",
+      "platform": "bilibili",
+      "text": "不得不下个星铁玩一下了，现在还能抽得到凛吗[大哭]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "BILI-0206"
+      ]
+    },
+    {
+      "record_id": "BILI-0207",
+      "platform": "bilibili",
+      "text": "不对称是谁发明的？太好看了[支持][支持]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "BILI-0207"
+      ]
+    },
+    {
+      "record_id": "BILI-0225",
+      "platform": "bilibili",
+      "text": "袜子怎么不对称？米哈游啊……",
+      "support_count": 1,
+      "merged_record_ids": [
+        "BILI-0225"
+      ]
+    },
+    {
+      "record_id": "BILI-0229",
+      "platform": "bilibili",
+      "text": "所以这个角色到底是动漫还是游戏，我好归分类",
+      "support_count": 1,
+      "merged_record_ids": [
+        "BILI-0229"
+      ]
+    },
+    {
+      "record_id": "BILI-0243",
+      "platform": "bilibili",
+      "text": "二期联动是我见过最好的联动了",
+      "support_count": 1,
+      "merged_record_ids": [
+        "BILI-0243"
+      ]
+    },
+    {
+      "record_id": "BILI-0250",
+      "platform": "bilibili",
+      "text": "凛的这套穿搭，无敌了",
+      "support_count": 1,
+      "merged_record_ids": [
+        "BILI-0250"
+      ]
+    },
+    {
+      "record_id": "BILI-0254",
+      "platform": "bilibili",
+      "text": "凛是我的英雄啊",
+      "support_count": 1,
+      "merged_record_ids": [
+        "BILI-0254"
+      ]
+    },
+    {
+      "record_id": "BILI-0259",
+      "platform": "bilibili",
+      "text": "[思考]凛的权威是啥？。。。",
+      "support_count": 1,
+      "merged_record_ids": [
+        "BILI-0259"
+      ]
+    },
+    {
+      "record_id": "BILI-0274",
+      "platform": "bilibili",
+      "text": "这不崩铁里的远坂凛吗[doge]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "BILI-0274"
+      ]
+    },
+    {
+      "record_id": "BILI-0279",
+      "platform": "bilibili",
+      "text": "卧槽这套衣服贼好看",
+      "support_count": 1,
+      "merged_record_ids": [
+        "BILI-0279"
+      ]
+    },
+    {
+      "record_id": "BILI-0283",
+      "platform": "bilibili",
+      "text": "我去，凛[mujica夜愿华章表情包_害羞][mujica夜愿华章表情包_害羞][mujica夜愿华章表情包_害羞]好漂亮好好看",
+      "support_count": 1,
+      "merged_record_ids": [
+        "BILI-0283"
+      ]
+    },
+    {
+      "record_id": "BILI-0288",
+      "platform": "bilibili",
+      "text": "很漂亮，但是应该不会出什么幺蛾子吧[doge]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "BILI-0288"
+      ]
+    },
+    {
+      "record_id": "BILI-0289",
+      "platform": "bilibili",
+      "text": "这套衣服是真好看",
+      "support_count": 1,
+      "merged_record_ids": [
+        "BILI-0289"
+      ]
+    },
+    {
+      "record_id": "BILI-0293",
+      "platform": "bilibili",
+      "text": "这是真还原，质量极高，个人看到觉得最好看的[脱单doge]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "BILI-0293"
+      ]
+    },
+    {
+      "record_id": "BILI-0294",
+      "platform": "bilibili",
+      "text": "看来这是星铁凛",
+      "support_count": 1,
+      "merged_record_ids": [
+        "BILI-0294"
+      ]
+    },
+    {
+      "record_id": "XHS-0060",
+      "platform": "xiaohongshu",
+      "text": "遐蝶好命苦",
+      "support_count": 3,
+      "merged_record_ids": [
+        "XHS-0007",
+        "XHS-0050",
+        "XHS-0060"
+      ]
+    },
+    {
+      "record_id": "XHS-0009",
+      "platform": "xiaohongshu",
+      "text": "我要狗哥[哭惹R]",
+      "support_count": 3,
+      "merged_record_ids": [
+        "XHS-0009",
+        "XHS-0111",
+        "XHS-0275"
+      ]
+    },
+    {
+      "record_id": "XHS-0034",
+      "platform": "xiaohongshu",
+      "text": "白厄呢？",
+      "support_count": 3,
+      "merged_record_ids": [
+        "XHS-0034",
+        "XHS-0038",
+        "XHS-0045"
+      ]
+    },
+    {
+      "record_id": "XHS-0072",
+      "platform": "xiaohongshu",
+      "text": "为什么不能送远坂凛",
+      "support_count": 2,
+      "merged_record_ids": [
+        "XHS-0068",
+        "XHS-0072"
+      ]
+    },
+    {
+      "record_id": "XHS-0096",
+      "platform": "xiaohongshu",
+      "text": "二联没有满200抽送光锥了吗",
+      "support_count": 2,
+      "merged_record_ids": [
+        "XHS-0095",
+        "XHS-0096"
+      ]
+    },
+    {
+      "record_id": "XHS-0103",
+      "platform": "xiaohongshu",
+      "text": "联动活动是4.3开始还是4.4开始呀",
+      "support_count": 2,
+      "merged_record_ids": [
+        "XHS-0097",
+        "XHS-0103"
+      ]
+    },
+    {
+      "record_id": "XHS-0219",
+      "platform": "xiaohongshu",
+      "text": "不是说不能玩手机吗？",
+      "support_count": 2,
+      "merged_record_ids": [
+        "XHS-0219",
+        "XHS-0239"
+      ]
+    },
+    {
+      "record_id": "XHS-0250",
+      "platform": "xiaohongshu",
+      "text": "依旧路灯王[捂脸R]",
+      "support_count": 2,
+      "merged_record_ids": [
+        "XHS-0250",
+        "XHS-0252"
+      ]
+    },
+    {
+      "record_id": "XHS-0001",
+      "platform": "xiaohongshu",
+      "text": "骆驼遐子",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0001"
+      ]
+    },
+    {
+      "record_id": "XHS-0002",
+      "platform": "xiaohongshu",
+      "text": "这里小蝶也太可爱了[回招呼]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0002"
+      ]
+    },
+    {
+      "record_id": "XHS-0003",
+      "platform": "xiaohongshu",
+      "text": "好萌好萌好萌",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0003"
+      ]
+    },
+    {
+      "record_id": "XHS-0004",
+      "platform": "xiaohongshu",
+      "text": "狗哥:没能一击毙命，遗憾啊！[黄金薯R]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0004"
+      ]
+    },
+    {
+      "record_id": "XHS-0005",
+      "platform": "xiaohongshu",
+      "text": "金闪闪怎么感觉有点嘉豪配音啊？",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0005"
+      ]
+    },
+    {
+      "record_id": "XHS-0006",
+      "platform": "xiaohongshu",
+      "text": "枪兵终于不是幸运e了",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0006"
+      ]
+    },
+    {
+      "record_id": "XHS-0008",
+      "platform": "xiaohongshu",
+      "text": "注意所有人都躲开了，只有狗子没躲成功[笑哭R][笑哭R]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0008"
+      ]
+    },
+    {
+      "record_id": "XHS-0010",
+      "platform": "xiaohongshu",
+      "text": "蝶宝探头好萌！！",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0010"
+      ]
+    },
+    {
+      "record_id": "XHS-0011",
+      "platform": "xiaohongshu",
+      "text": "笑der，狗哥居然躺赢[笑哭R]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0011"
+      ]
+    },
+    {
+      "record_id": "XHS-0012",
+      "platform": "xiaohongshu",
+      "text": "诡异得不像官方",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0012"
+      ]
+    },
+    {
+      "record_id": "XHS-0013",
+      "platform": "xiaohongshu",
+      "text": "最终还是小蝶承受了所有",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0013"
+      ]
+    },
+    {
+      "record_id": "XHS-0014",
+      "platform": "xiaohongshu",
+      "text": "我趣这次老自和老己能见面了？！",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0014"
+      ]
+    },
+    {
+      "record_id": "XHS-0015",
+      "platform": "xiaohongshu",
+      "text": "幸运s级",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0015"
+      ]
+    },
+    {
+      "record_id": "XHS-0016",
+      "platform": "xiaohongshu",
+      "text": "过完剧情发现和pv完全不一样啊[呃R]我一直在期待pv里这一幕",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0016"
+      ]
+    },
+    {
+      "record_id": "XHS-0017",
+      "platform": "xiaohongshu",
+      "text": "什么时候安排下士郎[哭惹R][哭惹R]我们fate唯一主角也太惨了",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0017"
+      ]
+    },
+    {
+      "record_id": "XHS-0018",
+      "platform": "xiaohongshu",
+      "text": "不对呀，大战应该有狗哥和白厄吧。如果狗哥是躺赢的，那白厄去哪了不会也躺着吧[石化R]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0018"
+      ]
+    },
+    {
+      "record_id": "XHS-0019",
+      "platform": "xiaohongshu",
+      "text": "这个海报[哇R]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0019"
+      ]
+    },
+    {
+      "record_id": "XHS-0020",
+      "platform": "xiaohongshu",
+      "text": "这怀抱[萌萌哒R]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0020"
+      ]
+    },
+    {
+      "record_id": "XHS-0021",
+      "platform": "xiaohongshu",
+      "text": "咋变fake了？",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0021"
+      ]
+    },
+    {
+      "record_id": "XHS-0022",
+      "platform": "xiaohongshu",
+      "text": "这是谁？",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0022"
+      ]
+    },
+    {
+      "record_id": "XHS-0023",
+      "platform": "xiaohongshu",
+      "text": "不怎么关注联动，但这个是谁呀？人好好，别人都开始躲技能了，这个家伙还先把爷扔出去再去躲，虽然没有躲掉。",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0023"
+      ]
+    },
+    {
+      "record_id": "XHS-0024",
+      "platform": "xiaohongshu",
+      "text": "所以我们金闪闪到哪里才能不当反派",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0024"
+      ]
+    },
+    {
+      "record_id": "XHS-0025",
+      "platform": "xiaohongshu",
+      "text": "Archer的配音好像高泰明啊[捂脸R][捂脸R]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0025"
+      ]
+    },
+    {
+      "record_id": "XHS-0026",
+      "platform": "xiaohongshu",
+      "text": "我很好奇他联动的这个……是一款游戏吗？",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0026"
+      ]
+    },
+    {
+      "record_id": "XHS-0027",
+      "platform": "xiaohongshu",
+      "text": "啊刚过完最后那一幕我没看到啊？",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0027"
+      ]
+    },
+    {
+      "record_id": "XHS-0028",
+      "platform": "xiaohongshu",
+      "text": "这个剧情是端水还是真的就是一个女开拓者和一个男开拓者同时出现，而且还不是终末的那种",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0028"
+      ]
+    },
+    {
+      "record_id": "XHS-0029",
+      "platform": "xiaohongshu",
+      "text": "狗哥：我用自机换来了活到最后",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0029"
+      ]
+    },
+    {
+      "record_id": "XHS-0030",
+      "platform": "xiaohongshu",
+      "text": "[doge]让我们恭喜",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0030"
+      ]
+    },
+    {
+      "record_id": "XHS-0031",
+      "platform": "xiaohongshu",
+      "text": "这个星穹到底是交替出现还是一起出现看的我好乱[呃R]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0031"
+      ]
+    },
+    {
+      "record_id": "XHS-0032",
+      "platform": "xiaohongshu",
+      "text": "终于不是枪兵幸运E了吗[捂脸R]都捡上圣杯了",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0032"
+      ]
+    },
+    {
+      "record_id": "XHS-0033",
+      "platform": "xiaohongshu",
+      "text": "老米你咋搞pv诈骗啊[哭惹R]我全看完了也没找到小蝶拉车[生气R][生气R]，也没看到星宝被公主抱[哭惹R]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0033"
+      ]
+    },
+    {
+      "record_id": "XHS-0035",
+      "platform": "xiaohongshu",
+      "text": "给A闪后背高光的时候我还以为是熟门熟路的白厄捅的[汗颜R]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0035"
+      ]
+    },
+    {
+      "record_id": "XHS-0036",
+      "platform": "xiaohongshu",
+      "text": "闪恩99",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0036"
+      ]
+    },
+    {
+      "record_id": "XHS-0037",
+      "platform": "xiaohongshu",
+      "text": "狗子你终于赢一次了",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0037"
+      ]
+    },
+    {
+      "record_id": "XHS-0039",
+      "platform": "xiaohongshu",
+      "text": "天之女主人是什么啊",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0039"
+      ]
+    },
+    {
+      "record_id": "XHS-0040",
+      "platform": "xiaohongshu",
+      "text": "所以到底是ubw联动还是fsf联动[捂脸R]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0040"
+      ]
+    },
+    {
+      "record_id": "XHS-0041",
+      "platform": "xiaohongshu",
+      "text": "吉尔伽美什要有「兴致」才能放战技\n那么何尝不是一种吉兴巡演。",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0041"
+      ]
+    },
+    {
+      "record_id": "XHS-0043",
+      "platform": "xiaohongshu",
+      "text": "遐蝶是金闪闪的御主[呃R]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0043"
+      ]
+    },
+    {
+      "record_id": "XHS-0044",
+      "platform": "xiaohongshu",
+      "text": "星的出场竟然是被凛公主抱吗？感谢我们的御主凛，感觉要爱上她了[皱眉R]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0044"
+      ]
+    },
+    {
+      "record_id": "XHS-0046",
+      "platform": "xiaohongshu",
+      "text": "我去期待了！",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0046"
+      ]
+    },
+    {
+      "record_id": "XHS-0047",
+      "platform": "xiaohongshu",
+      "text": "凛不会是召唤的老己吧",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0047"
+      ]
+    },
+    {
+      "record_id": "XHS-0049",
+      "platform": "xiaohongshu",
+      "text": "？！躺赢",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0049"
+      ]
+    },
+    {
+      "record_id": "XHS-0051",
+      "platform": "xiaohongshu",
+      "text": "老自与老己史诗级会面",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0051"
+      ]
+    },
+    {
+      "record_id": "XHS-0052",
+      "platform": "xiaohongshu",
+      "text": "要来了吗？准备回游",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0052"
+      ]
+    },
+    {
+      "record_id": "XHS-0053",
+      "platform": "xiaohongshu",
+      "text": "善恶到头终有报！",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0053"
+      ]
+    },
+    {
+      "record_id": "XHS-0054",
+      "platform": "xiaohongshu",
+      "text": "老大，这和剧情里的不一样。你耍我",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0054"
+      ]
+    },
+    {
+      "record_id": "XHS-0055",
+      "platform": "xiaohongshu",
+      "text": "闪大王你的弱点也是第10节胸椎吗[偷笑R]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0055"
+      ]
+    },
+    {
+      "record_id": "XHS-0056",
+      "platform": "xiaohongshu",
+      "text": "竟然还有遐蝶",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0056"
+      ]
+    },
+    {
+      "record_id": "XHS-0057",
+      "platform": "xiaohongshu",
+      "text": "遐蝶:神秘拉车女。     艾蕾:神秘挖坑女。",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0057"
+      ]
+    },
+    {
+      "record_id": "XHS-0058",
+      "platform": "xiaohongshu",
+      "text": "有生之年你甚至能看到狗哥打赢了圣杯战争。[doge]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0058"
+      ]
+    },
+    {
+      "record_id": "XHS-0059",
+      "platform": "xiaohongshu",
+      "text": "已经开始了吗。",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0059"
+      ]
+    },
+    {
+      "record_id": "XHS-0061",
+      "platform": "xiaohongshu",
+      "text": "金皮卡衣服，好奇怪",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0061"
+      ]
+    },
+    {
+      "record_id": "XHS-0063",
+      "platform": "xiaohongshu",
+      "text": "经典联动fate没有主角[捂脸R]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0063"
+      ]
+    },
+    {
+      "record_id": "XHS-0064",
+      "platform": "xiaohongshu",
+      "text": "依旧是心爱的路灯[doge]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0064"
+      ]
+    },
+    {
+      "record_id": "XHS-0065",
+      "platform": "xiaohongshu",
+      "text": "白厄速度送衣服过来了[笑哭R]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0065"
+      ]
+    },
+    {
+      "record_id": "XHS-0066",
+      "platform": "xiaohongshu",
+      "text": "凛一点也不像凛，应该来的魔法师设定啥的其实来点十字架元素会好点",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0066"
+      ]
+    },
+    {
+      "record_id": "XHS-0067",
+      "platform": "xiaohongshu",
+      "text": "没有狗哥吗[哭惹R]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0067"
+      ]
+    },
+    {
+      "record_id": "XHS-0069",
+      "platform": "xiaohongshu",
+      "text": "Lancer厨悬着的心终于死了[哭惹R]一期的时候就客串，当时就传二期是狗哥和闪，其实也有人猜远坂凛，但普遍都觉得远坂凛是御主不是从者应该不太会实装。（没有说远坂凛不好的意思，红丝绒蛋糕实装我也很高兴）狗哥你实装吧，就算是四星我也愿意",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0069"
+      ]
+    },
+    {
+      "record_id": "XHS-0070",
+      "platform": "xiaohongshu",
+      "text": "宝石剑，这是哪条if线，魔法使ver吗",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0070"
+      ]
+    },
+    {
+      "record_id": "XHS-0071",
+      "platform": "xiaohongshu",
+      "text": "等会儿俺们狗哥真的不端上来吗，建模都做了不端上来多浪费呀，还有闪闪既然穿了个开盖设计嘛有意思",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0071"
+      ]
+    },
+    {
+      "record_id": "XHS-0073",
+      "platform": "xiaohongshu",
+      "text": "真的假的，金闪闪是什么诡异的服设[黑薯问号R]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0073"
+      ]
+    },
+    {
+      "record_id": "XHS-0074",
+      "platform": "xiaohongshu",
+      "text": "“试问，你就是我的从者吗？”\n“我才不是你的…从者……白痴，我是…你的…对手…！混蛋，你该不会…不认得我…吧…！”",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0074"
+      ]
+    },
+    {
+      "record_id": "XHS-0075",
+      "platform": "xiaohongshu",
+      "text": "啥？拿着宝石剑的凛？有点超模了吧[失望R]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0075"
+      ]
+    },
+    {
+      "record_id": "XHS-0076",
+      "platform": "xiaohongshu",
+      "text": "没看过fate，感觉下面那个男角色立绘的话还怪狂怪帅的😋，想问问原作里是啥人设呀",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0076"
+      ]
+    },
+    {
+      "record_id": "XHS-0077",
+      "platform": "xiaohongshu",
+      "text": "fsn联动远坂凛哪来的宝石剑",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0077"
+      ]
+    },
+    {
+      "record_id": "XHS-0078",
+      "platform": "xiaohongshu",
+      "text": "就不能让闪大王穿机车服吗[笑哭R]我们闪大王在fsf领完鬼图立马就能在联动里再领一张[笑哭R]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0078"
+      ]
+    },
+    {
+      "record_id": "XHS-0079",
+      "platform": "xiaohongshu",
+      "text": "第一期还有吗卡池",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0079"
+      ]
+    },
+    {
+      "record_id": "XHS-0080",
+      "platform": "xiaohongshu",
+      "text": "依旧是社长大人最爱的鸡爪，太好笑了",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0080"
+      ]
+    },
+    {
+      "record_id": "XHS-0081",
+      "platform": "xiaohongshu",
+      "text": "气笑了，玩FGO几年没抽到过闪，结果在崩铁要拥有了[笑哭R]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0081"
+      ]
+    },
+    {
+      "record_id": "XHS-0082",
+      "platform": "xiaohongshu",
+      "text": "我为崩铁的二次联动感到喜悦",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0082"
+      ]
+    },
+    {
+      "record_id": "XHS-0083",
+      "platform": "xiaohongshu",
+      "text": "新的上了，旧的会被顶掉吗？[微笑R]saber好不容易抽到2+1马上第三个小保底就要出来了。",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0083"
+      ]
+    },
+    {
+      "record_id": "XHS-0084",
+      "platform": "xiaohongshu",
+      "text": "闪大王都来了下次联动能上恩奇都不[哭惹R]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0084"
+      ]
+    },
+    {
+      "record_id": "XHS-0085",
+      "platform": "xiaohongshu",
+      "text": "绯樱结束就能领嘛",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0085"
+      ]
+    },
+    {
+      "record_id": "XHS-0086",
+      "platform": "xiaohongshu",
+      "text": "这两个选那个合适[微笑R]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0086"
+      ]
+    },
+    {
+      "record_id": "XHS-0087",
+      "platform": "xiaohongshu",
+      "text": "哇塞哇塞没看前瞻，震惊了哈哈哈[赞R]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0087"
+      ]
+    },
+    {
+      "record_id": "XHS-0088",
+      "platform": "xiaohongshu",
+      "text": "为啥这个凛有宝石剑？联动的到底是哪条线",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0088"
+      ]
+    },
+    {
+      "record_id": "XHS-0089",
+      "platform": "xiaohongshu",
+      "text": "这两个选哪个更好？",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0089"
+      ]
+    },
+    {
+      "record_id": "XHS-0090",
+      "platform": "xiaohongshu",
+      "text": "哎，不是，哎？金闪闪免费送？？？凛反而要抽？？？[呃R]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0090"
+      ]
+    },
+    {
+      "record_id": "XHS-0091",
+      "platform": "xiaohongshu",
+      "text": "金闪闪又是踩着路灯出现，他是对路灯有什么特殊情绪吗？",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0091"
+      ]
+    },
+    {
+      "record_id": "XHS-0092",
+      "platform": "xiaohongshu",
+      "text": "新玩家问一下二期出来像 saber 还在吗",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0092"
+      ]
+    },
+    {
+      "record_id": "XHS-0093",
+      "platform": "xiaohongshu",
+      "text": "闪闪那个裤子为啥不参考c闪的裤子。怎么裤子里穿黑色秋裤[扶墙R]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0093"
+      ]
+    },
+    {
+      "record_id": "XHS-0094",
+      "platform": "xiaohongshu",
+      "text": "问问，哪个强一点，或者建议领，很感兴趣，想入坑",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0094"
+      ]
+    },
+    {
+      "record_id": "XHS-0098",
+      "platform": "xiaohongshu",
+      "text": "金闪闪的专武捏，要抽吗",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0098"
+      ]
+    },
+    {
+      "record_id": "XHS-0099",
+      "platform": "xiaohongshu",
+      "text": "不是不能联动日IP吗？为啥崩铁可以联动？",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0099"
+      ]
+    },
+    {
+      "record_id": "XHS-0100",
+      "platform": "xiaohongshu",
+      "text": "女生好漂亮啊，也是免费送吗",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0100"
+      ]
+    },
+    {
+      "record_id": "XHS-0101",
+      "platform": "xiaohongshu",
+      "text": "送凛吧，让我凑齐弓凛CP[害羞R][害羞R][害羞R]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0101"
+      ]
+    },
+    {
+      "record_id": "XHS-0102",
+      "platform": "xiaohongshu",
+      "text": "什么鬼啊 这两人我都快不认识了",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0102"
+      ]
+    },
+    {
+      "record_id": "XHS-0104",
+      "platform": "xiaohongshu",
+      "text": "凛！[哭惹R]我没票了！",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0104"
+      ]
+    },
+    {
+      "record_id": "XHS-0105",
+      "platform": "xiaohongshu",
+      "text": "谁懂我今天上午刚夸过wnc回春然后接着就给我拉了一坨大的的心情吗",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0105"
+      ]
+    },
+    {
+      "record_id": "XHS-0106",
+      "platform": "xiaohongshu",
+      "text": "看看lancer就知道了，狗哥的服装设计感觉是所有联动角色里最好看的，肯定是米哈游自己设计的",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0106"
+      ]
+    },
+    {
+      "record_id": "XHS-0107",
+      "platform": "xiaohongshu",
+      "text": "有些人别太偷偷藏不住[笑哭R][笑哭R]说纹身说腿甲我都当你努力过了",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0107"
+      ]
+    },
+    {
+      "record_id": "XHS-0108",
+      "platform": "xiaohongshu",
+      "text": "真来了???",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0108"
+      ]
+    },
+    {
+      "record_id": "XHS-0109",
+      "platform": "xiaohongshu",
+      "text": "以后不会是一年定期俩fate角色吧[偷笑R]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0109"
+      ]
+    },
+    {
+      "record_id": "XHS-0110",
+      "platform": "xiaohongshu",
+      "text": "这个黄头发的还挺帅的[doge]，强度怎么样，我有01白头发了，要再领一个白头发吗",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0110"
+      ]
+    },
+    {
+      "record_id": "XHS-0112",
+      "platform": "xiaohongshu",
+      "text": "[笑哭R]啊？，，送的是金闪闪啊，，[哭惹R]我还以为是我家凛",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0112"
+      ]
+    },
+    {
+      "record_id": "XHS-0113",
+      "platform": "xiaohongshu",
+      "text": "给我闪大王画得像哪吒三太子",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0113"
+      ]
+    },
+    {
+      "record_id": "XHS-0114",
+      "platform": "xiaohongshu",
+      "text": "我去，是雷！闪闪是大c不（路灯王名不虚传）",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0114"
+      ]
+    },
+    {
+      "record_id": "XHS-0115",
+      "platform": "xiaohongshu",
+      "text": "大奈子[害羞R][害羞R][害羞R]好闪闪",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0115"
+      ]
+    },
+    {
+      "record_id": "XHS-0116",
+      "platform": "xiaohongshu",
+      "text": "哈哈哈哈哈哈哈！我的六五saber终于等到了！我的六二红a给我往旁边挪一挪，剩下三把专武以后再说！",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0116"
+      ]
+    },
+    {
+      "record_id": "XHS-0117",
+      "platform": "xiaohongshu",
+      "text": "[捂脸R]好期待我伤痛哥和金闪闪的相遇",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0117"
+      ]
+    },
+    {
+      "record_id": "XHS-0118",
+      "platform": "xiaohongshu",
+      "text": "请问一下什么时候开始 金闪闪要抽吗 我现在下载能领到",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0118"
+      ]
+    },
+    {
+      "record_id": "XHS-0119",
+      "platform": "xiaohongshu",
+      "text": "是领新的划算，还是继续领红A当一命划算",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0119"
+      ]
+    },
+    {
+      "record_id": "XHS-0120",
+      "platform": "xiaohongshu",
+      "text": "lancer在天上失禁的看着米哈游",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0120"
+      ]
+    },
+    {
+      "record_id": "XHS-0121",
+      "platform": "xiaohongshu",
+      "text": "金闪闪要是知道他是白送的，估计挺生气的[笑哭R]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0121"
+      ]
+    },
+    {
+      "record_id": "XHS-0122",
+      "platform": "xiaohongshu",
+      "text": "所以，有建模的狗哥真不考虑放进卡池吗[捂脸R]老喜欢狗哥了",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0122"
+      ]
+    },
+    {
+      "record_id": "XHS-0123",
+      "platform": "xiaohongshu",
+      "text": "那是不是可以梦一个麻婆[doge]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0123"
+      ]
+    },
+    {
+      "record_id": "XHS-0124",
+      "platform": "xiaohongshu",
+      "text": "红A命座提升大吗？没那么喜欢闪，要是提升大的话我换一个，没提升的话就算了",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0124"
+      ]
+    },
+    {
+      "record_id": "XHS-0125",
+      "platform": "xiaohongshu",
+      "text": "明年伊莉雅",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0125"
+      ]
+    },
+    {
+      "record_id": "XHS-0126",
+      "platform": "xiaohongshu",
+      "text": "这闪闪怎么不拿ea啊，将来大招只用天之锁就有点尴尬了",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0126"
+      ]
+    },
+    {
+      "record_id": "XHS-0127",
+      "platform": "xiaohongshu",
+      "text": "老米崩铁基本上送的都是男角色[doge]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0127"
+      ]
+    },
+    {
+      "record_id": "XHS-0128",
+      "platform": "xiaohongshu",
+      "text": "求三期联动狗哥和士郎吧，主角不能不出啊……二期出现个建模也行",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0128"
+      ]
+    },
+    {
+      "record_id": "XHS-0129",
+      "platform": "xiaohongshu",
+      "text": "那我的紫衣小女孩呢",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0129"
+      ]
+    },
+    {
+      "record_id": "XHS-0130",
+      "platform": "xiaohongshu",
+      "text": "突然发现送的全是男角色[笑哭R][笑哭R]真理，盾丹，红A，金闪闪",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0130"
+      ]
+    },
+    {
+      "record_id": "XHS-0131",
+      "platform": "xiaohongshu",
+      "text": "最牛二游联动算了吧。剧情方面立绘更新方面都不如粥联母鸡卡。",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0131"
+      ]
+    },
+    {
+      "record_id": "XHS-0132",
+      "platform": "xiaohongshu",
+      "text": "联动的凛强吗？没看前瞻",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0132"
+      ]
+    },
+    {
+      "record_id": "XHS-0133",
+      "platform": "xiaohongshu",
+      "text": "说句题外话，吉尔伽美什其实才是Archer",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0133"
+      ]
+    },
+    {
+      "record_id": "XHS-0135",
+      "platform": "xiaohongshu",
+      "text": "这应该是人气最高的四个都被搬上来了吧[捂脸R]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0135"
+      ]
+    },
+    {
+      "record_id": "XHS-0136",
+      "platform": "xiaohongshu",
+      "text": "我玩原神的 想问崩铁的联动是皮肤那种类型还是直接出一个全新的角色",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0136"
+      ]
+    },
+    {
+      "record_id": "XHS-0137",
+      "platform": "xiaohongshu",
+      "text": "看似只联动ubw，实际上全都可以出[doge]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0137"
+      ]
+    },
+    {
+      "record_id": "XHS-0138",
+      "platform": "xiaohongshu",
+      "text": "太棒了联动的都是我喜欢的！下次求一下绮礼",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0138"
+      ]
+    },
+    {
+      "record_id": "XHS-0139",
+      "platform": "xiaohongshu",
+      "text": "其实远坂做的……缝合怪这块……不是很喜欢二期",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0139"
+      ]
+    },
+    {
+      "record_id": "XHS-0140",
+      "platform": "xiaohongshu",
+      "text": "我正在在开图鉴和红A提升中犹豫不决。武内的衣品要没这么雷霆我都不至于这么犹豫[捂脸R]，希望到时候剧情好一点",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0140"
+      ]
+    },
+    {
+      "record_id": "XHS-0142",
+      "platform": "xiaohongshu",
+      "text": "坏了，阿兰的世一雷毁灭没了",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0142"
+      ]
+    },
+    {
+      "record_id": "XHS-0144",
+      "platform": "xiaohongshu",
+      "text": "狗哥建模都有为什么不进池子？！",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0144"
+      ]
+    },
+    {
+      "record_id": "XHS-0145",
+      "platform": "xiaohongshu",
+      "text": "联动居然还有第二关[偷笑R]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0145"
+      ]
+    },
+    {
+      "record_id": "XHS-0146",
+      "platform": "xiaohongshu",
+      "text": "现在还能不能领啊",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0146"
+      ]
+    },
+    {
+      "record_id": "XHS-0147",
+      "platform": "xiaohongshu",
+      "text": "[微笑R]和mujica联动一个天一个烂穿地心",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0147"
+      ]
+    },
+    {
+      "record_id": "XHS-0148",
+      "platform": "xiaohongshu",
+      "text": "不会又要搞个累抽送专武吧，200抽压力山大",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0148"
+      ]
+    },
+    {
+      "record_id": "XHS-0149",
+      "platform": "xiaohongshu",
+      "text": "[失望R]以前老米老被调侃这里像fate那里抄fate，现在版权都买了，真是随便玩了",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0149"
+      ]
+    },
+    {
+      "record_id": "XHS-0150",
+      "platform": "xiaohongshu",
+      "text": "明年R姐该上了吧",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0150"
+      ]
+    },
+    {
+      "record_id": "XHS-0151",
+      "platform": "xiaohongshu",
+      "text": "第二期剧情是蘑菇自己写吗！！[doge]那应该很有意思了",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0151"
+      ]
+    },
+    {
+      "record_id": "XHS-0152",
+      "platform": "xiaohongshu",
+      "text": "这四个可不可以组一队的啊",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0152"
+      ]
+    },
+    {
+      "record_id": "XHS-0153",
+      "platform": "xiaohongshu",
+      "text": "saber 不加强我不抽",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0153"
+      ]
+    },
+    {
+      "record_id": "XHS-0154",
+      "platform": "xiaohongshu",
+      "text": "就是看到凛才回游的，她真好看",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0154"
+      ]
+    },
+    {
+      "record_id": "XHS-0155",
+      "platform": "xiaohongshu",
+      "text": "联动完fsn联动一下fz吧 快点把卫宫一家全端上来了！现在只有卫宫家儿子和两个儿媳",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0155"
+      ]
+    },
+    {
+      "record_id": "XHS-0156",
+      "platform": "xiaohongshu",
+      "text": "盲猜如果有三期联动，上的角色是狗哥和伊莉雅[doge]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0156"
+      ]
+    },
+    {
+      "record_id": "XHS-0157",
+      "platform": "xiaohongshu",
+      "text": "我想问下这次也有一百多抽送闪闪专武吗",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0157"
+      ]
+    },
+    {
+      "record_id": "XHS-0158",
+      "platform": "xiaohongshu",
+      "text": "狗哥：明明是我先来的！！",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0158"
+      ]
+    },
+    {
+      "record_id": "XHS-0159",
+      "platform": "xiaohongshu",
+      "text": "人类凛？",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0159"
+      ]
+    },
+    {
+      "record_id": "XHS-0160",
+      "platform": "xiaohongshu",
+      "text": "我猜第三期是狗哥和士郎",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0160"
+      ]
+    },
+    {
+      "record_id": "XHS-0161",
+      "platform": "xiaohongshu",
+      "text": "联动池保底继承吗[举手R]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0161"
+      ]
+    },
+    {
+      "record_id": "XHS-0162",
+      "platform": "xiaohongshu",
+      "text": "士郎有话说✋️✋️",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0162"
+      ]
+    },
+    {
+      "record_id": "XHS-0163",
+      "platform": "xiaohongshu",
+      "text": "第三期是谁呢[满月R]话说狗哥这次出来不啊[满月R]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0163"
+      ]
+    },
+    {
+      "record_id": "XHS-0164",
+      "platform": "xiaohongshu",
+      "text": "其实我觉得牢吉衣服有点怪怪的[流汗R]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0164"
+      ]
+    },
+    {
+      "record_id": "XHS-0165",
+      "platform": "xiaohongshu",
+      "text": "狗哥，世界遗忘我[doge]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0165"
+      ]
+    },
+    {
+      "record_id": "XHS-0166",
+      "platform": "xiaohongshu",
+      "text": "会有三联吗？",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0166"
+      ]
+    },
+    {
+      "record_id": "XHS-0167",
+      "platform": "xiaohongshu",
+      "text": "@茶泡饭 @chuuya 这个金闪闪好慷慨",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0167"
+      ]
+    },
+    {
+      "record_id": "XHS-0168",
+      "platform": "xiaohongshu",
+      "text": "@Rayeeeee 这个是联动、这俩男角色是背头",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0168"
+      ]
+    },
+    {
+      "record_id": "XHS-0169",
+      "platform": "xiaohongshu",
+      "text": "想问下saber和红a的卡池会还在吗还是说会换成新的那两位🤔",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0169"
+      ]
+    },
+    {
+      "record_id": "XHS-0170",
+      "platform": "xiaohongshu",
+      "text": "英雄王一如既往的魅力拉满",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0170"
+      ]
+    },
+    {
+      "record_id": "XHS-0171",
+      "platform": "xiaohongshu",
+      "text": "第一期的大保底会继承到第二期的卡池吗[哭惹R]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0171"
+      ]
+    },
+    {
+      "record_id": "XHS-0172",
+      "platform": "xiaohongshu",
+      "text": "欢愉命途都有了，明年来一个麻婆吧，到时候欢愉没那么权威又不妨碍能用，简直定制",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0172"
+      ]
+    },
+    {
+      "record_id": "XHS-0173",
+      "platform": "xiaohongshu",
+      "text": "有三期的话能不能联动言礼 我还挺喜欢他的[捂脸R]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0173"
+      ]
+    },
+    {
+      "record_id": "XHS-0174",
+      "platform": "xiaohongshu",
+      "text": "问一下，二期的也跟一期一样，开到2099吗",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0174"
+      ]
+    },
+    {
+      "record_id": "XHS-0175",
+      "platform": "xiaohongshu",
+      "text": "明年是不是狗哥和伊莉雅[偷笑R]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0175"
+      ]
+    },
+    {
+      "record_id": "XHS-0176",
+      "platform": "xiaohongshu",
+      "text": "几号开测试服啊  ",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0176"
+      ]
+    },
+    {
+      "record_id": "XHS-0177",
+      "platform": "xiaohongshu",
+      "text": "等一个樱和r姐",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0177"
+      ]
+    },
+    {
+      "record_id": "XHS-0178",
+      "platform": "xiaohongshu",
+      "text": "红A有了，正好领个金闪闪[飞吻R]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0178"
+      ]
+    },
+    {
+      "record_id": "XHS-0179",
+      "platform": "xiaohongshu",
+      "text": "上一期联动都敷衍成啥样了还吹[笑哭R]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0179"
+      ]
+    },
+    {
+      "record_id": "XHS-0180",
+      "platform": "xiaohongshu",
+      "text": "米椰果联动质量不如公共厕所，也就米椰果骄傲上了，伦孝顺比自己爹妈还孝顺[笑哭R]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0180"
+      ]
+    },
+    {
+      "record_id": "XHS-0181",
+      "platform": "xiaohongshu",
+      "text": "金闪闪的单独发咯，可以翻翻捏 星铁前瞻丨吉尔伽美什攻略丨双...",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0181"
+      ]
+    },
+    {
+      "record_id": "XHS-0182",
+      "platform": "xiaohongshu",
+      "text": "[doge]红A0+1，远坂凛0+1，花火1+0要再拿一个免费红a吗。差距有多少",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0182"
+      ]
+    },
+    {
+      "record_id": "XHS-0183",
+      "platform": "xiaohongshu",
+      "text": "新号抽了21姬子 刚刚好可以换专武 挺想玩红a的 因为没有2队 但是没有花火 是不是要先抽凛在补红a1命？还是跳过抽别的体系？",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0183"
+      ]
+    },
+    {
+      "record_id": "XHS-0184",
+      "platform": "xiaohongshu",
+      "text": "求解答，21红61凛怎么配装[萌萌哒R]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0184"
+      ]
+    },
+    {
+      "record_id": "XHS-0185",
+      "platform": "xiaohongshu",
+      "text": "10凛想单c优先命座还是专武  有塔专",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0185"
+      ]
+    },
+    {
+      "record_id": "XHS-0186",
+      "platform": "xiaohongshu",
+      "text": "盾丹好忙啊[笑哭R][叹气R]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0186"
+      ]
+    },
+    {
+      "record_id": "XHS-0187",
+      "platform": "xiaohongshu",
+      "text": "00远坂凛内圈选哪个比较好",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0187"
+      ]
+    },
+    {
+      "record_id": "XHS-0188",
+      "platform": "xiaohongshu",
+      "text": "提问一下，我这次用的红A+火花+星期日+腾荒打的，感觉挺强，日腾组合让红A吃满了buff，这个凛抽00有提升吗？日是01。",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0188"
+      ]
+    },
+    {
+      "record_id": "XHS-0189",
+      "platform": "xiaohongshu",
+      "text": "想问一下我00红a21狼00💊300抽咋办[哭惹R]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0189"
+      ]
+    },
+    {
+      "record_id": "XHS-0190",
+      "platform": "xiaohongshu",
+      "text": "12archer00花火抽个00凛能稳定满星骑士吗[哭惹R]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0190"
+      ]
+    },
+    {
+      "record_id": "XHS-0191",
+      "platform": "xiaohongshu",
+      "text": "想问问老师，一魂红A一魂缇宝一魂花火还有必要抽凛吗[害羞R]谢谢宝宝！",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0191"
+      ]
+    },
+    {
+      "record_id": "XHS-0192",
+      "platform": "xiaohongshu",
+      "text": "所以如果我抽高魂，能不能玩一年[doge]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0192"
+      ]
+    },
+    {
+      "record_id": "XHS-0193",
+      "platform": "xiaohongshu",
+      "text": "前几个版本抽了21红A但是没花火要不要抽远坂凛😭",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0193"
+      ]
+    },
+    {
+      "record_id": "XHS-0194",
+      "platform": "xiaohongshu",
+      "text": "如果我之前红A的队友就是花火刻律丹恒，现在把红A换成凛，在他俩都是2+1的情况下，谁更厉害？",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0194"
+      ]
+    },
+    {
+      "record_id": "XHS-0195",
+      "platform": "xiaohongshu",
+      "text": "如果想把凛当主c的话该怎么养怎么配队呀 我是凛厨",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0195"
+      ]
+    },
+    {
+      "record_id": "XHS-0196",
+      "platform": "xiaohongshu",
+      "text": "花火不带匹诺康尼套？",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0196"
+      ]
+    },
+    {
+      "record_id": "XHS-0197",
+      "platform": "xiaohongshu",
+      "text": "你好，我想问问大佬，我现在是01红a61日00花，想补强红a队，本来打算抽个01凛再补个1命红a，但是看了一下攻略发现21凛也很强，请问我在11红a61日00花的基础上围绕红a主c的话凛要怎么抽呢？抽11还是21比较好呢？",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0197"
+      ]
+    },
+    {
+      "record_id": "XHS-0198",
+      "platform": "xiaohongshu",
+      "text": "抽红A二命还是凛啊，想补强一下免费战舰",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0198"
+      ]
+    },
+    {
+      "record_id": "XHS-0199",
+      "platform": "xiaohongshu",
+      "text": "没有花火能用谁",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0199"
+      ]
+    },
+    {
+      "record_id": "XHS-0200",
+      "platform": "xiaohongshu",
+      "text": "11红a 11花火 10千叶刃 00盾丹 20藿藿 00星期日 预计1金造价推荐抽远坂凛吗",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0200"
+      ]
+    },
+    {
+      "record_id": "XHS-0201",
+      "platform": "xiaohongshu",
+      "text": "4+1红A，00花火，00缇宝，00盾丹，优先补满红A还是抽凛？",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0201"
+      ]
+    },
+    {
+      "record_id": "XHS-0202",
+      "platform": "xiaohongshu",
+      "text": "红A穿量子套和领航员，哪个更适配",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0202"
+      ]
+    },
+    {
+      "record_id": "XHS-0203",
+      "platform": "xiaohongshu",
+      "text": "没花火有刻律还能带哪个辅助啊 没票子了[完啦R]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0203"
+      ]
+    },
+    {
+      "record_id": "XHS-0204",
+      "platform": "xiaohongshu",
+      "text": "凛能用sp姬子专武或者那刻夏专武吗实在抽不了她的专武了",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0204"
+      ]
+    },
+    {
+      "record_id": "XHS-0205",
+      "platform": "xiaohongshu",
+      "text": "霍霍被欢愉队抢了能用盾丹风堇吗",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0205"
+      ]
+    },
+    {
+      "record_id": "XHS-0206",
+      "platform": "xiaohongshu",
+      "text": "想问下，哪个队比较好？11红A+00凛+10花，还是00途+10刃+01闪？",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0206"
+      ]
+    },
+    {
+      "record_id": "XHS-0207",
+      "platform": "xiaohongshu",
+      "text": "凛用天国的话，吃的到消耗三战技点加成么，那个不是算宝石能量么？",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0207"
+      ]
+    },
+    {
+      "record_id": "XHS-0208",
+      "platform": "xiaohongshu",
+      "text": "老大，霍霍能换成克律走三拐一吗",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0208"
+      ]
+    },
+    {
+      "record_id": "XHS-0209",
+      "platform": "xiaohongshu",
+      "text": "啥时候开[呃R]联动第二期",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0209"
+      ]
+    },
+    {
+      "record_id": "XHS-0210",
+      "platform": "xiaohongshu",
+      "text": "问下凛65在红A队用直播间更优还是千星城更优？另外花火没有风套用司铎还是速度2+2代替？",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0210"
+      ]
+    },
+    {
+      "record_id": "XHS-0211",
+      "platform": "xiaohongshu",
+      "text": "问问后续怎么抽，要不要抽凛",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0211"
+      ]
+    },
+    {
+      "record_id": "XHS-0212",
+      "platform": "xiaohongshu",
+      "text": "请问下红A和远坂凛都带量子套，会不会减防效果不叠加",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0212"
+      ]
+    },
+    {
+      "record_id": "XHS-0213",
+      "platform": "xiaohongshu",
+      "text": "01红A+00花火+10藿藿需不需要补红A一命[哭惹R]打算抽00或01凛",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0213"
+      ]
+    },
+    {
+      "record_id": "XHS-0214",
+      "platform": "xiaohongshu",
+      "text": "现在有红A（00）配队，也有saber，但是没有老日[哭惹R][哭惹R]还要不要考虑金闪闪啊",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0214"
+      ]
+    },
+    {
+      "record_id": "XHS-0215",
+      "platform": "xiaohongshu",
+      "text": "01红A 11鸟 11花 11盾丹 11日，抽00凛（塔专）有提升吗？主要是红A清杂不太行[笑哭R]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0215"
+      ]
+    },
+    {
+      "record_id": "XHS-0216",
+      "platform": "xiaohongshu",
+      "text": "想问一下，想用凛当主c 先从2+0起抽还是1+1起抽啊",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0216"
+      ]
+    },
+    {
+      "record_id": "XHS-0217",
+      "platform": "xiaohongshu",
+      "text": "请问远坂凛带景专怎么样啊",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0217"
+      ]
+    },
+    {
+      "record_id": "XHS-0218",
+      "platform": "xiaohongshu",
+      "text": "有21知更鸟，还推荐抽00凛吗？可以给她大黑塔专光。",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0218"
+      ]
+    },
+    {
+      "record_id": "XHS-0220",
+      "platform": "xiaohongshu",
+      "text": "远坂凛到底要充能绳还是攻击啊 每个人说的不一样我都不知道怎么刷了 0+1远坂凛",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0220"
+      ]
+    },
+    {
+      "record_id": "XHS-0221",
+      "platform": "xiaohongshu",
+      "text": "凛！我的老婆！",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0221"
+      ]
+    },
+    {
+      "record_id": "XHS-0222",
+      "platform": "xiaohongshu",
+      "text": "单c没有刻律可以换谁",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0222"
+      ]
+    },
+    {
+      "record_id": "XHS-0223",
+      "platform": "xiaohongshu",
+      "text": "老师你看看我要抽吗，还是等后面狼尊复刻补满命加抽队友，现在手里就48抽[微笑R]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0223"
+      ]
+    },
+    {
+      "record_id": "XHS-0224",
+      "platform": "xiaohongshu",
+      "text": "要抽远坂凛吗",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0224"
+      ]
+    },
+    {
+      "record_id": "XHS-0225",
+      "platform": "xiaohongshu",
+      "text": "现在用的是绯英爻光欢愉主藿藿一队，白厄周日刻律腾荒一队，飞霄砂金知更鸟追击队和流萤大丽花加拉赫阮梅超击破队感觉都有点跟不上了。之前领了花火，要不要抽远坂凛再组个远坂凛红A队呢",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0225"
+      ]
+    },
+    {
+      "record_id": "XHS-0226",
+      "platform": "xiaohongshu",
+      "text": "金闪闪的前瞻晚点也会发布哦，大家蹲蹲[派对R]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0226"
+      ]
+    },
+    {
+      "record_id": "XHS-0227",
+      "platform": "xiaohongshu",
+      "text": "远坂凛，必须要好好的玩腿🦵",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0227"
+      ]
+    },
+    {
+      "record_id": "XHS-0228",
+      "platform": "xiaohongshu",
+      "text": "三抽直接来，远坂凛牛逼！",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0228"
+      ]
+    },
+    {
+      "record_id": "XHS-0229",
+      "platform": "xiaohongshu",
+      "text": "气哭了，想抽1+1结果角色歪了两次，不想等啊啊啊",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0229"
+      ]
+    },
+    {
+      "record_id": "XHS-0230",
+      "platform": "xiaohongshu",
+      "text": "凛能用那个白厄的大月卡光锥吗？",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0230"
+      ]
+    },
+    {
+      "record_id": "XHS-0231",
+      "platform": "xiaohongshu",
+      "text": "不玩红a，200抽是不是可以直接all in姬子了",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0231"
+      ]
+    },
+    {
+      "record_id": "XHS-0232",
+      "platform": "xiaohongshu",
+      "text": "红 A 得手动，抽出来有什么质变吗？",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0232"
+      ]
+    },
+    {
+      "record_id": "XHS-0233",
+      "platform": "xiaohongshu",
+      "text": "没有花火换谁，刻律吗",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0233"
+      ]
+    },
+    {
+      "record_id": "XHS-0235",
+      "platform": "xiaohongshu",
+      "text": "凛的拐力削那么多怎么玩？",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0235"
+      ]
+    },
+    {
+      "record_id": "XHS-0236",
+      "platform": "xiaohongshu",
+      "text": "现在11a，算了一下到4.4结束有两百抽，现在专武和角色是十连下去，直接大保底，家人们，我是拿个01补强，然后抽其他队，还是说allin远坂凛啊",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0236"
+      ]
+    },
+    {
+      "record_id": "XHS-0237",
+      "platform": "xiaohongshu",
+      "text": "单c可以考虑诗人",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0237"
+      ]
+    },
+    {
+      "record_id": "XHS-0238",
+      "platform": "xiaohongshu",
+      "text": "反正池子一直在之后慢慢抽吧，姬子01吃了我200抽没票子了[捂脸R]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0238"
+      ]
+    },
+    {
+      "record_id": "XHS-0240",
+      "platform": "xiaohongshu",
+      "text": "没有saber，那还是给红a选个1命好了，之前红a专光也没拿到，这次200再选个光锥",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0240"
+      ]
+    },
+    {
+      "record_id": "XHS-0241",
+      "platform": "xiaohongshu",
+      "text": "闪闪胯那的甲有黄配紫",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0241"
+      ]
+    },
+    {
+      "record_id": "XHS-0242",
+      "platform": "xiaohongshu",
+      "text": "不行了这个立绘，mhy就这样一直玩梗吗（路灯王哈哈哈哈）",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0242"
+      ]
+    },
+    {
+      "record_id": "XHS-0243",
+      "platform": "xiaohongshu",
+      "text": "金闪闪御主不知道是谁，但坐骑一定是路灯了[doge]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0243"
+      ]
+    },
+    {
+      "record_id": "XHS-0244",
+      "platform": "xiaohongshu",
+      "text": "Lol why is there a chimera in the background",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0244"
+      ]
+    },
+    {
+      "record_id": "XHS-0246",
+      "platform": "xiaohongshu",
+      "text": "远坂凛都来了，卫宫不来一下",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0246"
+      ]
+    },
+    {
+      "record_id": "XHS-0247",
+      "platform": "xiaohongshu",
+      "text": "闪闪的这个蛇瞳[喝奶茶R][喝奶茶R][喝奶茶R]，此男一直诱惑我",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0247"
+      ]
+    },
+    {
+      "record_id": "XHS-0248",
+      "platform": "xiaohongshu",
+      "text": "有人和我一起吐槽闪闪，不愧是路灯王吗[笑哭R]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0248"
+      ]
+    },
+    {
+      "record_id": "XHS-0249",
+      "platform": "xiaohongshu",
+      "text": "好像万敌和金厄的组合[捂脸R]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0249"
+      ]
+    },
+    {
+      "record_id": "XHS-0251",
+      "platform": "xiaohongshu",
+      "text": "新智识来了，路边塔又站起来了！！！",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0251"
+      ]
+    },
+    {
+      "record_id": "XHS-0253",
+      "platform": "xiaohongshu",
+      "text": "闪闪大王真的帅",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0253"
+      ]
+    },
+    {
+      "record_id": "XHS-0254",
+      "platform": "xiaohongshu",
+      "text": "远坂凛好可爱呀啊啊！好帅！",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0254"
+      ]
+    },
+    {
+      "record_id": "XHS-0255",
+      "platform": "xiaohongshu",
+      "text": "这俩咋没腿环",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0255"
+      ]
+    },
+    {
+      "record_id": "XHS-0256",
+      "platform": "xiaohongshu",
+      "text": "什么时候开始送",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0256"
+      ]
+    },
+    {
+      "record_id": "XHS-0257",
+      "platform": "xiaohongshu",
+      "text": "有没有人发现路灯王站他王座路灯上的[doge]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0257"
+      ]
+    },
+    {
+      "record_id": "XHS-0258",
+      "platform": "xiaohongshu",
+      "text": "@小懵梨 又联动了哇塞，但是我没星琼了",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0258"
+      ]
+    },
+    {
+      "record_id": "XHS-0259",
+      "platform": "xiaohongshu",
+      "text": "@野生的真知棒 什么时候能免费送女孩子啊。。。",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0259"
+      ]
+    },
+    {
+      "record_id": "XHS-0260",
+      "platform": "xiaohongshu",
+      "text": "这个联动会持续多久啊，会把saber的联动挤掉吗？",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0260"
+      ]
+    },
+    {
+      "record_id": "XHS-0261",
+      "platform": "xiaohongshu",
+      "text": "感觉老米已经失去了审美，只会堆叠元素来凸显所谓的游戏风格了，什么角色都千篇一律的",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0261"
+      ]
+    },
+    {
+      "record_id": "XHS-0262",
+      "platform": "xiaohongshu",
+      "text": "不是，这什么雷霆立绘啊？[捂脸R]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0262"
+      ]
+    },
+    {
+      "record_id": "XHS-0263",
+      "platform": "xiaohongshu",
+      "text": "所以说狗哥是不仅第一弹出场但是不进池还要在第二弹被打吗[微笑R]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0263"
+      ]
+    },
+    {
+      "record_id": "XHS-0264",
+      "platform": "xiaohongshu",
+      "text": "不是说送金闪闪吗",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0264"
+      ]
+    },
+    {
+      "record_id": "XHS-0265",
+      "platform": "xiaohongshu",
+      "text": "靠 那就没有闪闪嘛......本来打算all in闪的[石化R] 得考虑抽八重了",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0265"
+      ]
+    },
+    {
+      "record_id": "XHS-0266",
+      "platform": "xiaohongshu",
+      "text": "闪闪来写什么名字，这个时期的闪闪是人类，不是从者了，没职介[笑哭R]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0266"
+      ]
+    },
+    {
+      "record_id": "XHS-0267",
+      "platform": "xiaohongshu",
+      "text": "真的假的，中日关系现在闹成这样还能有联动吗[捂脸R]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0267"
+      ]
+    },
+    {
+      "record_id": "XHS-0268",
+      "platform": "xiaohongshu",
+      "text": "感觉ai写的,小编是完全不看fate的，什么远坂凛Archer，吉尔伽美什saber都出来了，",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0268"
+      ]
+    },
+    {
+      "record_id": "XHS-0269",
+      "platform": "xiaohongshu",
+      "text": "凛每次攻击会不会消耗我的星琼[石化R]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0269"
+      ]
+    },
+    {
+      "record_id": "XHS-0270",
+      "platform": "xiaohongshu",
+      "text": "真的[哭惹R][哭惹R]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0270"
+      ]
+    },
+    {
+      "record_id": "XHS-0271",
+      "platform": "xiaohongshu",
+      "text": "真的送金闪闪了",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0271"
+      ]
+    },
+    {
+      "record_id": "XHS-0272",
+      "platform": "xiaohongshu",
+      "text": "没事敌对就敌对吧，好看就成。",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0272"
+      ]
+    },
+    {
+      "record_id": "XHS-0273",
+      "platform": "xiaohongshu",
+      "text": "想让汪酱进池",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0273"
+      ]
+    },
+    {
+      "record_id": "XHS-0274",
+      "platform": "xiaohongshu",
+      "text": "没人喜欢学妹吗[斜眼R]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0274"
+      ]
+    },
+    {
+      "record_id": "XHS-0276",
+      "platform": "xiaohongshu",
+      "text": "美狄亚这个我怎么感觉更像是砂金啊🤔，美狄亚tv里面有玩过俄罗斯转盘吗？没有吧？",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0276"
+      ]
+    },
+    {
+      "record_id": "XHS-0277",
+      "platform": "xiaohongshu",
+      "text": "求狗哥四星进池，好喜欢！",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0277"
+      ]
+    },
+    {
+      "record_id": "XHS-0278",
+      "platform": "xiaohongshu",
+      "text": "凛会进池吗？[哭惹R]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0278"
+      ]
+    },
+    {
+      "record_id": "XHS-0279",
+      "platform": "xiaohongshu",
+      "text": "我即将把狗哥收入囊中[黄金薯R]@Celine",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0279"
+      ]
+    },
+    {
+      "record_id": "XHS-0280",
+      "platform": "xiaohongshu",
+      "text": "如果是c妈的话，我用c8上能看到名场面嘛[doge]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0280"
+      ]
+    },
+    {
+      "record_id": "XHS-0281",
+      "platform": "xiaohongshu",
+      "text": "狗哥又来了啊[doge]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0281"
+      ]
+    },
+    {
+      "record_id": "XHS-0282",
+      "platform": "xiaohongshu",
+      "text": "这第一弹俩人都还是长期呢[doge]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0282"
+      ]
+    },
+    {
+      "record_id": "XHS-0284",
+      "platform": "xiaohongshu",
+      "text": "怎么不来个圣杯黑泥掺和一脚？[doge]",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0284"
+      ]
+    },
+    {
+      "record_id": "XHS-0285",
+      "platform": "xiaohongshu",
+      "text": "真的有凛吗[泪崩R]我猛猛抽！！！！",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0285"
+      ]
+    },
+    {
+      "record_id": "XHS-0286",
+      "platform": "xiaohongshu",
+      "text": "玩法类似恶魔转盘呗",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0286"
+      ]
+    },
+    {
+      "record_id": "XHS-0288",
+      "platform": "xiaohongshu",
+      "text": "太假，c妈的cv都去世了，一直到现在型月都没有发布新的替代cv，除非新的联动前型月公布了要换，而且换的话肯定也不比田中敦子老师，不管换谁也会有粉丝不满意，所以说就算是联动也不可能说选择美狄亚",
+      "support_count": 1,
+      "merged_record_ids": [
+        "XHS-0288"
+      ]
+    }
+  ]
+}

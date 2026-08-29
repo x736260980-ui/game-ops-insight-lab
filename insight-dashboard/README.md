@@ -1,22 +1,23 @@
 # 游戏调研看板
 
-这是 MediaCrawler 调研产物的本地浏览看板。它由 FastAPI 提供 API 与已构建的前端文件；日常查看不需要启动 Vite 开发服务器，也不包含数据库或任务控制功能。
+这是 Game Ops Insight Lab 调研产物的本地浏览看板。它由 FastAPI 提供 API 与已构建的前端文件；日常查看不需要启动 Vite 开发服务器，也不包含数据库或任务控制功能。
 
 ## 数据目录与文件职责
 
-看板自动读取上一级目录的 `runs/`：`MediaCrawler/runs/<调查目录>/`。每个可显示的调查至少需要：
+看板自动读取仓库根目录的 `runs/`：`game-ops-insight-lab/runs/<调查目录>/`。每个可显示的调查至少需要：
 
 ```text
-MediaCrawler/
+game-ops-insight-lab/
 ├─ runs/
 │  └─ <调查目录>/
 │     ├─ dashboard.json  # 看板列表、统计、分类与证据的结构化数据（必需）
-│     └─ report.md       # 可选的 Markdown 报告，供报告接口单独读取
+│     ├─ final-analysis.md  # 可选的统一 Markdown 报告
+│     └─ final-summary.json # 可选的统一 Dashboard 分析摘要
 └─ insight-dashboard/
 ```
 
 - `dashboard.json` 是看板的主数据源；只要它存在且为合法 JSON，该调查就会出现在列表中。
-- `report.md` 是补充报告。当前真实调查即使没有 `report.md`，也不影响看板的浏览、列表或详情；只有请求报告接口时会得到 404。
+- `final-analysis.md` 和 `final-summary.json` 是单/双 Agent 共用的统一结果。旧调查仍兼容 `dual-agent/05-final-*` 和 `report.md`；没有报告或摘要不影响分类与评论浏览。
 
 ## 首次安装
 
@@ -54,7 +55,7 @@ python start_dashboard.py --host 0.0.0.0 --port 9010
 
 ## 新调查与刷新
 
-当上游流程在 `MediaCrawler/runs/` 下新增一个包含 `dashboard.json` 的调查目录后，无需重启服务。回到调查列表点击“刷新”，或直接刷新浏览器页面，新调查就会自动出现。列表会按 `dashboard.json` 的 `generated_at`（缺失时按文件修改时间）从新到旧排列。
+当上游流程在仓库 `runs/` 下新增一个包含 `dashboard.json` 的调查目录后，无需重启服务。回到调查列表点击“刷新”，或直接刷新浏览器页面，新调查就会自动出现。列表会按 `dashboard.json` 的 `generated_at`（缺失时按文件修改时间）从新到旧排列。
 
 ## 开发模式
 

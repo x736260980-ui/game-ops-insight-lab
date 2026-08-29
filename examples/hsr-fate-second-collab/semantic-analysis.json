@@ -1,0 +1,7637 @@
+{
+  "schema_version": "game-comment-semantic-analysis-1.0",
+  "research_target": "《崩坏：星穹铁道》× Fate 二次联动的玩家反馈",
+  "results": [
+    {
+      "record_id": "DY-0001",
+      "include_in_dashboard": true,
+      "overall_sentiment": "positive",
+      "aspects": [
+        {
+          "category_id": "gacha_rewards_schedule",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "DY-0060",
+      "include_in_dashboard": true,
+      "overall_sentiment": "positive",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "DY-0056",
+      "include_in_dashboard": true,
+      "overall_sentiment": "positive",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "DY-0022",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "DY-0037",
+      "include_in_dashboard": true,
+      "overall_sentiment": "positive",
+      "aspects": [
+        {
+          "category_id": "visual_character_design",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "DY-0038",
+      "include_in_dashboard": true,
+      "overall_sentiment": "positive",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "positive"
+        },
+        {
+          "category_id": "source_lore_fidelity",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "DY-0062",
+      "include_in_dashboard": true,
+      "overall_sentiment": "positive",
+      "aspects": [
+        {
+          "category_id": "visual_character_design",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "DY-0240",
+      "include_in_dashboard": true,
+      "overall_sentiment": "negative",
+      "aspects": [
+        {
+          "category_id": "overall_collab_response",
+          "sentiment": "negative"
+        }
+      ]
+    },
+    {
+      "record_id": "DY-0235",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "gacha_rewards_schedule",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "DY-0003",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "source_lore_fidelity",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "DY-0004",
+      "include_in_dashboard": true,
+      "overall_sentiment": "positive",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "DY-0005",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "neutral"
+        },
+        {
+          "category_id": "source_lore_fidelity",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "DY-0007",
+      "include_in_dashboard": true,
+      "overall_sentiment": "positive",
+      "aspects": [
+        {
+          "category_id": "roster_playability",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "DY-0008",
+      "include_in_dashboard": true,
+      "overall_sentiment": "positive",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "positive"
+        },
+        {
+          "category_id": "source_lore_fidelity",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "DY-0009",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "visual_character_design",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "DY-0010",
+      "include_in_dashboard": true,
+      "overall_sentiment": "positive",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "DY-0011",
+      "include_in_dashboard": true,
+      "overall_sentiment": "positive",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "DY-0012",
+      "include_in_dashboard": true,
+      "overall_sentiment": "positive",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "DY-0014",
+      "include_in_dashboard": true,
+      "overall_sentiment": "positive",
+      "aspects": [
+        {
+          "category_id": "visual_character_design",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "DY-0015",
+      "include_in_dashboard": true,
+      "overall_sentiment": "negative",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "negative"
+        }
+      ]
+    },
+    {
+      "record_id": "DY-0017",
+      "include_in_dashboard": true,
+      "overall_sentiment": "positive",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "positive"
+        },
+        {
+          "category_id": "source_lore_fidelity",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "DY-0018",
+      "include_in_dashboard": true,
+      "overall_sentiment": "positive",
+      "aspects": [
+        {
+          "category_id": "visual_character_design",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "DY-0019",
+      "include_in_dashboard": true,
+      "overall_sentiment": "positive",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "DY-0020",
+      "include_in_dashboard": true,
+      "overall_sentiment": "positive",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "DY-0021",
+      "include_in_dashboard": true,
+      "overall_sentiment": "positive",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "DY-0023",
+      "include_in_dashboard": true,
+      "overall_sentiment": "negative",
+      "aspects": [
+        {
+          "category_id": "visual_character_design",
+          "sentiment": "negative"
+        }
+      ]
+    },
+    {
+      "record_id": "DY-0025",
+      "include_in_dashboard": true,
+      "overall_sentiment": "positive",
+      "aspects": [
+        {
+          "category_id": "visual_character_design",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "DY-0026",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "source_lore_fidelity",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "DY-0027",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "DY-0028",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "DY-0030",
+      "include_in_dashboard": true,
+      "overall_sentiment": "negative",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "negative"
+        },
+        {
+          "category_id": "source_lore_fidelity",
+          "sentiment": "negative"
+        },
+        {
+          "category_id": "visual_character_design",
+          "sentiment": "negative"
+        }
+      ]
+    },
+    {
+      "record_id": "DY-0031",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "DY-0032",
+      "include_in_dashboard": true,
+      "overall_sentiment": "positive",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "positive"
+        },
+        {
+          "category_id": "visual_character_design",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "DY-0036",
+      "include_in_dashboard": true,
+      "overall_sentiment": "positive",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "DY-0039",
+      "include_in_dashboard": true,
+      "overall_sentiment": "positive",
+      "aspects": [
+        {
+          "category_id": "visual_character_design",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "DY-0040",
+      "include_in_dashboard": true,
+      "overall_sentiment": "negative",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "negative"
+        }
+      ]
+    },
+    {
+      "record_id": "DY-0041",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "DY-0042",
+      "include_in_dashboard": true,
+      "overall_sentiment": "positive",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "DY-0044",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "DY-0045",
+      "include_in_dashboard": true,
+      "overall_sentiment": "positive",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "DY-0046",
+      "include_in_dashboard": true,
+      "overall_sentiment": "positive",
+      "aspects": [
+        {
+          "category_id": "visual_character_design",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "DY-0047",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "source_lore_fidelity",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "DY-0048",
+      "include_in_dashboard": true,
+      "overall_sentiment": "positive",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "DY-0049",
+      "include_in_dashboard": true,
+      "overall_sentiment": "positive",
+      "aspects": [
+        {
+          "category_id": "visual_character_design",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "DY-0050",
+      "include_in_dashboard": true,
+      "overall_sentiment": "positive",
+      "aspects": [
+        {
+          "category_id": "visual_character_design",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "DY-0051",
+      "include_in_dashboard": true,
+      "overall_sentiment": "positive",
+      "aspects": [
+        {
+          "category_id": "visual_character_design",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "DY-0053",
+      "include_in_dashboard": true,
+      "overall_sentiment": "positive",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "DY-0054",
+      "include_in_dashboard": true,
+      "overall_sentiment": "positive",
+      "aspects": [
+        {
+          "category_id": "visual_character_design",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "DY-0055",
+      "include_in_dashboard": true,
+      "overall_sentiment": "negative",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "negative"
+        }
+      ]
+    },
+    {
+      "record_id": "DY-0058",
+      "include_in_dashboard": true,
+      "overall_sentiment": "positive",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "DY-0059",
+      "include_in_dashboard": true,
+      "overall_sentiment": "positive",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "DY-0061",
+      "include_in_dashboard": true,
+      "overall_sentiment": "positive",
+      "aspects": [
+        {
+          "category_id": "visual_character_design",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "DY-0063",
+      "include_in_dashboard": true,
+      "overall_sentiment": "negative",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "negative"
+        }
+      ]
+    },
+    {
+      "record_id": "DY-0064",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "DY-0065",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "DY-0066",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "DY-0069",
+      "include_in_dashboard": true,
+      "overall_sentiment": "positive",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "positive"
+        },
+        {
+          "category_id": "source_lore_fidelity",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "DY-0070",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "DY-0071",
+      "include_in_dashboard": true,
+      "overall_sentiment": "positive",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "DY-0072",
+      "include_in_dashboard": true,
+      "overall_sentiment": "positive",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "DY-0073",
+      "include_in_dashboard": true,
+      "overall_sentiment": "positive",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "DY-0075",
+      "include_in_dashboard": true,
+      "overall_sentiment": "positive",
+      "aspects": [
+        {
+          "category_id": "gacha_rewards_schedule",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "DY-0076",
+      "include_in_dashboard": true,
+      "overall_sentiment": "negative",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "negative"
+        }
+      ]
+    },
+    {
+      "record_id": "DY-0078",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "neutral"
+        },
+        {
+          "category_id": "source_lore_fidelity",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "DY-0081",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "DY-0082",
+      "include_in_dashboard": true,
+      "overall_sentiment": "positive",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "DY-0084",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "DY-0085",
+      "include_in_dashboard": true,
+      "overall_sentiment": "positive",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "DY-0086",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "visual_character_design",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "DY-0087",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "neutral"
+        },
+        {
+          "category_id": "source_lore_fidelity",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "DY-0088",
+      "include_in_dashboard": true,
+      "overall_sentiment": "positive",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "positive"
+        },
+        {
+          "category_id": "source_lore_fidelity",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "DY-0089",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "DY-0090",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "roster_playability",
+          "sentiment": "neutral"
+        },
+        {
+          "category_id": "combat_build_value",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "DY-0093",
+      "include_in_dashboard": true,
+      "overall_sentiment": "positive",
+      "aspects": [
+        {
+          "category_id": "visual_character_design",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "DY-0094",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "DY-0095",
+      "include_in_dashboard": true,
+      "overall_sentiment": "positive",
+      "aspects": [
+        {
+          "category_id": "visual_character_design",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "DY-0096",
+      "include_in_dashboard": true,
+      "overall_sentiment": "positive",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "DY-0097",
+      "include_in_dashboard": true,
+      "overall_sentiment": "positive",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "DY-0098",
+      "include_in_dashboard": true,
+      "overall_sentiment": "positive",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "positive"
+        },
+        {
+          "category_id": "source_lore_fidelity",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "DY-0099",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "source_lore_fidelity",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "DY-0100",
+      "include_in_dashboard": true,
+      "overall_sentiment": "mixed",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "mixed"
+        }
+      ]
+    },
+    {
+      "record_id": "DY-0102",
+      "include_in_dashboard": true,
+      "overall_sentiment": "positive",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "DY-0103",
+      "include_in_dashboard": true,
+      "overall_sentiment": "negative",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "negative"
+        }
+      ]
+    },
+    {
+      "record_id": "DY-0104",
+      "include_in_dashboard": true,
+      "overall_sentiment": "mixed",
+      "aspects": [
+        {
+          "category_id": "overall_collab_response",
+          "sentiment": "mixed"
+        }
+      ]
+    },
+    {
+      "record_id": "DY-0105",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "source_lore_fidelity",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "DY-0106",
+      "include_in_dashboard": true,
+      "overall_sentiment": "positive",
+      "aspects": [
+        {
+          "category_id": "visual_character_design",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "DY-0107",
+      "include_in_dashboard": true,
+      "overall_sentiment": "positive",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "DY-0108",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "DY-0109",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "event_gameplay_technical",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "DY-0110",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "source_lore_fidelity",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "DY-0111",
+      "include_in_dashboard": true,
+      "overall_sentiment": "negative",
+      "aspects": [
+        {
+          "category_id": "gacha_rewards_schedule",
+          "sentiment": "negative"
+        }
+      ]
+    },
+    {
+      "record_id": "DY-0113",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "visual_character_design",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "DY-0115",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "gacha_rewards_schedule",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "DY-0118",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "DY-0119",
+      "include_in_dashboard": true,
+      "overall_sentiment": "positive",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "DY-0120",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "gacha_rewards_schedule",
+          "sentiment": "neutral"
+        },
+        {
+          "category_id": "source_lore_fidelity",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "DY-0122",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "gacha_rewards_schedule",
+          "sentiment": "neutral"
+        },
+        {
+          "category_id": "source_lore_fidelity",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "DY-0123",
+      "include_in_dashboard": true,
+      "overall_sentiment": "mixed",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "mixed"
+        }
+      ]
+    },
+    {
+      "record_id": "DY-0124",
+      "include_in_dashboard": true,
+      "overall_sentiment": "negative",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "negative"
+        }
+      ]
+    },
+    {
+      "record_id": "DY-0125",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "gacha_rewards_schedule",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "DY-0126",
+      "include_in_dashboard": true,
+      "overall_sentiment": "positive",
+      "aspects": [
+        {
+          "category_id": "gacha_rewards_schedule",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "DY-0127",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "DY-0128",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "gacha_rewards_schedule",
+          "sentiment": "neutral"
+        },
+        {
+          "category_id": "source_lore_fidelity",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "DY-0131",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "event_gameplay_technical",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "DY-0132",
+      "include_in_dashboard": true,
+      "overall_sentiment": "negative",
+      "aspects": [
+        {
+          "category_id": "event_gameplay_technical",
+          "sentiment": "negative"
+        }
+      ]
+    },
+    {
+      "record_id": "DY-0133",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "event_gameplay_technical",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "DY-0134",
+      "include_in_dashboard": true,
+      "overall_sentiment": "positive",
+      "aspects": [
+        {
+          "category_id": "overall_collab_response",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "DY-0135",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "DY-0136",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "DY-0138",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "DY-0139",
+      "include_in_dashboard": true,
+      "overall_sentiment": "negative",
+      "aspects": [
+        {
+          "category_id": "event_gameplay_technical",
+          "sentiment": "negative"
+        }
+      ]
+    },
+    {
+      "record_id": "DY-0140",
+      "include_in_dashboard": true,
+      "overall_sentiment": "negative",
+      "aspects": [
+        {
+          "category_id": "gacha_rewards_schedule",
+          "sentiment": "negative"
+        }
+      ]
+    },
+    {
+      "record_id": "DY-0141",
+      "include_in_dashboard": true,
+      "overall_sentiment": "negative",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "negative"
+        },
+        {
+          "category_id": "overall_collab_response",
+          "sentiment": "negative"
+        }
+      ]
+    },
+    {
+      "record_id": "DY-0142",
+      "include_in_dashboard": true,
+      "overall_sentiment": "negative",
+      "aspects": [
+        {
+          "category_id": "event_gameplay_technical",
+          "sentiment": "negative"
+        }
+      ]
+    },
+    {
+      "record_id": "DY-0146",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "event_gameplay_technical",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "DY-0147",
+      "include_in_dashboard": true,
+      "overall_sentiment": "negative",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "negative"
+        }
+      ]
+    },
+    {
+      "record_id": "DY-0149",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "visual_character_design",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "DY-0151",
+      "include_in_dashboard": true,
+      "overall_sentiment": "positive",
+      "aspects": [
+        {
+          "category_id": "gacha_rewards_schedule",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "DY-0152",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "gacha_rewards_schedule",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "DY-0154",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "visual_character_design",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "DY-0156",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "DY-0157",
+      "include_in_dashboard": true,
+      "overall_sentiment": "negative",
+      "aspects": [
+        {
+          "category_id": "event_gameplay_technical",
+          "sentiment": "negative"
+        }
+      ]
+    },
+    {
+      "record_id": "DY-0158",
+      "include_in_dashboard": true,
+      "overall_sentiment": "negative",
+      "aspects": [
+        {
+          "category_id": "visual_character_design",
+          "sentiment": "negative"
+        },
+        {
+          "category_id": "roster_playability",
+          "sentiment": "negative"
+        }
+      ]
+    },
+    {
+      "record_id": "DY-0159",
+      "include_in_dashboard": true,
+      "overall_sentiment": "negative",
+      "aspects": [
+        {
+          "category_id": "event_gameplay_technical",
+          "sentiment": "negative"
+        }
+      ]
+    },
+    {
+      "record_id": "DY-0160",
+      "include_in_dashboard": true,
+      "overall_sentiment": "negative",
+      "aspects": [
+        {
+          "category_id": "overall_collab_response",
+          "sentiment": "negative"
+        },
+        {
+          "category_id": "story_presentation",
+          "sentiment": "negative"
+        },
+        {
+          "category_id": "visual_character_design",
+          "sentiment": "negative"
+        }
+      ]
+    },
+    {
+      "record_id": "DY-0162",
+      "include_in_dashboard": true,
+      "overall_sentiment": "negative",
+      "aspects": [
+        {
+          "category_id": "overall_collab_response",
+          "sentiment": "negative"
+        }
+      ]
+    },
+    {
+      "record_id": "DY-0165",
+      "include_in_dashboard": true,
+      "overall_sentiment": "negative",
+      "aspects": [
+        {
+          "category_id": "event_gameplay_technical",
+          "sentiment": "negative"
+        }
+      ]
+    },
+    {
+      "record_id": "DY-0166",
+      "include_in_dashboard": true,
+      "overall_sentiment": "negative",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "negative"
+        }
+      ]
+    },
+    {
+      "record_id": "DY-0167",
+      "include_in_dashboard": true,
+      "overall_sentiment": "negative",
+      "aspects": [
+        {
+          "category_id": "overall_collab_response",
+          "sentiment": "negative"
+        }
+      ]
+    },
+    {
+      "record_id": "DY-0168",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "DY-0169",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "visual_character_design",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "DY-0170",
+      "include_in_dashboard": true,
+      "overall_sentiment": "negative",
+      "aspects": [
+        {
+          "category_id": "gacha_rewards_schedule",
+          "sentiment": "negative"
+        },
+        {
+          "category_id": "source_lore_fidelity",
+          "sentiment": "negative"
+        }
+      ]
+    },
+    {
+      "record_id": "DY-0171",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "DY-0172",
+      "include_in_dashboard": true,
+      "overall_sentiment": "negative",
+      "aspects": [
+        {
+          "category_id": "gacha_rewards_schedule",
+          "sentiment": "negative"
+        }
+      ]
+    },
+    {
+      "record_id": "DY-0173",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "DY-0175",
+      "include_in_dashboard": true,
+      "overall_sentiment": "negative",
+      "aspects": [
+        {
+          "category_id": "gacha_rewards_schedule",
+          "sentiment": "negative"
+        }
+      ]
+    },
+    {
+      "record_id": "DY-0177",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "visual_character_design",
+          "sentiment": "neutral"
+        },
+        {
+          "category_id": "source_lore_fidelity",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "DY-0178",
+      "include_in_dashboard": true,
+      "overall_sentiment": "positive",
+      "aspects": [
+        {
+          "category_id": "gacha_rewards_schedule",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "DY-0180",
+      "include_in_dashboard": true,
+      "overall_sentiment": "positive",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "positive"
+        },
+        {
+          "category_id": "source_lore_fidelity",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "DY-0181",
+      "include_in_dashboard": true,
+      "overall_sentiment": "negative",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "negative"
+        },
+        {
+          "category_id": "visual_character_design",
+          "sentiment": "negative"
+        }
+      ]
+    },
+    {
+      "record_id": "DY-0182",
+      "include_in_dashboard": true,
+      "overall_sentiment": "negative",
+      "aspects": [
+        {
+          "category_id": "overall_collab_response",
+          "sentiment": "negative"
+        }
+      ]
+    },
+    {
+      "record_id": "DY-0185",
+      "include_in_dashboard": true,
+      "overall_sentiment": "negative",
+      "aspects": [
+        {
+          "category_id": "event_gameplay_technical",
+          "sentiment": "negative"
+        }
+      ]
+    },
+    {
+      "record_id": "DY-0186",
+      "include_in_dashboard": true,
+      "overall_sentiment": "positive",
+      "aspects": [
+        {
+          "category_id": "gacha_rewards_schedule",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "DY-0187",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "gacha_rewards_schedule",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "DY-0189",
+      "include_in_dashboard": true,
+      "overall_sentiment": "negative",
+      "aspects": [
+        {
+          "category_id": "overall_collab_response",
+          "sentiment": "negative"
+        }
+      ]
+    },
+    {
+      "record_id": "DY-0190",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "gacha_rewards_schedule",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "DY-0191",
+      "include_in_dashboard": true,
+      "overall_sentiment": "mixed",
+      "aspects": [
+        {
+          "category_id": "gacha_rewards_schedule",
+          "sentiment": "mixed"
+        }
+      ]
+    },
+    {
+      "record_id": "DY-0192",
+      "include_in_dashboard": true,
+      "overall_sentiment": "negative",
+      "aspects": [
+        {
+          "category_id": "gacha_rewards_schedule",
+          "sentiment": "negative"
+        }
+      ]
+    },
+    {
+      "record_id": "DY-0193",
+      "include_in_dashboard": true,
+      "overall_sentiment": "negative",
+      "aspects": [
+        {
+          "category_id": "gacha_rewards_schedule",
+          "sentiment": "negative"
+        }
+      ]
+    },
+    {
+      "record_id": "DY-0194",
+      "include_in_dashboard": true,
+      "overall_sentiment": "negative",
+      "aspects": [
+        {
+          "category_id": "gacha_rewards_schedule",
+          "sentiment": "negative"
+        }
+      ]
+    },
+    {
+      "record_id": "DY-0195",
+      "include_in_dashboard": true,
+      "overall_sentiment": "negative",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "negative"
+        },
+        {
+          "category_id": "source_lore_fidelity",
+          "sentiment": "negative"
+        }
+      ]
+    },
+    {
+      "record_id": "DY-0196",
+      "include_in_dashboard": true,
+      "overall_sentiment": "mixed",
+      "aspects": [
+        {
+          "category_id": "gacha_rewards_schedule",
+          "sentiment": "mixed"
+        }
+      ]
+    },
+    {
+      "record_id": "DY-0197",
+      "include_in_dashboard": true,
+      "overall_sentiment": "negative",
+      "aspects": [
+        {
+          "category_id": "visual_character_design",
+          "sentiment": "negative"
+        }
+      ]
+    },
+    {
+      "record_id": "DY-0198",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "gacha_rewards_schedule",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "DY-0199",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "visual_character_design",
+          "sentiment": "neutral"
+        },
+        {
+          "category_id": "source_lore_fidelity",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "DY-0206",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "roster_playability",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "DY-0215",
+      "include_in_dashboard": true,
+      "overall_sentiment": "negative",
+      "aspects": [
+        {
+          "category_id": "overall_collab_response",
+          "sentiment": "negative"
+        }
+      ]
+    },
+    {
+      "record_id": "DY-0219",
+      "include_in_dashboard": true,
+      "overall_sentiment": "negative",
+      "aspects": [
+        {
+          "category_id": "overall_collab_response",
+          "sentiment": "negative"
+        }
+      ]
+    },
+    {
+      "record_id": "DY-0220",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "overall_collab_response",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "DY-0223",
+      "include_in_dashboard": true,
+      "overall_sentiment": "positive",
+      "aspects": [
+        {
+          "category_id": "roster_playability",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "DY-0224",
+      "include_in_dashboard": true,
+      "overall_sentiment": "negative",
+      "aspects": [
+        {
+          "category_id": "overall_collab_response",
+          "sentiment": "negative"
+        }
+      ]
+    },
+    {
+      "record_id": "DY-0226",
+      "include_in_dashboard": true,
+      "overall_sentiment": "positive",
+      "aspects": [
+        {
+          "category_id": "roster_playability",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "DY-0227",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "roster_playability",
+          "sentiment": "neutral"
+        },
+        {
+          "category_id": "source_lore_fidelity",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "DY-0229",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "roster_playability",
+          "sentiment": "neutral"
+        },
+        {
+          "category_id": "source_lore_fidelity",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "DY-0234",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "roster_playability",
+          "sentiment": "neutral"
+        },
+        {
+          "category_id": "source_lore_fidelity",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "DY-0238",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "roster_playability",
+          "sentiment": "neutral"
+        },
+        {
+          "category_id": "gacha_rewards_schedule",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "DY-0239",
+      "include_in_dashboard": true,
+      "overall_sentiment": "mixed",
+      "aspects": [
+        {
+          "category_id": "overall_collab_response",
+          "sentiment": "mixed"
+        }
+      ]
+    },
+    {
+      "record_id": "DY-0242",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "overall_collab_response",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "DY-0243",
+      "include_in_dashboard": true,
+      "overall_sentiment": "mixed",
+      "aspects": [
+        {
+          "category_id": "overall_collab_response",
+          "sentiment": "mixed"
+        }
+      ]
+    },
+    {
+      "record_id": "DY-0244",
+      "include_in_dashboard": true,
+      "overall_sentiment": "positive",
+      "aspects": [
+        {
+          "category_id": "roster_playability",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "DY-0246",
+      "include_in_dashboard": true,
+      "overall_sentiment": "negative",
+      "aspects": [
+        {
+          "category_id": "roster_playability",
+          "sentiment": "negative"
+        },
+        {
+          "category_id": "overall_collab_response",
+          "sentiment": "negative"
+        }
+      ]
+    },
+    {
+      "record_id": "DY-0247",
+      "include_in_dashboard": true,
+      "overall_sentiment": "positive",
+      "aspects": [
+        {
+          "category_id": "roster_playability",
+          "sentiment": "positive"
+        },
+        {
+          "category_id": "gacha_rewards_schedule",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "DY-0257",
+      "include_in_dashboard": true,
+      "overall_sentiment": "positive",
+      "aspects": [
+        {
+          "category_id": "roster_playability",
+          "sentiment": "positive"
+        },
+        {
+          "category_id": "gacha_rewards_schedule",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "DY-0258",
+      "include_in_dashboard": true,
+      "overall_sentiment": "positive",
+      "aspects": [
+        {
+          "category_id": "roster_playability",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "DY-0260",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "roster_playability",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "DY-0263",
+      "include_in_dashboard": true,
+      "overall_sentiment": "negative",
+      "aspects": [
+        {
+          "category_id": "roster_playability",
+          "sentiment": "negative"
+        }
+      ]
+    },
+    {
+      "record_id": "DY-0268",
+      "include_in_dashboard": true,
+      "overall_sentiment": "negative",
+      "aspects": [
+        {
+          "category_id": "overall_collab_response",
+          "sentiment": "negative"
+        }
+      ]
+    },
+    {
+      "record_id": "DY-0269",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "overall_collab_response",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "DY-0270",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "roster_playability",
+          "sentiment": "neutral"
+        },
+        {
+          "category_id": "source_lore_fidelity",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "DY-0274",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "roster_playability",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "DY-0275",
+      "include_in_dashboard": true,
+      "overall_sentiment": "positive",
+      "aspects": [
+        {
+          "category_id": "roster_playability",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "DY-0276",
+      "include_in_dashboard": true,
+      "overall_sentiment": "positive",
+      "aspects": [
+        {
+          "category_id": "overall_collab_response",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "DY-0278",
+      "include_in_dashboard": true,
+      "overall_sentiment": "positive",
+      "aspects": [
+        {
+          "category_id": "gacha_rewards_schedule",
+          "sentiment": "positive"
+        },
+        {
+          "category_id": "overall_collab_response",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "DY-0280",
+      "include_in_dashboard": true,
+      "overall_sentiment": "positive",
+      "aspects": [
+        {
+          "category_id": "roster_playability",
+          "sentiment": "positive"
+        },
+        {
+          "category_id": "gacha_rewards_schedule",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "DY-0281",
+      "include_in_dashboard": true,
+      "overall_sentiment": "mixed",
+      "aspects": [
+        {
+          "category_id": "roster_playability",
+          "sentiment": "positive"
+        },
+        {
+          "category_id": "gacha_rewards_schedule",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "DY-0283",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "roster_playability",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "DY-0287",
+      "include_in_dashboard": true,
+      "overall_sentiment": "negative",
+      "aspects": [
+        {
+          "category_id": "overall_collab_response",
+          "sentiment": "negative"
+        }
+      ]
+    },
+    {
+      "record_id": "DY-0292",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "roster_playability",
+          "sentiment": "neutral"
+        },
+        {
+          "category_id": "source_lore_fidelity",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "DY-0300",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "visual_character_design",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "BILI-0011",
+      "include_in_dashboard": true,
+      "overall_sentiment": "positive",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "positive"
+        },
+        {
+          "category_id": "source_lore_fidelity",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "BILI-0013",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "overall_collab_response",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "BILI-0019",
+      "include_in_dashboard": true,
+      "overall_sentiment": "negative",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "negative"
+        }
+      ]
+    },
+    {
+      "record_id": "BILI-0044",
+      "include_in_dashboard": true,
+      "overall_sentiment": "negative",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "negative"
+        }
+      ]
+    },
+    {
+      "record_id": "BILI-0101",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "BILI-0001",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "BILI-0002",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "neutral"
+        },
+        {
+          "category_id": "source_lore_fidelity",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "BILI-0003",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "source_lore_fidelity",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "BILI-0004",
+      "include_in_dashboard": true,
+      "overall_sentiment": "positive",
+      "aspects": [
+        {
+          "category_id": "source_lore_fidelity",
+          "sentiment": "positive"
+        },
+        {
+          "category_id": "visual_character_design",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "BILI-0005",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "BILI-0006",
+      "include_in_dashboard": true,
+      "overall_sentiment": "positive",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "BILI-0007",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "neutral"
+        },
+        {
+          "category_id": "source_lore_fidelity",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "BILI-0008",
+      "include_in_dashboard": true,
+      "overall_sentiment": "positive",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "positive"
+        },
+        {
+          "category_id": "source_lore_fidelity",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "BILI-0009",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "source_lore_fidelity",
+          "sentiment": "neutral"
+        },
+        {
+          "category_id": "visual_character_design",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "BILI-0010",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "neutral"
+        },
+        {
+          "category_id": "source_lore_fidelity",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "BILI-0012",
+      "include_in_dashboard": true,
+      "overall_sentiment": "positive",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "BILI-0014",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "source_lore_fidelity",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "BILI-0015",
+      "include_in_dashboard": true,
+      "overall_sentiment": "positive",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "BILI-0016",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "source_lore_fidelity",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "BILI-0017",
+      "include_in_dashboard": true,
+      "overall_sentiment": "positive",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "positive"
+        },
+        {
+          "category_id": "source_lore_fidelity",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "BILI-0018",
+      "include_in_dashboard": true,
+      "overall_sentiment": "positive",
+      "aspects": [
+        {
+          "category_id": "roster_playability",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "BILI-0020",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "BILI-0021",
+      "include_in_dashboard": true,
+      "overall_sentiment": "positive",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "BILI-0022",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "neutral"
+        },
+        {
+          "category_id": "source_lore_fidelity",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "BILI-0023",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "neutral"
+        },
+        {
+          "category_id": "source_lore_fidelity",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "BILI-0024",
+      "include_in_dashboard": true,
+      "overall_sentiment": "positive",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "BILI-0025",
+      "include_in_dashboard": true,
+      "overall_sentiment": "mixed",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "mixed"
+        }
+      ]
+    },
+    {
+      "record_id": "BILI-0026",
+      "include_in_dashboard": true,
+      "overall_sentiment": "positive",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "positive"
+        },
+        {
+          "category_id": "source_lore_fidelity",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "BILI-0027",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "BILI-0028",
+      "include_in_dashboard": true,
+      "overall_sentiment": "negative",
+      "aspects": [
+        {
+          "category_id": "roster_playability",
+          "sentiment": "negative"
+        }
+      ]
+    },
+    {
+      "record_id": "BILI-0029",
+      "include_in_dashboard": true,
+      "overall_sentiment": "negative",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "negative"
+        }
+      ]
+    },
+    {
+      "record_id": "BILI-0030",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "neutral"
+        },
+        {
+          "category_id": "source_lore_fidelity",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "BILI-0031",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "source_lore_fidelity",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "BILI-0032",
+      "include_in_dashboard": true,
+      "overall_sentiment": "positive",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "BILI-0033",
+      "include_in_dashboard": true,
+      "overall_sentiment": "negative",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "negative"
+        }
+      ]
+    },
+    {
+      "record_id": "BILI-0034",
+      "include_in_dashboard": true,
+      "overall_sentiment": "positive",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "positive"
+        },
+        {
+          "category_id": "source_lore_fidelity",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "BILI-0035",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "BILI-0036",
+      "include_in_dashboard": true,
+      "overall_sentiment": "negative",
+      "aspects": [
+        {
+          "category_id": "visual_character_design",
+          "sentiment": "negative"
+        }
+      ]
+    },
+    {
+      "record_id": "BILI-0037",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "source_lore_fidelity",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "BILI-0039",
+      "include_in_dashboard": true,
+      "overall_sentiment": "negative",
+      "aspects": [
+        {
+          "category_id": "source_lore_fidelity",
+          "sentiment": "negative"
+        },
+        {
+          "category_id": "story_presentation",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "BILI-0040",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "BILI-0041",
+      "include_in_dashboard": true,
+      "overall_sentiment": "negative",
+      "aspects": [
+        {
+          "category_id": "visual_character_design",
+          "sentiment": "negative"
+        }
+      ]
+    },
+    {
+      "record_id": "BILI-0042",
+      "include_in_dashboard": true,
+      "overall_sentiment": "positive",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "positive"
+        },
+        {
+          "category_id": "source_lore_fidelity",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "BILI-0043",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "neutral"
+        },
+        {
+          "category_id": "source_lore_fidelity",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "BILI-0045",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "neutral"
+        },
+        {
+          "category_id": "source_lore_fidelity",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "BILI-0046",
+      "include_in_dashboard": true,
+      "overall_sentiment": "positive",
+      "aspects": [
+        {
+          "category_id": "roster_playability",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "BILI-0048",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "BILI-0049",
+      "include_in_dashboard": true,
+      "overall_sentiment": "positive",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "positive"
+        },
+        {
+          "category_id": "visual_character_design",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "BILI-0050",
+      "include_in_dashboard": true,
+      "overall_sentiment": "positive",
+      "aspects": [
+        {
+          "category_id": "source_lore_fidelity",
+          "sentiment": "positive"
+        },
+        {
+          "category_id": "visual_character_design",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "BILI-0051",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "BILI-0052",
+      "include_in_dashboard": true,
+      "overall_sentiment": "positive",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "BILI-0053",
+      "include_in_dashboard": true,
+      "overall_sentiment": "positive",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "BILI-0054",
+      "include_in_dashboard": true,
+      "overall_sentiment": "positive",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "BILI-0056",
+      "include_in_dashboard": true,
+      "overall_sentiment": "positive",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "BILI-0057",
+      "include_in_dashboard": true,
+      "overall_sentiment": "positive",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "positive"
+        },
+        {
+          "category_id": "source_lore_fidelity",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "BILI-0058",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "source_lore_fidelity",
+          "sentiment": "neutral"
+        },
+        {
+          "category_id": "visual_character_design",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "BILI-0061",
+      "include_in_dashboard": true,
+      "overall_sentiment": "positive",
+      "aspects": [
+        {
+          "category_id": "source_lore_fidelity",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "BILI-0062",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "BILI-0064",
+      "include_in_dashboard": true,
+      "overall_sentiment": "positive",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "BILI-0065",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "BILI-0066",
+      "include_in_dashboard": true,
+      "overall_sentiment": "negative",
+      "aspects": [
+        {
+          "category_id": "source_lore_fidelity",
+          "sentiment": "negative"
+        }
+      ]
+    },
+    {
+      "record_id": "BILI-0069",
+      "include_in_dashboard": true,
+      "overall_sentiment": "positive",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "positive"
+        },
+        {
+          "category_id": "source_lore_fidelity",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "BILI-0070",
+      "include_in_dashboard": true,
+      "overall_sentiment": "positive",
+      "aspects": [
+        {
+          "category_id": "roster_playability",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "BILI-0071",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "BILI-0072",
+      "include_in_dashboard": true,
+      "overall_sentiment": "positive",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "positive"
+        },
+        {
+          "category_id": "source_lore_fidelity",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "BILI-0073",
+      "include_in_dashboard": true,
+      "overall_sentiment": "positive",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "positive"
+        },
+        {
+          "category_id": "overall_collab_response",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "BILI-0074",
+      "include_in_dashboard": true,
+      "overall_sentiment": "positive",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "positive"
+        },
+        {
+          "category_id": "source_lore_fidelity",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "BILI-0076",
+      "include_in_dashboard": true,
+      "overall_sentiment": "positive",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "BILI-0077",
+      "include_in_dashboard": true,
+      "overall_sentiment": "mixed",
+      "aspects": [
+        {
+          "category_id": "visual_character_design",
+          "sentiment": "positive"
+        },
+        {
+          "category_id": "story_presentation",
+          "sentiment": "negative"
+        }
+      ]
+    },
+    {
+      "record_id": "BILI-0079",
+      "include_in_dashboard": true,
+      "overall_sentiment": "mixed",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "positive"
+        },
+        {
+          "category_id": "source_lore_fidelity",
+          "sentiment": "negative"
+        }
+      ]
+    },
+    {
+      "record_id": "BILI-0082",
+      "include_in_dashboard": true,
+      "overall_sentiment": "positive",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "BILI-0083",
+      "include_in_dashboard": true,
+      "overall_sentiment": "positive",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "BILI-0084",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "neutral"
+        },
+        {
+          "category_id": "source_lore_fidelity",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "BILI-0085",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "source_lore_fidelity",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "BILI-0087",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "source_lore_fidelity",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "BILI-0088",
+      "include_in_dashboard": true,
+      "overall_sentiment": "negative",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "negative"
+        }
+      ]
+    },
+    {
+      "record_id": "BILI-0089",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "neutral"
+        },
+        {
+          "category_id": "source_lore_fidelity",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "BILI-0090",
+      "include_in_dashboard": true,
+      "overall_sentiment": "mixed",
+      "aspects": [
+        {
+          "category_id": "source_lore_fidelity",
+          "sentiment": "neutral"
+        },
+        {
+          "category_id": "visual_character_design",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "BILI-0092",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "BILI-0094",
+      "include_in_dashboard": true,
+      "overall_sentiment": "positive",
+      "aspects": [
+        {
+          "category_id": "roster_playability",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "BILI-0095",
+      "include_in_dashboard": true,
+      "overall_sentiment": "positive",
+      "aspects": [
+        {
+          "category_id": "source_lore_fidelity",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "BILI-0096",
+      "include_in_dashboard": true,
+      "overall_sentiment": "negative",
+      "aspects": [
+        {
+          "category_id": "source_lore_fidelity",
+          "sentiment": "negative"
+        }
+      ]
+    },
+    {
+      "record_id": "BILI-0097",
+      "include_in_dashboard": true,
+      "overall_sentiment": "positive",
+      "aspects": [
+        {
+          "category_id": "source_lore_fidelity",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "BILI-0098",
+      "include_in_dashboard": true,
+      "overall_sentiment": "positive",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "positive"
+        },
+        {
+          "category_id": "source_lore_fidelity",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "BILI-0099",
+      "include_in_dashboard": true,
+      "overall_sentiment": "negative",
+      "aspects": [
+        {
+          "category_id": "visual_character_design",
+          "sentiment": "negative"
+        },
+        {
+          "category_id": "source_lore_fidelity",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "BILI-0100",
+      "include_in_dashboard": true,
+      "overall_sentiment": "positive",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "BILI-0102",
+      "include_in_dashboard": true,
+      "overall_sentiment": "positive",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "BILI-0104",
+      "include_in_dashboard": true,
+      "overall_sentiment": "positive",
+      "aspects": [
+        {
+          "category_id": "visual_character_design",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "BILI-0105",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "BILI-0106",
+      "include_in_dashboard": true,
+      "overall_sentiment": "negative",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "negative"
+        }
+      ]
+    },
+    {
+      "record_id": "BILI-0108",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "source_lore_fidelity",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "BILI-0109",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "BILI-0110",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "BILI-0111",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "BILI-0112",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "BILI-0113",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "visual_character_design",
+          "sentiment": "neutral"
+        },
+        {
+          "category_id": "source_lore_fidelity",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "BILI-0114",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "BILI-0115",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "event_gameplay_technical",
+          "sentiment": "neutral"
+        },
+        {
+          "category_id": "story_presentation",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "BILI-0117",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "BILI-0118",
+      "include_in_dashboard": true,
+      "overall_sentiment": "positive",
+      "aspects": [
+        {
+          "category_id": "visual_character_design",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "BILI-0119",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "source_lore_fidelity",
+          "sentiment": "neutral"
+        },
+        {
+          "category_id": "story_presentation",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "BILI-0121",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "visual_character_design",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "BILI-0122",
+      "include_in_dashboard": true,
+      "overall_sentiment": "mixed",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "mixed"
+        }
+      ]
+    },
+    {
+      "record_id": "BILI-0123",
+      "include_in_dashboard": true,
+      "overall_sentiment": "negative",
+      "aspects": [
+        {
+          "category_id": "overall_collab_response",
+          "sentiment": "negative"
+        }
+      ]
+    },
+    {
+      "record_id": "BILI-0125",
+      "include_in_dashboard": true,
+      "overall_sentiment": "negative",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "negative"
+        }
+      ]
+    },
+    {
+      "record_id": "BILI-0126",
+      "include_in_dashboard": true,
+      "overall_sentiment": "positive",
+      "aspects": [
+        {
+          "category_id": "visual_character_design",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "BILI-0127",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "BILI-0129",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "BILI-0130",
+      "include_in_dashboard": true,
+      "overall_sentiment": "mixed",
+      "aspects": [
+        {
+          "category_id": "overall_collab_response",
+          "sentiment": "mixed"
+        }
+      ]
+    },
+    {
+      "record_id": "BILI-0132",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "BILI-0133",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "neutral"
+        },
+        {
+          "category_id": "source_lore_fidelity",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "BILI-0134",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "BILI-0135",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "BILI-0136",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "neutral"
+        },
+        {
+          "category_id": "source_lore_fidelity",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "BILI-0138",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "gacha_rewards_schedule",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "BILI-0139",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "BILI-0142",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "BILI-0143",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "BILI-0144",
+      "include_in_dashboard": true,
+      "overall_sentiment": "positive",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "BILI-0145",
+      "include_in_dashboard": true,
+      "overall_sentiment": "positive",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "positive"
+        },
+        {
+          "category_id": "source_lore_fidelity",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "BILI-0146",
+      "include_in_dashboard": true,
+      "overall_sentiment": "positive",
+      "aspects": [
+        {
+          "category_id": "visual_character_design",
+          "sentiment": "positive"
+        },
+        {
+          "category_id": "overall_collab_response",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "BILI-0147",
+      "include_in_dashboard": true,
+      "overall_sentiment": "positive",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "positive"
+        },
+        {
+          "category_id": "source_lore_fidelity",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "BILI-0148",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "neutral"
+        },
+        {
+          "category_id": "source_lore_fidelity",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "BILI-0149",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "neutral"
+        },
+        {
+          "category_id": "source_lore_fidelity",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "BILI-0151",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "BILI-0152",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "source_lore_fidelity",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "BILI-0153",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "BILI-0155",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "neutral"
+        },
+        {
+          "category_id": "source_lore_fidelity",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "BILI-0160",
+      "include_in_dashboard": true,
+      "overall_sentiment": "positive",
+      "aspects": [
+        {
+          "category_id": "roster_playability",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "BILI-0161",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "BILI-0167",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "BILI-0168",
+      "include_in_dashboard": true,
+      "overall_sentiment": "negative",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "negative"
+        }
+      ]
+    },
+    {
+      "record_id": "BILI-0169",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "BILI-0173",
+      "include_in_dashboard": true,
+      "overall_sentiment": "positive",
+      "aspects": [
+        {
+          "category_id": "visual_character_design",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "BILI-0177",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "BILI-0181",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "source_lore_fidelity",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "BILI-0190",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "source_lore_fidelity",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "BILI-0191",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "BILI-0193",
+      "include_in_dashboard": true,
+      "overall_sentiment": "negative",
+      "aspects": [
+        {
+          "category_id": "visual_character_design",
+          "sentiment": "negative"
+        }
+      ]
+    },
+    {
+      "record_id": "BILI-0194",
+      "include_in_dashboard": true,
+      "overall_sentiment": "positive",
+      "aspects": [
+        {
+          "category_id": "visual_character_design",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "BILI-0195",
+      "include_in_dashboard": true,
+      "overall_sentiment": "positive",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "BILI-0196",
+      "include_in_dashboard": true,
+      "overall_sentiment": "positive",
+      "aspects": [
+        {
+          "category_id": "visual_character_design",
+          "sentiment": "positive"
+        },
+        {
+          "category_id": "source_lore_fidelity",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "BILI-0200",
+      "include_in_dashboard": true,
+      "overall_sentiment": "negative",
+      "aspects": [
+        {
+          "category_id": "overall_collab_response",
+          "sentiment": "negative"
+        }
+      ]
+    },
+    {
+      "record_id": "BILI-0202",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "source_lore_fidelity",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "BILI-0206",
+      "include_in_dashboard": true,
+      "overall_sentiment": "positive",
+      "aspects": [
+        {
+          "category_id": "overall_collab_response",
+          "sentiment": "positive"
+        },
+        {
+          "category_id": "gacha_rewards_schedule",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "BILI-0207",
+      "include_in_dashboard": true,
+      "overall_sentiment": "positive",
+      "aspects": [
+        {
+          "category_id": "visual_character_design",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "BILI-0225",
+      "include_in_dashboard": true,
+      "overall_sentiment": "negative",
+      "aspects": [
+        {
+          "category_id": "visual_character_design",
+          "sentiment": "negative"
+        }
+      ]
+    },
+    {
+      "record_id": "BILI-0229",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "source_lore_fidelity",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "BILI-0243",
+      "include_in_dashboard": true,
+      "overall_sentiment": "positive",
+      "aspects": [
+        {
+          "category_id": "overall_collab_response",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "BILI-0250",
+      "include_in_dashboard": true,
+      "overall_sentiment": "positive",
+      "aspects": [
+        {
+          "category_id": "visual_character_design",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "BILI-0254",
+      "include_in_dashboard": true,
+      "overall_sentiment": "positive",
+      "aspects": [
+        {
+          "category_id": "overall_collab_response",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "BILI-0259",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "source_lore_fidelity",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "BILI-0274",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "visual_character_design",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "BILI-0279",
+      "include_in_dashboard": true,
+      "overall_sentiment": "positive",
+      "aspects": [
+        {
+          "category_id": "visual_character_design",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "BILI-0283",
+      "include_in_dashboard": true,
+      "overall_sentiment": "positive",
+      "aspects": [
+        {
+          "category_id": "visual_character_design",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "BILI-0288",
+      "include_in_dashboard": true,
+      "overall_sentiment": "mixed",
+      "aspects": [
+        {
+          "category_id": "visual_character_design",
+          "sentiment": "mixed"
+        }
+      ]
+    },
+    {
+      "record_id": "BILI-0289",
+      "include_in_dashboard": true,
+      "overall_sentiment": "positive",
+      "aspects": [
+        {
+          "category_id": "visual_character_design",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "BILI-0293",
+      "include_in_dashboard": true,
+      "overall_sentiment": "positive",
+      "aspects": [
+        {
+          "category_id": "visual_character_design",
+          "sentiment": "positive"
+        },
+        {
+          "category_id": "source_lore_fidelity",
+          "sentiment": "positive"
+        },
+        {
+          "category_id": "overall_collab_response",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "BILI-0294",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "visual_character_design",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0060",
+      "include_in_dashboard": true,
+      "overall_sentiment": "negative",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "negative"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0009",
+      "include_in_dashboard": true,
+      "overall_sentiment": "positive",
+      "aspects": [
+        {
+          "category_id": "roster_playability",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0034",
+      "include_in_dashboard": true,
+      "overall_sentiment": "negative",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "negative"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0072",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "gacha_rewards_schedule",
+          "sentiment": "neutral"
+        },
+        {
+          "category_id": "roster_playability",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0096",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "gacha_rewards_schedule",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0103",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "gacha_rewards_schedule",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0219",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "source_lore_fidelity",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0250",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "visual_character_design",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0001",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0002",
+      "include_in_dashboard": true,
+      "overall_sentiment": "positive",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "positive"
+        },
+        {
+          "category_id": "visual_character_design",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0003",
+      "include_in_dashboard": true,
+      "overall_sentiment": "positive",
+      "aspects": [
+        {
+          "category_id": "visual_character_design",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0004",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0005",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "visual_character_design",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0006",
+      "include_in_dashboard": true,
+      "overall_sentiment": "positive",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "positive"
+        },
+        {
+          "category_id": "source_lore_fidelity",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0008",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0010",
+      "include_in_dashboard": true,
+      "overall_sentiment": "positive",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "positive"
+        },
+        {
+          "category_id": "visual_character_design",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0011",
+      "include_in_dashboard": true,
+      "overall_sentiment": "positive",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0012",
+      "include_in_dashboard": true,
+      "overall_sentiment": "negative",
+      "aspects": [
+        {
+          "category_id": "visual_character_design",
+          "sentiment": "negative"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0013",
+      "include_in_dashboard": true,
+      "overall_sentiment": "negative",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "negative"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0014",
+      "include_in_dashboard": true,
+      "overall_sentiment": "positive",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "positive"
+        },
+        {
+          "category_id": "source_lore_fidelity",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0015",
+      "include_in_dashboard": true,
+      "overall_sentiment": "positive",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "positive"
+        },
+        {
+          "category_id": "source_lore_fidelity",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0016",
+      "include_in_dashboard": true,
+      "overall_sentiment": "negative",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "negative"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0017",
+      "include_in_dashboard": true,
+      "overall_sentiment": "positive",
+      "aspects": [
+        {
+          "category_id": "roster_playability",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0018",
+      "include_in_dashboard": true,
+      "overall_sentiment": "negative",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "negative"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0019",
+      "include_in_dashboard": true,
+      "overall_sentiment": "positive",
+      "aspects": [
+        {
+          "category_id": "visual_character_design",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0020",
+      "include_in_dashboard": true,
+      "overall_sentiment": "positive",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "positive"
+        },
+        {
+          "category_id": "visual_character_design",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0021",
+      "include_in_dashboard": true,
+      "overall_sentiment": "negative",
+      "aspects": [
+        {
+          "category_id": "overall_collab_response",
+          "sentiment": "negative"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0022",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "source_lore_fidelity",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0023",
+      "include_in_dashboard": true,
+      "overall_sentiment": "positive",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0024",
+      "include_in_dashboard": true,
+      "overall_sentiment": "negative",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "negative"
+        },
+        {
+          "category_id": "source_lore_fidelity",
+          "sentiment": "negative"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0025",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "visual_character_design",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0026",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "other",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0027",
+      "include_in_dashboard": true,
+      "overall_sentiment": "negative",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "negative"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0028",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0029",
+      "include_in_dashboard": true,
+      "overall_sentiment": "positive",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0030",
+      "include_in_dashboard": true,
+      "overall_sentiment": "positive",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0031",
+      "include_in_dashboard": true,
+      "overall_sentiment": "negative",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "negative"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0032",
+      "include_in_dashboard": true,
+      "overall_sentiment": "positive",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "positive"
+        },
+        {
+          "category_id": "source_lore_fidelity",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0033",
+      "include_in_dashboard": true,
+      "overall_sentiment": "negative",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "negative"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0035",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0036",
+      "include_in_dashboard": true,
+      "overall_sentiment": "positive",
+      "aspects": [
+        {
+          "category_id": "source_lore_fidelity",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0037",
+      "include_in_dashboard": true,
+      "overall_sentiment": "positive",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0039",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "source_lore_fidelity",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0040",
+      "include_in_dashboard": true,
+      "overall_sentiment": "negative",
+      "aspects": [
+        {
+          "category_id": "source_lore_fidelity",
+          "sentiment": "negative"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0041",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "combat_build_value",
+          "sentiment": "neutral"
+        },
+        {
+          "category_id": "source_lore_fidelity",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0043",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "neutral"
+        },
+        {
+          "category_id": "source_lore_fidelity",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0044",
+      "include_in_dashboard": true,
+      "overall_sentiment": "positive",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "positive"
+        },
+        {
+          "category_id": "visual_character_design",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0046",
+      "include_in_dashboard": true,
+      "overall_sentiment": "positive",
+      "aspects": [
+        {
+          "category_id": "overall_collab_response",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0047",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "neutral"
+        },
+        {
+          "category_id": "source_lore_fidelity",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0049",
+      "include_in_dashboard": true,
+      "overall_sentiment": "positive",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0051",
+      "include_in_dashboard": true,
+      "overall_sentiment": "positive",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "positive"
+        },
+        {
+          "category_id": "source_lore_fidelity",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0052",
+      "include_in_dashboard": true,
+      "overall_sentiment": "positive",
+      "aspects": [
+        {
+          "category_id": "overall_collab_response",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0053",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0054",
+      "include_in_dashboard": true,
+      "overall_sentiment": "negative",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "negative"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0055",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "source_lore_fidelity",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0056",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0057",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0058",
+      "include_in_dashboard": true,
+      "overall_sentiment": "positive",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "positive"
+        },
+        {
+          "category_id": "source_lore_fidelity",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0059",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "gacha_rewards_schedule",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0061",
+      "include_in_dashboard": true,
+      "overall_sentiment": "negative",
+      "aspects": [
+        {
+          "category_id": "visual_character_design",
+          "sentiment": "negative"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0063",
+      "include_in_dashboard": true,
+      "overall_sentiment": "negative",
+      "aspects": [
+        {
+          "category_id": "roster_playability",
+          "sentiment": "negative"
+        },
+        {
+          "category_id": "overall_collab_response",
+          "sentiment": "negative"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0064",
+      "include_in_dashboard": true,
+      "overall_sentiment": "positive",
+      "aspects": [
+        {
+          "category_id": "visual_character_design",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0065",
+      "include_in_dashboard": true,
+      "overall_sentiment": "positive",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "positive"
+        },
+        {
+          "category_id": "visual_character_design",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0066",
+      "include_in_dashboard": true,
+      "overall_sentiment": "negative",
+      "aspects": [
+        {
+          "category_id": "visual_character_design",
+          "sentiment": "negative"
+        },
+        {
+          "category_id": "source_lore_fidelity",
+          "sentiment": "negative"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0067",
+      "include_in_dashboard": true,
+      "overall_sentiment": "negative",
+      "aspects": [
+        {
+          "category_id": "roster_playability",
+          "sentiment": "negative"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0069",
+      "include_in_dashboard": true,
+      "overall_sentiment": "mixed",
+      "aspects": [
+        {
+          "category_id": "roster_playability",
+          "sentiment": "negative"
+        },
+        {
+          "category_id": "source_lore_fidelity",
+          "sentiment": "neutral"
+        },
+        {
+          "category_id": "overall_collab_response",
+          "sentiment": "mixed"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0070",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "source_lore_fidelity",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0071",
+      "include_in_dashboard": true,
+      "overall_sentiment": "mixed",
+      "aspects": [
+        {
+          "category_id": "roster_playability",
+          "sentiment": "negative"
+        },
+        {
+          "category_id": "visual_character_design",
+          "sentiment": "negative"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0073",
+      "include_in_dashboard": true,
+      "overall_sentiment": "negative",
+      "aspects": [
+        {
+          "category_id": "visual_character_design",
+          "sentiment": "negative"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0074",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "source_lore_fidelity",
+          "sentiment": "neutral"
+        },
+        {
+          "category_id": "story_presentation",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0075",
+      "include_in_dashboard": true,
+      "overall_sentiment": "mixed",
+      "aspects": [
+        {
+          "category_id": "source_lore_fidelity",
+          "sentiment": "negative"
+        },
+        {
+          "category_id": "combat_build_value",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0076",
+      "include_in_dashboard": true,
+      "overall_sentiment": "mixed",
+      "aspects": [
+        {
+          "category_id": "visual_character_design",
+          "sentiment": "positive"
+        },
+        {
+          "category_id": "source_lore_fidelity",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0077",
+      "include_in_dashboard": true,
+      "overall_sentiment": "negative",
+      "aspects": [
+        {
+          "category_id": "source_lore_fidelity",
+          "sentiment": "negative"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0078",
+      "include_in_dashboard": true,
+      "overall_sentiment": "negative",
+      "aspects": [
+        {
+          "category_id": "visual_character_design",
+          "sentiment": "negative"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0079",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "gacha_rewards_schedule",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0080",
+      "include_in_dashboard": true,
+      "overall_sentiment": "negative",
+      "aspects": [
+        {
+          "category_id": "visual_character_design",
+          "sentiment": "negative"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0081",
+      "include_in_dashboard": true,
+      "overall_sentiment": "positive",
+      "aspects": [
+        {
+          "category_id": "gacha_rewards_schedule",
+          "sentiment": "positive"
+        },
+        {
+          "category_id": "overall_collab_response",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0082",
+      "include_in_dashboard": true,
+      "overall_sentiment": "positive",
+      "aspects": [
+        {
+          "category_id": "overall_collab_response",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0083",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "gacha_rewards_schedule",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0084",
+      "include_in_dashboard": true,
+      "overall_sentiment": "positive",
+      "aspects": [
+        {
+          "category_id": "roster_playability",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0085",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "gacha_rewards_schedule",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0086",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "combat_build_value",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0087",
+      "include_in_dashboard": true,
+      "overall_sentiment": "positive",
+      "aspects": [
+        {
+          "category_id": "overall_collab_response",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0088",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "source_lore_fidelity",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0089",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "combat_build_value",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0090",
+      "include_in_dashboard": true,
+      "overall_sentiment": "mixed",
+      "aspects": [
+        {
+          "category_id": "gacha_rewards_schedule",
+          "sentiment": "mixed"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0091",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "visual_character_design",
+          "sentiment": "neutral"
+        },
+        {
+          "category_id": "source_lore_fidelity",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0092",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "gacha_rewards_schedule",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0093",
+      "include_in_dashboard": true,
+      "overall_sentiment": "negative",
+      "aspects": [
+        {
+          "category_id": "visual_character_design",
+          "sentiment": "negative"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0094",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "combat_build_value",
+          "sentiment": "neutral"
+        },
+        {
+          "category_id": "overall_collab_response",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0098",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "combat_build_value",
+          "sentiment": "neutral"
+        },
+        {
+          "category_id": "gacha_rewards_schedule",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0099",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "other",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0100",
+      "include_in_dashboard": true,
+      "overall_sentiment": "positive",
+      "aspects": [
+        {
+          "category_id": "visual_character_design",
+          "sentiment": "positive"
+        },
+        {
+          "category_id": "gacha_rewards_schedule",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0101",
+      "include_in_dashboard": true,
+      "overall_sentiment": "positive",
+      "aspects": [
+        {
+          "category_id": "gacha_rewards_schedule",
+          "sentiment": "positive"
+        },
+        {
+          "category_id": "roster_playability",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0102",
+      "include_in_dashboard": true,
+      "overall_sentiment": "negative",
+      "aspects": [
+        {
+          "category_id": "visual_character_design",
+          "sentiment": "negative"
+        },
+        {
+          "category_id": "source_lore_fidelity",
+          "sentiment": "negative"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0104",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "gacha_rewards_schedule",
+          "sentiment": "neutral"
+        },
+        {
+          "category_id": "overall_collab_response",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0105",
+      "include_in_dashboard": true,
+      "overall_sentiment": "negative",
+      "aspects": [
+        {
+          "category_id": "overall_collab_response",
+          "sentiment": "negative"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0106",
+      "include_in_dashboard": true,
+      "overall_sentiment": "positive",
+      "aspects": [
+        {
+          "category_id": "visual_character_design",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0107",
+      "include_in_dashboard": true,
+      "overall_sentiment": "negative",
+      "aspects": [
+        {
+          "category_id": "visual_character_design",
+          "sentiment": "negative"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0108",
+      "include_in_dashboard": true,
+      "overall_sentiment": "positive",
+      "aspects": [
+        {
+          "category_id": "overall_collab_response",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0109",
+      "include_in_dashboard": true,
+      "overall_sentiment": "positive",
+      "aspects": [
+        {
+          "category_id": "roster_playability",
+          "sentiment": "positive"
+        },
+        {
+          "category_id": "overall_collab_response",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0110",
+      "include_in_dashboard": true,
+      "overall_sentiment": "positive",
+      "aspects": [
+        {
+          "category_id": "visual_character_design",
+          "sentiment": "positive"
+        },
+        {
+          "category_id": "combat_build_value",
+          "sentiment": "neutral"
+        },
+        {
+          "category_id": "gacha_rewards_schedule",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0112",
+      "include_in_dashboard": true,
+      "overall_sentiment": "negative",
+      "aspects": [
+        {
+          "category_id": "gacha_rewards_schedule",
+          "sentiment": "negative"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0113",
+      "include_in_dashboard": true,
+      "overall_sentiment": "negative",
+      "aspects": [
+        {
+          "category_id": "visual_character_design",
+          "sentiment": "negative"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0114",
+      "include_in_dashboard": true,
+      "overall_sentiment": "positive",
+      "aspects": [
+        {
+          "category_id": "combat_build_value",
+          "sentiment": "positive"
+        },
+        {
+          "category_id": "visual_character_design",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0115",
+      "include_in_dashboard": true,
+      "overall_sentiment": "positive",
+      "aspects": [
+        {
+          "category_id": "visual_character_design",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0116",
+      "include_in_dashboard": true,
+      "overall_sentiment": "positive",
+      "aspects": [
+        {
+          "category_id": "combat_build_value",
+          "sentiment": "positive"
+        },
+        {
+          "category_id": "gacha_rewards_schedule",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0117",
+      "include_in_dashboard": true,
+      "overall_sentiment": "positive",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "positive"
+        },
+        {
+          "category_id": "overall_collab_response",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0118",
+      "include_in_dashboard": true,
+      "overall_sentiment": "mixed",
+      "aspects": [
+        {
+          "category_id": "gacha_rewards_schedule",
+          "sentiment": "neutral"
+        },
+        {
+          "category_id": "overall_collab_response",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0119",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "combat_build_value",
+          "sentiment": "neutral"
+        },
+        {
+          "category_id": "gacha_rewards_schedule",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0120",
+      "include_in_dashboard": true,
+      "overall_sentiment": "negative",
+      "aspects": [
+        {
+          "category_id": "roster_playability",
+          "sentiment": "negative"
+        },
+        {
+          "category_id": "overall_collab_response",
+          "sentiment": "negative"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0121",
+      "include_in_dashboard": true,
+      "overall_sentiment": "mixed",
+      "aspects": [
+        {
+          "category_id": "gacha_rewards_schedule",
+          "sentiment": "positive"
+        },
+        {
+          "category_id": "source_lore_fidelity",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0122",
+      "include_in_dashboard": true,
+      "overall_sentiment": "positive",
+      "aspects": [
+        {
+          "category_id": "roster_playability",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0123",
+      "include_in_dashboard": true,
+      "overall_sentiment": "positive",
+      "aspects": [
+        {
+          "category_id": "roster_playability",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0124",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "combat_build_value",
+          "sentiment": "neutral"
+        },
+        {
+          "category_id": "gacha_rewards_schedule",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0125",
+      "include_in_dashboard": true,
+      "overall_sentiment": "positive",
+      "aspects": [
+        {
+          "category_id": "roster_playability",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0126",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "source_lore_fidelity",
+          "sentiment": "neutral"
+        },
+        {
+          "category_id": "combat_build_value",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0127",
+      "include_in_dashboard": true,
+      "overall_sentiment": "mixed",
+      "aspects": [
+        {
+          "category_id": "gacha_rewards_schedule",
+          "sentiment": "negative"
+        },
+        {
+          "category_id": "overall_collab_response",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0128",
+      "include_in_dashboard": true,
+      "overall_sentiment": "positive",
+      "aspects": [
+        {
+          "category_id": "roster_playability",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0129",
+      "include_in_dashboard": true,
+      "overall_sentiment": "positive",
+      "aspects": [
+        {
+          "category_id": "roster_playability",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0130",
+      "include_in_dashboard": true,
+      "overall_sentiment": "mixed",
+      "aspects": [
+        {
+          "category_id": "gacha_rewards_schedule",
+          "sentiment": "neutral"
+        },
+        {
+          "category_id": "overall_collab_response",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0131",
+      "include_in_dashboard": true,
+      "overall_sentiment": "negative",
+      "aspects": [
+        {
+          "category_id": "overall_collab_response",
+          "sentiment": "negative"
+        },
+        {
+          "category_id": "story_presentation",
+          "sentiment": "negative"
+        },
+        {
+          "category_id": "visual_character_design",
+          "sentiment": "negative"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0132",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "combat_build_value",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0133",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "source_lore_fidelity",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0135",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "roster_playability",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0136",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "other",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0137",
+      "include_in_dashboard": true,
+      "overall_sentiment": "mixed",
+      "aspects": [
+        {
+          "category_id": "source_lore_fidelity",
+          "sentiment": "neutral"
+        },
+        {
+          "category_id": "roster_playability",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0138",
+      "include_in_dashboard": true,
+      "overall_sentiment": "positive",
+      "aspects": [
+        {
+          "category_id": "roster_playability",
+          "sentiment": "positive"
+        },
+        {
+          "category_id": "overall_collab_response",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0139",
+      "include_in_dashboard": true,
+      "overall_sentiment": "negative",
+      "aspects": [
+        {
+          "category_id": "source_lore_fidelity",
+          "sentiment": "negative"
+        },
+        {
+          "category_id": "overall_collab_response",
+          "sentiment": "negative"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0140",
+      "include_in_dashboard": true,
+      "overall_sentiment": "mixed",
+      "aspects": [
+        {
+          "category_id": "combat_build_value",
+          "sentiment": "neutral"
+        },
+        {
+          "category_id": "visual_character_design",
+          "sentiment": "negative"
+        },
+        {
+          "category_id": "story_presentation",
+          "sentiment": "positive"
+        },
+        {
+          "category_id": "overall_collab_response",
+          "sentiment": "mixed"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0142",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "combat_build_value",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0144",
+      "include_in_dashboard": true,
+      "overall_sentiment": "negative",
+      "aspects": [
+        {
+          "category_id": "roster_playability",
+          "sentiment": "negative"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0145",
+      "include_in_dashboard": true,
+      "overall_sentiment": "positive",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0146",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "gacha_rewards_schedule",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0147",
+      "include_in_dashboard": true,
+      "overall_sentiment": "negative",
+      "aspects": [
+        {
+          "category_id": "overall_collab_response",
+          "sentiment": "negative"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0148",
+      "include_in_dashboard": true,
+      "overall_sentiment": "negative",
+      "aspects": [
+        {
+          "category_id": "gacha_rewards_schedule",
+          "sentiment": "negative"
+        },
+        {
+          "category_id": "overall_collab_response",
+          "sentiment": "negative"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0149",
+      "include_in_dashboard": true,
+      "overall_sentiment": "negative",
+      "aspects": [
+        {
+          "category_id": "overall_collab_response",
+          "sentiment": "negative"
+        },
+        {
+          "category_id": "source_lore_fidelity",
+          "sentiment": "negative"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0150",
+      "include_in_dashboard": true,
+      "overall_sentiment": "positive",
+      "aspects": [
+        {
+          "category_id": "roster_playability",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0151",
+      "include_in_dashboard": true,
+      "overall_sentiment": "positive",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "positive"
+        },
+        {
+          "category_id": "overall_collab_response",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0152",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "combat_build_value",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0153",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "combat_build_value",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0154",
+      "include_in_dashboard": true,
+      "overall_sentiment": "positive",
+      "aspects": [
+        {
+          "category_id": "visual_character_design",
+          "sentiment": "positive"
+        },
+        {
+          "category_id": "overall_collab_response",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0155",
+      "include_in_dashboard": true,
+      "overall_sentiment": "positive",
+      "aspects": [
+        {
+          "category_id": "roster_playability",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0156",
+      "include_in_dashboard": true,
+      "overall_sentiment": "positive",
+      "aspects": [
+        {
+          "category_id": "roster_playability",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0157",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "gacha_rewards_schedule",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0158",
+      "include_in_dashboard": true,
+      "overall_sentiment": "mixed",
+      "aspects": [
+        {
+          "category_id": "roster_playability",
+          "sentiment": "negative"
+        },
+        {
+          "category_id": "story_presentation",
+          "sentiment": "negative"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0159",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "source_lore_fidelity",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0160",
+      "include_in_dashboard": true,
+      "overall_sentiment": "positive",
+      "aspects": [
+        {
+          "category_id": "roster_playability",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0161",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "gacha_rewards_schedule",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0162",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "roster_playability",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0163",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "roster_playability",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0164",
+      "include_in_dashboard": true,
+      "overall_sentiment": "negative",
+      "aspects": [
+        {
+          "category_id": "visual_character_design",
+          "sentiment": "negative"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0165",
+      "include_in_dashboard": true,
+      "overall_sentiment": "negative",
+      "aspects": [
+        {
+          "category_id": "roster_playability",
+          "sentiment": "negative"
+        },
+        {
+          "category_id": "overall_collab_response",
+          "sentiment": "negative"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0166",
+      "include_in_dashboard": true,
+      "overall_sentiment": "positive",
+      "aspects": [
+        {
+          "category_id": "roster_playability",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0167",
+      "include_in_dashboard": true,
+      "overall_sentiment": "mixed",
+      "aspects": [
+        {
+          "category_id": "gacha_rewards_schedule",
+          "sentiment": "positive"
+        },
+        {
+          "category_id": "overall_collab_response",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0168",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "other",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0169",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "gacha_rewards_schedule",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0170",
+      "include_in_dashboard": true,
+      "overall_sentiment": "positive",
+      "aspects": [
+        {
+          "category_id": "visual_character_design",
+          "sentiment": "positive"
+        },
+        {
+          "category_id": "overall_collab_response",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0171",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "gacha_rewards_schedule",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0172",
+      "include_in_dashboard": true,
+      "overall_sentiment": "positive",
+      "aspects": [
+        {
+          "category_id": "roster_playability",
+          "sentiment": "positive"
+        },
+        {
+          "category_id": "combat_build_value",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0173",
+      "include_in_dashboard": true,
+      "overall_sentiment": "positive",
+      "aspects": [
+        {
+          "category_id": "roster_playability",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0174",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "gacha_rewards_schedule",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0175",
+      "include_in_dashboard": true,
+      "overall_sentiment": "positive",
+      "aspects": [
+        {
+          "category_id": "roster_playability",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0176",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "gacha_rewards_schedule",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0177",
+      "include_in_dashboard": true,
+      "overall_sentiment": "positive",
+      "aspects": [
+        {
+          "category_id": "roster_playability",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0178",
+      "include_in_dashboard": true,
+      "overall_sentiment": "positive",
+      "aspects": [
+        {
+          "category_id": "gacha_rewards_schedule",
+          "sentiment": "positive"
+        },
+        {
+          "category_id": "overall_collab_response",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0179",
+      "include_in_dashboard": true,
+      "overall_sentiment": "negative",
+      "aspects": [
+        {
+          "category_id": "overall_collab_response",
+          "sentiment": "negative"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0180",
+      "include_in_dashboard": true,
+      "overall_sentiment": "negative",
+      "aspects": [
+        {
+          "category_id": "overall_collab_response",
+          "sentiment": "negative"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0181",
+      "include_in_dashboard": false,
+      "overall_sentiment": null,
+      "aspects": [],
+      "exclusion_reason": "内容是在引导查看作者另发的金闪闪攻略帖，不构成对本次联动本身的玩家反馈"
+    },
+    {
+      "record_id": "XHS-0182",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "combat_build_value",
+          "sentiment": "neutral"
+        },
+        {
+          "category_id": "gacha_rewards_schedule",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0183",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "combat_build_value",
+          "sentiment": "neutral"
+        },
+        {
+          "category_id": "gacha_rewards_schedule",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0184",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "combat_build_value",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0185",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "combat_build_value",
+          "sentiment": "neutral"
+        },
+        {
+          "category_id": "gacha_rewards_schedule",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0186",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "combat_build_value",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0187",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "combat_build_value",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0188",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "combat_build_value",
+          "sentiment": "neutral"
+        },
+        {
+          "category_id": "gacha_rewards_schedule",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0189",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "combat_build_value",
+          "sentiment": "neutral"
+        },
+        {
+          "category_id": "gacha_rewards_schedule",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0190",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "combat_build_value",
+          "sentiment": "neutral"
+        },
+        {
+          "category_id": "gacha_rewards_schedule",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0191",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "combat_build_value",
+          "sentiment": "neutral"
+        },
+        {
+          "category_id": "gacha_rewards_schedule",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0192",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "combat_build_value",
+          "sentiment": "neutral"
+        },
+        {
+          "category_id": "gacha_rewards_schedule",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0193",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "combat_build_value",
+          "sentiment": "neutral"
+        },
+        {
+          "category_id": "gacha_rewards_schedule",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0194",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "combat_build_value",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0195",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "combat_build_value",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0196",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "combat_build_value",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0197",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "combat_build_value",
+          "sentiment": "neutral"
+        },
+        {
+          "category_id": "gacha_rewards_schedule",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0198",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "combat_build_value",
+          "sentiment": "neutral"
+        },
+        {
+          "category_id": "gacha_rewards_schedule",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0199",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "combat_build_value",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0200",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "combat_build_value",
+          "sentiment": "neutral"
+        },
+        {
+          "category_id": "gacha_rewards_schedule",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0201",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "combat_build_value",
+          "sentiment": "neutral"
+        },
+        {
+          "category_id": "gacha_rewards_schedule",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0202",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "combat_build_value",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0203",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "combat_build_value",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0204",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "combat_build_value",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0205",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "combat_build_value",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0206",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "combat_build_value",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0207",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "combat_build_value",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0208",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "combat_build_value",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0209",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "gacha_rewards_schedule",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0210",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "combat_build_value",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0211",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "combat_build_value",
+          "sentiment": "neutral"
+        },
+        {
+          "category_id": "gacha_rewards_schedule",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0212",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "combat_build_value",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0213",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "combat_build_value",
+          "sentiment": "neutral"
+        },
+        {
+          "category_id": "gacha_rewards_schedule",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0214",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "combat_build_value",
+          "sentiment": "neutral"
+        },
+        {
+          "category_id": "gacha_rewards_schedule",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0215",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "combat_build_value",
+          "sentiment": "neutral"
+        },
+        {
+          "category_id": "gacha_rewards_schedule",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0216",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "combat_build_value",
+          "sentiment": "neutral"
+        },
+        {
+          "category_id": "gacha_rewards_schedule",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0217",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "combat_build_value",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0218",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "combat_build_value",
+          "sentiment": "neutral"
+        },
+        {
+          "category_id": "gacha_rewards_schedule",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0220",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "combat_build_value",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0221",
+      "include_in_dashboard": true,
+      "overall_sentiment": "positive",
+      "aspects": [
+        {
+          "category_id": "visual_character_design",
+          "sentiment": "positive"
+        },
+        {
+          "category_id": "overall_collab_response",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0222",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "combat_build_value",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0223",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "combat_build_value",
+          "sentiment": "neutral"
+        },
+        {
+          "category_id": "gacha_rewards_schedule",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0224",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "combat_build_value",
+          "sentiment": "neutral"
+        },
+        {
+          "category_id": "gacha_rewards_schedule",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0225",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "combat_build_value",
+          "sentiment": "neutral"
+        },
+        {
+          "category_id": "gacha_rewards_schedule",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0226",
+      "include_in_dashboard": false,
+      "overall_sentiment": null,
+      "aspects": [],
+      "exclusion_reason": "内容是在告知后续会发布金闪闪前瞻，属于作者发布安排而非玩家反馈"
+    },
+    {
+      "record_id": "XHS-0227",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "visual_character_design",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0228",
+      "include_in_dashboard": true,
+      "overall_sentiment": "positive",
+      "aspects": [
+        {
+          "category_id": "gacha_rewards_schedule",
+          "sentiment": "positive"
+        },
+        {
+          "category_id": "overall_collab_response",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0229",
+      "include_in_dashboard": true,
+      "overall_sentiment": "negative",
+      "aspects": [
+        {
+          "category_id": "gacha_rewards_schedule",
+          "sentiment": "negative"
+        },
+        {
+          "category_id": "overall_collab_response",
+          "sentiment": "negative"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0230",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "combat_build_value",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0231",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "combat_build_value",
+          "sentiment": "neutral"
+        },
+        {
+          "category_id": "gacha_rewards_schedule",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0232",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "combat_build_value",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0233",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "combat_build_value",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0235",
+      "include_in_dashboard": true,
+      "overall_sentiment": "negative",
+      "aspects": [
+        {
+          "category_id": "combat_build_value",
+          "sentiment": "negative"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0236",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "combat_build_value",
+          "sentiment": "neutral"
+        },
+        {
+          "category_id": "gacha_rewards_schedule",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0237",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "combat_build_value",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0238",
+      "include_in_dashboard": true,
+      "overall_sentiment": "negative",
+      "aspects": [
+        {
+          "category_id": "combat_build_value",
+          "sentiment": "neutral"
+        },
+        {
+          "category_id": "gacha_rewards_schedule",
+          "sentiment": "negative"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0240",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "combat_build_value",
+          "sentiment": "neutral"
+        },
+        {
+          "category_id": "gacha_rewards_schedule",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0241",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "visual_character_design",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0242",
+      "include_in_dashboard": true,
+      "overall_sentiment": "negative",
+      "aspects": [
+        {
+          "category_id": "visual_character_design",
+          "sentiment": "negative"
+        },
+        {
+          "category_id": "overall_collab_response",
+          "sentiment": "negative"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0243",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "visual_character_design",
+          "sentiment": "neutral"
+        },
+        {
+          "category_id": "source_lore_fidelity",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0244",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "neutral"
+        },
+        {
+          "category_id": "visual_character_design",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0246",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "roster_playability",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0247",
+      "include_in_dashboard": true,
+      "overall_sentiment": "positive",
+      "aspects": [
+        {
+          "category_id": "visual_character_design",
+          "sentiment": "positive"
+        },
+        {
+          "category_id": "overall_collab_response",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0248",
+      "include_in_dashboard": true,
+      "overall_sentiment": "negative",
+      "aspects": [
+        {
+          "category_id": "visual_character_design",
+          "sentiment": "negative"
+        },
+        {
+          "category_id": "overall_collab_response",
+          "sentiment": "negative"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0249",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "visual_character_design",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0251",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "combat_build_value",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0253",
+      "include_in_dashboard": true,
+      "overall_sentiment": "positive",
+      "aspects": [
+        {
+          "category_id": "visual_character_design",
+          "sentiment": "positive"
+        },
+        {
+          "category_id": "overall_collab_response",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0254",
+      "include_in_dashboard": true,
+      "overall_sentiment": "positive",
+      "aspects": [
+        {
+          "category_id": "visual_character_design",
+          "sentiment": "positive"
+        },
+        {
+          "category_id": "overall_collab_response",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0255",
+      "include_in_dashboard": true,
+      "overall_sentiment": "negative",
+      "aspects": [
+        {
+          "category_id": "visual_character_design",
+          "sentiment": "negative"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0256",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "gacha_rewards_schedule",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0257",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "visual_character_design",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0258",
+      "include_in_dashboard": true,
+      "overall_sentiment": "positive",
+      "aspects": [
+        {
+          "category_id": "gacha_rewards_schedule",
+          "sentiment": "positive"
+        },
+        {
+          "category_id": "overall_collab_response",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0259",
+      "include_in_dashboard": true,
+      "overall_sentiment": "negative",
+      "aspects": [
+        {
+          "category_id": "gacha_rewards_schedule",
+          "sentiment": "negative"
+        },
+        {
+          "category_id": "roster_playability",
+          "sentiment": "negative"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0260",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "gacha_rewards_schedule",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0261",
+      "include_in_dashboard": true,
+      "overall_sentiment": "negative",
+      "aspects": [
+        {
+          "category_id": "visual_character_design",
+          "sentiment": "negative"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0262",
+      "include_in_dashboard": true,
+      "overall_sentiment": "negative",
+      "aspects": [
+        {
+          "category_id": "visual_character_design",
+          "sentiment": "negative"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0263",
+      "include_in_dashboard": true,
+      "overall_sentiment": "negative",
+      "aspects": [
+        {
+          "category_id": "roster_playability",
+          "sentiment": "negative"
+        },
+        {
+          "category_id": "story_presentation",
+          "sentiment": "negative"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0264",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "gacha_rewards_schedule",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0265",
+      "include_in_dashboard": true,
+      "overall_sentiment": "negative",
+      "aspects": [
+        {
+          "category_id": "gacha_rewards_schedule",
+          "sentiment": "negative"
+        },
+        {
+          "category_id": "overall_collab_response",
+          "sentiment": "negative"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0266",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "source_lore_fidelity",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0267",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "other",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0268",
+      "include_in_dashboard": true,
+      "overall_sentiment": "negative",
+      "aspects": [
+        {
+          "category_id": "source_lore_fidelity",
+          "sentiment": "negative"
+        },
+        {
+          "category_id": "overall_collab_response",
+          "sentiment": "negative"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0269",
+      "include_in_dashboard": true,
+      "overall_sentiment": "mixed",
+      "aspects": [
+        {
+          "category_id": "combat_build_value",
+          "sentiment": "neutral"
+        },
+        {
+          "category_id": "overall_collab_response",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0270",
+      "include_in_dashboard": true,
+      "overall_sentiment": "positive",
+      "aspects": [
+        {
+          "category_id": "overall_collab_response",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0271",
+      "include_in_dashboard": true,
+      "overall_sentiment": "positive",
+      "aspects": [
+        {
+          "category_id": "gacha_rewards_schedule",
+          "sentiment": "positive"
+        },
+        {
+          "category_id": "overall_collab_response",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0272",
+      "include_in_dashboard": true,
+      "overall_sentiment": "positive",
+      "aspects": [
+        {
+          "category_id": "visual_character_design",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0273",
+      "include_in_dashboard": true,
+      "overall_sentiment": "positive",
+      "aspects": [
+        {
+          "category_id": "roster_playability",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0274",
+      "include_in_dashboard": true,
+      "overall_sentiment": "positive",
+      "aspects": [
+        {
+          "category_id": "roster_playability",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0276",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "source_lore_fidelity",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0277",
+      "include_in_dashboard": true,
+      "overall_sentiment": "positive",
+      "aspects": [
+        {
+          "category_id": "roster_playability",
+          "sentiment": "positive"
+        },
+        {
+          "category_id": "overall_collab_response",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0278",
+      "include_in_dashboard": true,
+      "overall_sentiment": "mixed",
+      "aspects": [
+        {
+          "category_id": "gacha_rewards_schedule",
+          "sentiment": "neutral"
+        },
+        {
+          "category_id": "roster_playability",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0279",
+      "include_in_dashboard": true,
+      "overall_sentiment": "positive",
+      "aspects": [
+        {
+          "category_id": "roster_playability",
+          "sentiment": "positive"
+        },
+        {
+          "category_id": "overall_collab_response",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0280",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "neutral"
+        },
+        {
+          "category_id": "source_lore_fidelity",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0281",
+      "include_in_dashboard": true,
+      "overall_sentiment": "positive",
+      "aspects": [
+        {
+          "category_id": "story_presentation",
+          "sentiment": "positive"
+        },
+        {
+          "category_id": "roster_playability",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0282",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "gacha_rewards_schedule",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0284",
+      "include_in_dashboard": true,
+      "overall_sentiment": "positive",
+      "aspects": [
+        {
+          "category_id": "source_lore_fidelity",
+          "sentiment": "positive"
+        },
+        {
+          "category_id": "roster_playability",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0285",
+      "include_in_dashboard": true,
+      "overall_sentiment": "positive",
+      "aspects": [
+        {
+          "category_id": "gacha_rewards_schedule",
+          "sentiment": "neutral"
+        },
+        {
+          "category_id": "overall_collab_response",
+          "sentiment": "positive"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0286",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {
+          "category_id": "event_gameplay_technical",
+          "sentiment": "neutral"
+        }
+      ]
+    },
+    {
+      "record_id": "XHS-0288",
+      "include_in_dashboard": true,
+      "overall_sentiment": "mixed",
+      "aspects": [
+        {
+          "category_id": "roster_playability",
+          "sentiment": "negative"
+        },
+        {
+          "category_id": "source_lore_fidelity",
+          "sentiment": "negative"
+        }
+      ]
+    }
+  ],
+  "category_outputs": [
+    {
+      "category_id": "story_presentation",
+      "summary": "剧情与演出是三平台最稳定的讨论核心。玩家大量围绕遐蝶拉车、枪兵幸存、星穹同框、列车互动等具体场面玩梗和表达喜爱，同时也出现剧情偏短、PV与正式内容差异、默剧动作单调、角色互动不足等负面反馈。高召回重跑后，许多“笑死”“谁绷得住”“这一幕”等短反应也被保留为有效演出反馈。",
+      "representative_ids": [
+        "XHS-0033",
+        "BILI-0012"
+      ]
+    },
+    {
+      "category_id": "source_lore_fidelity",
+      "summary": "Fate原作设定与还原度贯穿抖音、B站和小红书。讨论包括UBW/FSF/HF元素混用、伊什塔尔/远坂凛表现、职阶、宝具、天之锁、Lancer幸运E等。部分玩家认可致敬和彩蛋，另一部分认为多条线路和设定被混合后产生违和或OOC感。",
+      "representative_ids": [
+        "DY-0030",
+        "BILI-0090"
+      ]
+    },
+    {
+      "category_id": "visual_character_design",
+      "summary": "角色美术呈现存在明显分化。远坂凛、Saber、遐蝶等角色的可爱度、建模和部分服装设计获得大量短而直接的正向评价；同时也有对吉尔伽美什服装、腿甲/袜装、手套、士郎建模、立绘元素堆叠和局部人体细节的批评。",
+      "representative_ids": [
+        "XHS-0066",
+        "BILI-0118"
+      ]
+    },
+    {
+      "category_id": "roster_playability",
+      "summary": "角色实装诉求覆盖当前二期阵容和更早的联动期待。狗哥、士郎、伊莉雅、间桐樱、R姐、绮礼等被频繁点名；部分历史期待直接指向远坂凛与吉尔伽美什，说明二期人选与长期玩家愿望存在承接关系。已有建模却未实装也是持续争论点。",
+      "representative_ids": [
+        "XHS-0069",
+        "BILI-0070"
+      ]
+    },
+    {
+      "category_id": "combat_build_value",
+      "summary": "强度、配队与养成讨论主要集中在小红书，围绕远坂凛、Archer、吉尔伽美什的命座、光锥、遗器、主C/辅助定位和队友替换。大量评论带有具体账号BOX、预算和已有角色条件，说明联动角色已进入真实资源配置决策，而非只停留在厨力表达。",
+      "representative_ids": [
+        "XHS-0197",
+        "XHS-0215"
+      ]
+    },
+    {
+      "category_id": "gacha_rewards_schedule",
+      "summary": "抽卡与规则讨论包括免费角色、200抽奖励、保底继承、长期卡池、复刻时间、开放时间以及具体抽数成本。高召回后也纳入了“十连三金”“一发拿下”“几百抽6+1”“抽歪”等简短但有效的获取体验，使福利与成本感知更完整。",
+      "representative_ids": [
+        "XHS-0090",
+        "XHS-0169"
+      ]
+    },
+    {
+      "category_id": "event_gameplay_technical",
+      "summary": "活动玩法与技术问题数量不如剧情和角色讨论多，但信号明确：包括活动入口缺失或无法进入、页面跳转/重启无效、活动难度、刷新怪、音乐与语音设置等。此类反馈主要集中在抖音，是此前过严筛选最容易漏掉的一类短体验信号。",
+      "representative_ids": [
+        "DY-0139",
+        "DY-0142"
+      ]
+    },
+    {
+      "category_id": "overall_collab_response",
+      "summary": "整体联动评价呈分化。一部分玩家因联动明确回游、下载游戏、补番或提前攒抽，并强调“双厨狂喜”；另一部分认为联动质量、圈层互动或制作完成度低于期待。早期对远坂凛、吉尔伽美什的需求与二期实际阵容形成了可观察的期待—兑现链条。",
+      "representative_ids": [
+        "XHS-0154",
+        "DY-0239"
+      ]
+    },
+    {
+      "category_id": "other",
+      "summary": "少量有效评论主要是对联动基本形态、IP来源、合作背景的认知性问题，无法稳定归入剧情、美术、战斗或规则类别，因此保留在其他项中。",
+      "representative_ids": [
+        "XHS-0099",
+        "XHS-0136"
+      ]
+    }
+  ]
+}

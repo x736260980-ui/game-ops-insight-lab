@@ -70,8 +70,12 @@ def _load_json_object(path: Path) -> dict[str, Any]:
 
 
 def _summary_for_run(run_dir: Path) -> dict[str, Any] | None:
-    path = run_dir / "dual-agent" / "05-final-summary.json"
-    if not path.is_file():
+    candidates = (
+        run_dir / "final-summary.json",
+        run_dir / "dual-agent" / "05-final-summary.json",
+    )
+    path = next((candidate for candidate in candidates if candidate.is_file()), None)
+    if path is None:
         return None
     try:
         value = json.loads(path.read_text(encoding="utf-8"))
@@ -284,8 +288,12 @@ def create_app(
     @app.get("/api/dashboard/runs/{run_id}/report")
     def get_report(run_id: str) -> dict[str, str]:
         run_dir = _dashboard_path_for_id(configured_runs_dir, run_id).parent
-        authoritative = run_dir / "dual-agent" / "05-final-analysis.md"
-        report_path = authoritative if authoritative.is_file() else run_dir / "report.md"
+        candidates = (
+            run_dir / "final-analysis.md",
+            run_dir / "dual-agent" / "05-final-analysis.md",
+            run_dir / "report.md",
+        )
+        report_path = next((candidate for candidate in candidates if candidate.is_file()), candidates[-1])
         if not _is_within_runs(configured_runs_dir, report_path):
             raise HTTPException(status_code=404, detail="Report not found")
         try:
@@ -293,9 +301,9 @@ def create_app(
                 raise HTTPException(status_code=404, detail="Report not found")
             content = report_path.read_text(encoding="utf-8")
         except UnicodeDecodeError as exc:
-            raise HTTPException(status_code=422, detail="report.md is not valid UTF-8") from exc
+            raise HTTPException(status_code=422, detail=f"{report_path.name} is not valid UTF-8") from exc
         except OSError as exc:
-            raise HTTPException(status_code=422, detail=f"report.md cannot be read: {exc.strerror or exc}") from exc
+            raise HTTPException(status_code=422, detail=f"{report_path.name} cannot be read: {exc.strerror or exc}") from exc
         return {"run_id": run_id, "content": content}
 
     if configured_static_dir.is_dir():

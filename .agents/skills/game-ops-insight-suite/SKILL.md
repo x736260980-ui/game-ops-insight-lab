@@ -24,7 +24,7 @@ description: Run an evidence-bounded game operations research workflow from publ
 
 默认使用单 Agent 完成事件判断。只有用户明确要求双 Agent、交叉讨论或复核时，才启动 `dual-agent/run_dual_agent.py`。不得因事件看起来复杂而自行消耗第二个模型的额度。
 
-需要单 Agent 时读取 [单 Agent 分析](references/single-agent-analysis.md)。需要双 Agent 时读取 [双 Agent 协议](references/dual-agent-protocol.md)。
+需要单 Agent 时读取 [单 Agent 分析](references/single-agent-analysis.md)。需要双 Agent 时读取 [双 Agent 协议](references/dual-agent-protocol.md)。两种方式都必须在事件根目录生成同一结构的 `final-analysis.md` 和 `final-summary.json`，Dashboard 不因分析方式不同而改变接口。
 
 ## 核心边界
 
