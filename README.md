@@ -10,9 +10,7 @@ Game Ops Insight Lab 是一套 Windows 优先的游戏运营事件研究工作�
 
 | Dashboard 总览 | Codex × Claude 双 Agent CMD |
 | --- | --- |
-| <img width="2499" height="1236" alt="image" src="https://github.com/user-attachments/assets/b9011a52-966f-4cf6-af55-277657d03897" />
- | <img width="1735" height="926" alt="屏幕截图 2026-08-29 194804" src="https://github.com/user-attachments/assets/a8c54d25-980b-4a1c-9985-948c3059a44d" />
- |
+| <img width="2499" height="1236" alt="image" src="https://github.com/user-attachments/assets/b9011a52-966f-4cf6-af55-277657d03897" /> | <img width="1735" height="926" alt="屏幕截图 2026-08-29 194804" src="https://github.com/user-attachments/assets/a8c54d25-980b-4a1c-9985-948c3059a44d" />|
 
 ## 30 秒案例：Fate 二次联动
 
