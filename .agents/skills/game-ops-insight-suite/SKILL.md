@@ -1,6 +1,6 @@
 ---
 name: game-ops-insight-suite
-description: Run an evidence-bounded game operations research workflow from public social comments through collection, cleaning, semantic folding, analysis, optional dual-agent review, and a local traceable dashboard. Use for a complete game event or player-opinion study; do not use to infer whole-player sentiment, revenue, retention, or private user profiles.
+description: Execute the evidence-processing and analysis stages of a game operations research workflow, including public comment collection, cleaning, semantic folding, dynamic classification, mutually exclusive single/dual analysis, and a traceable dashboard. Use for one concrete game event or player-opinion study stage. For end-to-end status, SQLite lifecycle, historical second-pass review, and resume behavior, coordinate through run-game-player-research.
 ---
 
 # 游戏运营洞察工作台
@@ -16,13 +16,13 @@ description: Run an evidence-bounded game operations research workflow from publ
 - 已有折叠评论：直接进入分类、分析和 Dashboard；
 - 已有 `dashboard.json`：只补分析报告或浏览看板。
 
-读取 [工作流与产物](references/workflow.md) 确认当前阶段，不重复已经成功的昂贵步骤。
+读取 [工作流与产物](references/workflow.md) 确认当前阶段。完整项目应由 `$run-game-player-research` 维护 `run-manifest.json`，本 Skill 只执行当前阶段，不重复已经通过校验的步骤。
 
 首次接手仓库或环境不明时，先运行 `scripts/check_environment.py`。它只检查依赖和路径，不启动采集、模型或浏览器。
 
 ## 默认分析方式
 
-默认使用单 Agent 完成事件判断。只有用户明确要求双 Agent、交叉讨论或复核时，才启动 `dual-agent/run_dual_agent.py`。不得因事件看起来复杂而自行消耗第二个模型的额度。
+默认使用单 Agent 完成事件判断。只有运行清单明确选择 `analysis_mode=dual` 时，才启动 `dual-agent/run_dual_agent.py`。Single 与 Dual 是互斥路线，不得默认串行。
 
 需要单 Agent 时读取 [单 Agent 分析](references/single-agent-analysis.md)。需要双 Agent 时读取 [双 Agent 协议](references/dual-agent-protocol.md)。两种方式都必须在事件根目录生成同一结构的 `final-analysis.md` 和 `final-summary.json`，Dashboard 不因分析方式不同而改变接口。
 
@@ -42,5 +42,6 @@ description: Run an evidence-bounded game operations research workflow from publ
 - 清洗、相关性和折叠：读取 [评论处理](references/comment-processing.md)。
 - 分类、Dashboard 与评论回溯：读取 [Dashboard](references/dashboard.md)。
 - 输出文件和恢复规则：读取 [工作流与产物](references/workflow.md)。
+- SQLite 证据导入、历史复核与最终分析写入：由 `$run-game-player-research` 按清单阶段调用 `storage/`。
 
 Skill 负责语义判断和流程选择；确定性脚本负责编号、Schema、计数、文件保存和恢复。程序不得假装理解舆情结论，也不得用格式校验替代分析。

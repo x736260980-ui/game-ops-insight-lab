@@ -21,6 +21,8 @@ Game Ops Insight Lab 是一套 **Windows 优先的游戏运营事件研究工作
 | 情绪总结缺少证据 | 每条代表评论保留稳定编号和真实原文 | 结论可回溯到类别、情绪和评论 |
 | Agent 容易把猜测写成事实 | 强制区分评论证据、网页背景与待核实推断 | 报告明确保留证据边界和反向意见 |
 | 所有事件都跑双模型成本过高 | 普通事件走单 Agent，复杂争议按需交叉讨论 | 两种路径输出同一份稳定协议 |
+| 长流程容易忘记做到哪一步 | 每个 run 使用唯一 `run-manifest.json` 记录阶段、执行方式、校验和文件哈希 | 可以从中间阶段继续，不重复运行已完成步骤 |
+| 历史案例容易锚定当前判断 | 当前事件先独立初判，再用 SQLite 做第二遍历史复核 | 既利用历史数据，又保留首次判断的证据独立性 |
 
 ## 完整工作流
 
@@ -89,6 +91,46 @@ Game Ops Insight Lab 是一套 **Windows 优先的游戏运营事件研究工作
 
 Dashboard 不区分报告来自哪条路径；双 Agent 的初审、议题和对话只作为后台审议过程保留，不占据业务页面主体。
 
+### V1 可恢复编排与 SQLite 生命周期
+
+V1 把正式流程收敛为：研究简报 → 采集 → 清洗 → 分类与情绪 → Dashboard 冻结 → SQLite 证据导入 → Single **或** Dual 当前事件初判 → 可选历史复核 → 最终分析 → SQLite 分析写入 → Dashboard 结果注入。Player Persona 模拟属于可选实验层，不阻塞主流程完成。
+
+- `run-manifest.json` 是唯一流程状态真相源；SQLite 不保存任务状态。
+- `python -m storage.import_run` 只写事件、评论、动态类别和情绪证据。
+- `python -m storage.upsert_analysis` 只在最终分析完成后写 `analyses`。
+- `python -m storage.context_pack` 要求先存在 `analysis/initial-analysis.md`，并自动排除当前事件。
+- 动态类别 ID 只在各自事件内成立；历史检索读取类别名称、定义、摘要与评论，不强设跨事件统一类别。
+
+```text
+公开评论与网页背景
+        ↓
+清洗：去空 → 相关性 → 高同质折叠
+        ↓
+动态分类 + 情绪 + Dashboard 数据冻结
+        ↓
+SQLite Evidence Import
+        ↓
+Single OR Dual 当前事件初判
+        ↓
+可选 SQLite 历史二次复核（排除当前事件）
+        ↓
+Final Analysis + SQLite Analysis Upsert
+        ↓
+Dashboard 最终结果注入
+        ↓
+可选 Player Persona 盲测与事后对照
+```
+
+每个调查目录使用 `run-manifest.json` 记录状态：`pending`、`waiting`、`completed`、`needs_review`、`skipped` 或 `failed`。执行方式只记录为 `codex`、`automation` 或 `manual`；它不会改变阶段的输入输出协议。
+
+```powershell
+python .\.agents\skills\run-game-player-research\scripts\init_run.py `
+  .\runs\<run_id> `
+  --title "研究主题" `
+  --analysis-mode single `
+  --historical-review
+```
+
 ## 30 秒案例：Fate 二次联动
 
 [查看完整脱敏案例 →](examples/hsr-fate-second-collab/README.md)
@@ -118,6 +160,7 @@ Dashboard 不区分报告来自哪条路径；双 Agent 的初审、议题和对
 
 ```text
 .agents/skills/game-ops-insight-suite/  一体化 Codex Skill
+.agents/skills/run-game-player-research/ 可恢复的 V1 总调度 Skill
 adapter/                               三平台 FastAPI 适配层
 comment-cleaning/                      相关性与折叠协议
 dual-agent/                            Codex × Claude 主持程序
@@ -125,6 +168,7 @@ examples/                              脱敏精选案例
 insight-dashboard/                     FastAPI + React Dashboard
 scripts/                               确定性处理与启动脚本
 schemas/                               采集任务 Schema
+storage/                               本地 SQLite、FTS5、两阶段导入与历史复核
 source/                                MediaCrawler 固定版本子模块
 ```
 
@@ -165,18 +209,62 @@ Copy-Item -Recurse .\examples\hsr-fate-second-collab .\runs\hsr-fate-second-coll
 使用 $game-ops-insight-suite，研究指定游戏运营事件。默认先走单 Agent；只有我明确确认时才启动双 Agent。
 ```
 
+需要从中间阶段继续或检查完整流程时，使用总调度 Skill：
+
+```text
+使用 $run-game-player-research，读取当前 run-manifest，从下一个未完成阶段继续，不重跑已完成阶段。
+```
+
+SQLite 文件默认只生成在仓库的 `data/` 目录，并已从 Git 排除：
+
+```powershell
+python -m storage.db init --db .\data\game_ops.db
+python -m storage.import_run .\runs\<run_id> --db .\data\game_ops.db
+python -m storage.query search "角色待遇" --exclude-event <current_event_id> --limit 30
+python -m storage.upsert_analysis .\runs\<run_id> --mode single --db .\data\game_ops.db
+```
+
+## Player Persona 蒸馏（实验性）
+
+项目正在验证一条可选路线：把**经过筛选且有权使用的玩家评论材料**蒸馏成可调用的虚拟玩家 Skill，再用统一事件进行盲测，最后与真实评论做事后对照。它不是对真实个人的复制，也不是用少量社媒评论代表全体玩家。
+
+这一层参考并使用 [titanwings/distilly](https://github.com/titanwings/distilly) 的材料 intake、analyzer、merger、persona builder 与 Skill writer 思路。Distilly 不打包进本仓库；需要使用 Persona 蒸馏时，请按其官方说明单独安装，并准备自己的合法材料。
+
+```text
+用户自有 Anchor / Support / Context 材料
+        ↓
+Analyzer 分批提炼稳定模式
+        ↓
+Merger 合并重复特征与冲突
+        ↓
+Context Boundary Audit 限定过度概括
+        ↓
+Builder 生成 Player SKILL.md
+        ↓
+盲测预测 → 读取真实评论 → 事后比较
+```
+
+SQLite 已预留 `personas`、`persona_evidence` 和 `simulations`，用于保存 Persona 元数据、证据映射和模拟记录；原始私人材料、生成中的中间文件与真实身份信息不应提交到 GitHub。详细边界见 [Player Persona Distillation](docs/PLAYER-PERSONA-DISTILLATION.md)。
+
 ## 稳定输出协议
 
 每次调查使用独立目录：
 
 ```text
 <run>/
+├─ run-manifest.json
+├─ research-brief.md
 ├─ analysis-input.json
 ├─ semantic-analysis.json
 ├─ classification-plan.json
 ├─ dashboard.json
 ├─ final-analysis.md
 ├─ final-summary.json
+├─ analysis/
+│  └─ initial-analysis.md
+├─ retrieval/                  仅启用历史复核时存在
+│  ├─ historical-context.json
+│  └─ historical-context.md
 └─ dual-agent/                 仅双 Agent 调查存在
    ├─ 01-codex-initial.md
    ├─ 02-claude-initial.md
@@ -199,8 +287,3 @@ Copy-Item -Recurse .\examples\hsr-fate-second-collab .\runs\hsr-fate-second-coll
 本仓库原创代码使用 [MIT License](LICENSE)。
 
 评论采集部分通过 Git 子模块使用 [NanmiCoder/MediaCrawler](https://github.com/NanmiCoder/MediaCrawler)，固定兼容提交为 `d6f7c5bb906b6dac40ddf343ef9e26438a3de092`。MediaCrawler 使用 `NON-COMMERCIAL LEARNING LICENSE 1.1`，仅限非商业学习与研究，其许可证不受本项目 MIT License 覆盖。详见 [第三方组件说明](THIRD_PARTY_NOTICES.md)。
-
-## 项目演进
-
-早期版本基于 Dify 工作流，侧重多 Agent 编排与长期记忆；当前版本转向本地可复现、证据有边界、结果可回溯的研究工作台。历史版本保留在 [Dify--trend-crawler](https://github.com/x736260980-ui/Dify--trend-crawler)。
-

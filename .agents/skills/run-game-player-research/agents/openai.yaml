@@ -1,0 +1,4 @@
+interface:
+  display_name: "游戏玩家研究总流程"
+  short_description: "协调可恢复的玩家评论研究、分析、入库和可选导出流程"
+  default_prompt: "使用 $run-game-player-research 检查当前 run 的清单与文件，从下一个未完成阶段继续，不重跑已完成阶段。"

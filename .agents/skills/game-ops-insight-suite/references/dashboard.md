@@ -11,3 +11,13 @@ Dashboard 的主数据源是事件目录中的 `dashboard.json`。存在根目�
 - 评论卡使用“代表 N 条相似表达”，避免把代表卡片数误解为原始评论数。
 
 Dashboard 是结果层，不展示 Agent 的内部对话。README 和技术文档可以单独展示双 Agent 机制。
+
+## 最终结果注入
+
+当根目录 `final-summary.json` 完成后运行：
+
+```powershell
+python .\scripts\inject_analysis_summary.py .\runs\<run_id>
+```
+
+脚本只写入 `analysis_summary`，并对 `counts`、`platforms`、`overall_sentiment`、`categories` 和最终纳入数量计算保护哈希；这些评论统计发生变化时必须停止。后端仍保留对旧案例的动态读取兼容。

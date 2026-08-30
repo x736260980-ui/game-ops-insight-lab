@@ -1,0 +1,61 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local.example/game-player-research/run-manifest.schema.json",
+  "title": "Game Player Research Run Manifest",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "run_id",
+    "research_title",
+    "analysis_mode",
+    "run_status",
+    "current_stage",
+    "stages"
+  ],
+  "properties": {
+    "schema_version": {"const": "game-player-research-run-1.0"},
+    "run_id": {"type": "string", "minLength": 1},
+    "research_title": {"type": "string", "minLength": 1},
+    "analysis_mode": {"enum": ["single", "dual"]},
+    "run_status": {"enum": ["pending", "waiting", "in_progress", "needs_review", "completed", "failed"]},
+    "current_stage": {"type": ["string", "null"]},
+    "options": {
+      "type": "object",
+      "properties": {
+        "historical_review": {"type": "boolean"},
+        "persona_simulation": {"type": "boolean"}
+      },
+      "additionalProperties": false
+    },
+    "stages": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "required": ["status", "executor", "validation", "outputs", "updated_at"],
+        "properties": {
+          "status": {"enum": ["pending", "waiting", "completed", "needs_review", "skipped", "failed"]},
+          "executor": {"type": ["string", "null"], "enum": [null, "codex", "automation", "manual"]},
+          "executor_detail": {"type": ["string", "null"]},
+          "validation": {"enum": ["not_run", "passed", "failed", "needs_review"]},
+          "outputs": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["path", "size", "sha256"],
+              "properties": {
+                "path": {"type": "string", "minLength": 1},
+                "size": {"type": "integer", "minimum": 0},
+                "sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"}
+              },
+              "additionalProperties": false
+            }
+          },
+          "reason": {"type": ["string", "null"]},
+          "updated_at": {"type": "string"}
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

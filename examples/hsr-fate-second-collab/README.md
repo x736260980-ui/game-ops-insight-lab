@@ -28,6 +28,7 @@
 
 - `dashboard.json`：Dashboard 的统计、类别与代表证据；
 - `analysis-input.json`：匿名编号后的评论分析输入；
+- `classification-plan.json`：本事件动态类别的名称、定义与边界；
 - `semantic-analysis.json`：评论类别、情绪与纳入结果，支持 Drill-down；
 - `final-analysis.md`：完整运营分析；
 - `final-summary.json`：单/双 Agent 共用的 Dashboard 摘要协议。
@@ -37,6 +38,14 @@
 ```powershell
 Copy-Item -Recurse .\examples\hsr-fate-second-collab .\runs\hsr-fate-second-collab
 .\insight-dashboard\start-dashboard.cmd
+```
+
+也可以把该案例导入本地 SQLite，验证事件、评论、类别与最终分析的两阶段写入：
+
+```powershell
+python -m storage.db init --db .\data\game_ops.db
+python -m storage.import_run .\runs\hsr-fate-second-collab --db .\data\game_ops.db
+python -m storage.upsert_analysis .\runs\hsr-fate-second-collab --mode single --db .\data\game_ops.db
 ```
 
 公开评论仍属于原作者。本案例仅保留研究所需的匿名文本片段和稳定记录编号，用于说明方法与结果边界。
