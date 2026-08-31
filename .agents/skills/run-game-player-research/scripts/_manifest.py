@@ -23,7 +23,7 @@ STAGE_ORDER = (
 )
 CORE_FINAL_STAGE = "dashboard_result_injection"
 STATUSES = {"pending", "waiting", "completed", "needs_review", "skipped", "failed"}
-EXECUTORS = {"codex", "automation", "manual"}
+EXECUTORS = {"codex", "local_codex", "cloud", "dify", "external", "automation", "manual"}
 VALIDATIONS = {"not_run", "passed", "failed", "needs_review"}
 
 

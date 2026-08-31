@@ -34,7 +34,7 @@
         "required": ["status", "executor", "validation", "outputs", "updated_at"],
         "properties": {
           "status": {"enum": ["pending", "waiting", "completed", "needs_review", "skipped", "failed"]},
-          "executor": {"type": ["string", "null"], "enum": [null, "codex", "automation", "manual"]},
+          "executor": {"type": ["string", "null"], "enum": [null, "codex", "local_codex", "cloud", "dify", "external", "automation", "manual"]},
           "executor_detail": {"type": ["string", "null"]},
           "validation": {"enum": ["not_run", "passed", "failed", "needs_review"]},
           "outputs": {

@@ -1,0 +1,4 @@
+interface:
+  display_name: "采集抖音数据"
+  short_description: "按关键词、排序、固定视频与数量计划采集抖音一级评论"
+  default_prompt: "使用 $collect-douyin-data 搜索抖音，保留固定 aweme ID，并采集一级评论。"

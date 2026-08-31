@@ -173,6 +173,95 @@ class BilibiliCollectRequest(_CollectRequest):
         return self.danmaku_per_video.get(video_id, self.default_danmaku_per_video)
 
 
+def _bilibili_dynamic_id(value: str) -> str:
+    """Extract a numeric dynamic/opus ID from a bare ID or supported Bilibili URL."""
+
+    cleaned = value.strip()
+    if re.fullmatch(r"\d{5,30}", cleaned):
+        return cleaned
+    parsed = urlparse(cleaned)
+    if parsed.netloc.lower() not in {
+        "www.bilibili.com",
+        "bilibili.com",
+        "t.bilibili.com",
+        "m.bilibili.com",
+    }:
+        raise ValueError(f"不支持的B站图文链接：{value}")
+    match = re.search(r"/(?:opus/)?(\d{5,30})(?:/|$)", parsed.path)
+    if not match:
+        raise ValueError(f"无法从B站图文链接提取动态 ID：{value}")
+    return match.group(1)
+
+
+def _bilibili_content_ref(value: str) -> tuple[Literal["video", "dynamic"], str]:
+    """Classify one Bilibili BV/dynamic ID or URL and return its canonical ID."""
+
+    cleaned = value.strip()
+    if re.fullmatch(r"BV[0-9A-Za-z]+", cleaned):
+        return "video", cleaned
+    if re.fullmatch(r"\d{5,30}", cleaned):
+        return "dynamic", cleaned
+    parsed = urlparse(cleaned)
+    if parsed.netloc.lower() not in {
+        "www.bilibili.com",
+        "bilibili.com",
+        "t.bilibili.com",
+        "m.bilibili.com",
+    }:
+        raise ValueError(f"不支持的B站内容链接或 ID：{value}")
+    video_match = re.search(r"/video/(BV[0-9A-Za-z]+)(?:/|$)", parsed.path)
+    if video_match:
+        return "video", video_match.group(1)
+    dynamic_match = re.search(r"/(?:opus/)?(\d{5,30})(?:/|$)", parsed.path)
+    if dynamic_match:
+        return "dynamic", dynamic_match.group(1)
+    raise ValueError(f"无法识别B站内容类型：{value}")
+
+
+class BilibiliDynamicCollectRequest(BaseModel):
+    """Collect first-level comments for explicitly supplied Bilibili dynamics/opus posts."""
+
+    dynamic_ids: list[str] = Field(
+        default_factory=list,
+        description="B站图文/动态数字 ID，可与 dynamic_urls 一起使用",
+    )
+    dynamic_urls: list[str] = Field(
+        default_factory=list,
+        description="B站 opus 或 t.bilibili.com 完整链接",
+    )
+    default_comments_per_dynamic: int = Field(
+        default=100, ge=0, le=1000, description="每篇图文默认抓取的一级评论数"
+    )
+    comments_per_dynamic: dict[str, int] = Field(
+        default_factory=dict,
+        description="单篇图文评论数覆盖；键使用解析后的数字动态 ID",
+    )
+    include_replies: Literal[False] = Field(
+        default=False, description="第一版固定只抓一级评论"
+    )
+
+    @model_validator(mode="after")
+    def validate_dynamics(self):
+        merged = [
+            *(_bilibili_dynamic_id(value) for value in self.dynamic_ids),
+            *(_bilibili_dynamic_id(value) for value in self.dynamic_urls),
+        ]
+        self.dynamic_ids = list(dict.fromkeys(merged))
+        if not self.dynamic_ids:
+            raise ValueError("dynamic_ids 或 dynamic_urls 至少提供一项")
+        if len(self.dynamic_ids) > 20:
+            raise ValueError("一次最多提交 20 篇B站图文动态")
+        unknown = set(self.comments_per_dynamic) - set(self.dynamic_ids)
+        if unknown:
+            raise ValueError(f"comments_per_dynamic 包含未提交的动态 ID：{sorted(unknown)}")
+        if any(not 0 <= value <= 1000 for value in self.comments_per_dynamic.values()):
+            raise ValueError("单篇图文评论数必须在 0 到 1000 之间")
+        return self
+
+    def comment_limit_for(self, dynamic_id: str) -> int:
+        return self.comments_per_dynamic.get(dynamic_id, self.default_comments_per_dynamic)
+
+
 class XiaohongshuCollectRequest(BaseModel):
     notes: list[XiaohongshuNoteRef] = Field(default_factory=list)
     note_urls: list[str] = Field(default_factory=list, description="含 xsec_token 的完整笔记链接")
@@ -252,23 +341,23 @@ class DouyinCollectionTaskRequest(BaseModel):
 
 
 class BilibiliCollectionTaskRequest(BaseModel):
-    """One complete Bilibili search + pinned-ID + comment/danmaku task."""
+    """One complete Bilibili video/dynamic collection task."""
 
     searches: list[BilibiliSearchRequest] = Field(
         default_factory=list,
         max_length=10,
         description="按数组顺序执行的B站搜索计划；同一任务最多 10 次搜索",
     )
-    pinned_video_ids: list[str] = Field(
+    pinned_contents: list[str] = Field(
         default_factory=list,
-        description="必须采集的 BV 号；搜索未命中也会保留",
+        description="必须采集的B站内容；可混合 BV号、视频链接、动态数字ID和opus链接",
     )
-    default_comments_per_video: int = Field(
-        default=100, ge=0, le=1000, description="每个最终视频默认抓取的一级评论数"
+    default_comments_per_content: int = Field(
+        default=100, ge=0, le=1000, description="每个最终视频或图文动态默认抓取的一级评论数"
     )
-    comments_per_video: dict[str, int] = Field(
+    comments_per_content: dict[str, int] = Field(
         default_factory=dict,
-        description="单视频评论数覆盖；键使用 BV 号",
+        description="单内容评论数覆盖；键可使用 BV号、动态数字ID或对应完整链接",
     )
     default_danmaku_per_video: int = Field(
         default=100, ge=0, le=1000, description="每个最终视频默认抓取的弹幕数"
@@ -279,35 +368,82 @@ class BilibiliCollectionTaskRequest(BaseModel):
     )
     include_replies: Literal[False] = Field(default=False, description="第一版固定只抓一级评论")
 
+    @model_validator(mode="before")
+    @classmethod
+    def map_legacy_task_fields(cls, data):
+        """Accept prior fields without exposing them as the public contract."""
+        if not isinstance(data, dict):
+            return data
+        value = dict(data)
+        value["pinned_contents"] = [
+            *value.get("pinned_contents", []),
+            *value.get("pinned_video_ids", []),
+            *value.get("pinned_dynamic_ids", []),
+            *value.get("pinned_dynamic_urls", []),
+        ]
+        if "default_comments_per_content" not in value:
+            value["default_comments_per_content"] = value.get(
+                "default_comments_per_video",
+                value.get("default_comments_per_dynamic", 100),
+            )
+        value["comments_per_content"] = {
+            **value.get("comments_per_video", {}),
+            **value.get("comments_per_dynamic", {}),
+            **value.get("comments_per_content", {}),
+        }
+        return value
+
     @model_validator(mode="after")
     def validate_task(self):
-        self.pinned_video_ids = list(
-            dict.fromkeys(value.strip() for value in self.pinned_video_ids if value.strip())
+        self.pinned_contents = list(
+            dict.fromkeys(_bilibili_content_ref(value)[1] for value in self.pinned_contents if value.strip())
         )
-        if not self.searches and not self.pinned_video_ids:
-            raise ValueError("searches 与 pinned_video_ids 至少提供一项")
-        if len(self.pinned_video_ids) > 20:
-            raise ValueError("一次最多固定指定 20 个B站视频")
-        all_ids = [
-            *self.pinned_video_ids,
-            *self.comments_per_video,
-            *self.danmaku_per_video,
-        ]
-        invalid_ids = [value for value in all_ids if not re.fullmatch(r"BV[0-9A-Za-z]+", value)]
-        if invalid_ids:
-            raise ValueError(f"B站视频 ID 必须是 BV 号：{invalid_ids}")
+        if not self.searches and not self.pinned_contents:
+            raise ValueError("searches 与 pinned_contents 至少提供一项")
+        if len(self.pinned_contents) > 20:
+            raise ValueError("一次最多固定指定 20 个B站内容")
+        normalized_overrides: dict[str, int] = {}
+        for key, limit in self.comments_per_content.items():
+            normalized_overrides[_bilibili_content_ref(key)[1]] = limit
+        self.comments_per_content = normalized_overrides
         invalid_comments = {
-            key: value for key, value in self.comments_per_video.items() if not 0 <= value <= 1000
+            key: value for key, value in self.comments_per_content.items() if not 0 <= value <= 1000
         }
         invalid_danmaku = {
             key: value for key, value in self.danmaku_per_video.items() if not 0 <= value <= 1000
         }
         if invalid_comments or invalid_danmaku:
-            raise ValueError("单视频评论数和弹幕数必须在 0 到 1000 之间")
+            raise ValueError("单内容评论数和视频弹幕数必须在 0 到 1000 之间")
+        invalid_danmaku_ids = [
+            value for value in self.danmaku_per_video if not re.fullmatch(r"BV[0-9A-Za-z]+", value)
+        ]
+        if invalid_danmaku_ids:
+            raise ValueError(f"danmaku_per_video 的键必须是 BV 号：{invalid_danmaku_ids}")
+        unknown_dynamic_overrides = {
+            key
+            for key in self.comments_per_content
+            if key.isdigit() and key not in self.pinned_dynamic_ids
+        }
+        if unknown_dynamic_overrides:
+            raise ValueError(
+                "comments_per_content 包含未提交的动态 ID："
+                f"{sorted(unknown_dynamic_overrides)}"
+            )
         return self
+
+    @property
+    def pinned_video_ids(self) -> list[str]:
+        return [value for value in self.pinned_contents if value.startswith("BV")]
+
+    @property
+    def pinned_dynamic_ids(self) -> list[str]:
+        return [value for value in self.pinned_contents if value.isdigit()]
 
     def danmaku_limit_for(self, video_id: str) -> int:
         return self.danmaku_per_video.get(video_id, self.default_danmaku_per_video)
+
+    def comment_limit_for(self, content_id: str) -> int:
+        return self.comments_per_content.get(content_id, self.default_comments_per_content)
 
 
 class XiaohongshuCollectionTaskRequest(BaseModel):

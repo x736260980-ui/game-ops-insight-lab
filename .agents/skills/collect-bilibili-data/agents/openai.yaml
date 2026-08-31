@@ -1,0 +1,4 @@
+interface:
+  display_name: "采集B站数据"
+  short_description: "采集B站视频、图文动态、一级评论和可选弹幕"
+  default_prompt: "使用 $collect-bilibili-data 搜索B站视频，保留固定 BV 号和图文动态链接，并采集一级评论与可选弹幕。"

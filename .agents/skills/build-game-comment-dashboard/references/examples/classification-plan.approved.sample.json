@@ -1,0 +1,44 @@
+{
+  "schema_version": "game-comment-classification-plan-1.0",
+  "plan_version": "water-robin-2026-08-22-v1",
+  "research_target": "SP知更鸟的强度、配队与抽取价值",
+  "status": "approved",
+  "categories": [
+    {
+      "category_id": "combat_strength",
+      "name": "实战强度",
+      "definition": "讨论角色实战伤害、辅助能力或机制表现。",
+      "include_if": ["评价实战强度或机制效果"],
+      "exclude_if": ["只讨论外观"]
+    },
+    {
+      "category_id": "team_fit",
+      "name": "配队适配",
+      "definition": "讨论角色适配的队伍、队友和替换关系。",
+      "include_if": ["询问或评价具体队伍适配"],
+      "exclude_if": ["不涉及队伍或队友"]
+    },
+    {
+      "category_id": "pull_value",
+      "name": "抽取价值",
+      "definition": "讨论资源预算下的角色、星魂或光锥取舍。",
+      "include_if": ["包含抽取取舍或预算判断"],
+      "exclude_if": ["只表达角色喜爱"]
+    },
+    {
+      "category_id": "visual_and_audio",
+      "name": "视听表现",
+      "definition": "讨论外观、动画、特效或音乐表现。",
+      "include_if": ["评价视觉或听觉内容"],
+      "exclude_if": ["只讨论数值"]
+    },
+    {
+      "category_id": "other",
+      "name": "其他",
+      "definition": "与研究主题相关但无法归入具体类别。",
+      "include_if": ["相关且不符合已有类别"],
+      "exclude_if": ["明显无关"]
+    }
+  ]
+}
+

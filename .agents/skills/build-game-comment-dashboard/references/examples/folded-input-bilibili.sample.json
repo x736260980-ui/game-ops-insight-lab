@@ -1,0 +1,65 @@
+{
+  "platform": "bilibili",
+  "comments": [
+    {
+      "record_id": "BILI-0002",
+      "text": "示例评论：实战增益似乎吃不满，理论值需要打折。",
+      "support_count": 3,
+      "merged_record_ids": ["BILI-0002", "BILI-0018", "BILI-0041"]
+    },
+    {
+      "record_id": "BILI-0010",
+      "text": "示例评论：专武和一命应该优先补哪个？",
+      "support_count": 1,
+      "merged_record_ids": ["BILI-0010"]
+    },
+    {
+      "record_id": "BILI-0017",
+      "text": "示例评论：不使用特定体系时，这个角色能替代队伍中的辅助吗？",
+      "support_count": 1,
+      "merged_record_ids": ["BILI-0017"]
+    },
+    {
+      "record_id": "BILI-0025",
+      "text": "示例评论：高频攻击队维持不住增益，理论效果和实战差距明显。",
+      "support_count": 2,
+      "merged_record_ids": ["BILI-0025", "BILI-0033"]
+    },
+    {
+      "record_id": "BILI-0038",
+      "text": "示例评论：第一次攻击能吃到增益吗？结算机制会不会损失伤害？",
+      "support_count": 1,
+      "merged_record_ids": ["BILI-0038"]
+    },
+    {
+      "record_id": "BILI-0047",
+      "text": "示例评论：零命是否值得抽，账号里已经有两个同类角色了。",
+      "support_count": 1,
+      "merged_record_ids": ["BILI-0047"]
+    },
+    {
+      "record_id": "BILI-0056",
+      "text": "示例评论：现有测评看不出提升幅度，能否拆开比较不同命座？",
+      "support_count": 2,
+      "merged_record_ids": ["BILI-0056", "BILI-0064"]
+    },
+    {
+      "record_id": "BILI-0072",
+      "text": "示例评论：持续伤害队没有位置，旧体系总要靠新辅助补救。",
+      "support_count": 3,
+      "merged_record_ids": ["BILI-0072", "BILI-0081", "BILI-0090"]
+    },
+    {
+      "record_id": "BILI-0097",
+      "text": "示例评论：速度套装的收益怎么计算，会和专属装备冲突吗？",
+      "support_count": 1,
+      "merged_record_ids": ["BILI-0097"]
+    },
+    {
+      "record_id": "BILI-0105",
+      "text": "示例评论：视觉演出很有氛围，但是否抽取还要看配队。",
+      "support_count": 1,
+      "merged_record_ids": ["BILI-0105"]
+    }
+  ]
+}

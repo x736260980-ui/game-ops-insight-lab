@@ -20,4 +20,4 @@
 
 ## Executor
 
-`codex`、`automation`、`manual` 只描述执行方式；完成状态统一为 `completed`。执行方式不改变文件契约。
+`codex`、`local_codex`、`cloud`、`dify`、`external`、`automation`、`manual` 只描述谁执行；完成状态统一为 `completed`。执行方式不改变文件契约。

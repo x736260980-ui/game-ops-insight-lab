@@ -1,0 +1,42 @@
+{
+  "schema_version": "game-comment-insight-input-1.0",
+  "research_target": "SP知更鸟的强度、配队与抽取价值",
+  "platforms": [
+    {
+      "platform": "douyin",
+      "relevance_count": 3,
+      "folded_count": 2,
+      "represented_count": 3
+    },
+    {
+      "platform": "bilibili",
+      "relevance_count": 1,
+      "folded_count": 1,
+      "represented_count": 1
+    }
+  ],
+  "comments": [
+    {
+      "record_id": "DY-0001",
+      "platform": "douyin",
+      "text": "强度一般，但特效很好看",
+      "support_count": 2,
+      "merged_record_ids": ["DY-0001", "DY-0002"]
+    },
+    {
+      "record_id": "DY-0003",
+      "platform": "douyin",
+      "text": "这个主播几点开播",
+      "support_count": 1,
+      "merged_record_ids": ["DY-0003"]
+    },
+    {
+      "record_id": "BILI-0001",
+      "platform": "bilibili",
+      "text": "能进哪些队伍",
+      "support_count": 1,
+      "merged_record_ids": ["BILI-0001"]
+    }
+  ]
+}
+

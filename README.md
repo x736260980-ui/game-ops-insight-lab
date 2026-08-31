@@ -121,7 +121,7 @@ Dashboard 最终结果注入
 可选 Player Persona 盲测与事后对照
 ```
 
-每个调查目录使用 `run-manifest.json` 记录状态：`pending`、`waiting`、`completed`、`needs_review`、`skipped` 或 `failed`。执行方式只记录为 `codex`、`automation` 或 `manual`；它不会改变阶段的输入输出协议。
+每个调查目录使用 `run-manifest.json` 记录状态：`pending`、`waiting`、`completed`、`needs_review`、`skipped` 或 `failed`。执行者可记录为 `codex`、`local_codex`、`cloud`、`dify`、`external`、`automation` 或 `manual`；它不会改变阶段的输入输出协议。
 
 相关性阶段采用模型直接二分类：相关评论保留，无关评论排除，不使用0—1分数、中间区间或逐条人工复核。动态分类阶段另有一次分类表确认：模型先提交 `draft` 类别方案，用户确认类别名称、定义和边界后才进入全量分类与情绪判断。
 
@@ -163,6 +163,11 @@ python .\.agents\skills\run-game-player-research\scripts\init_run.py `
 ```text
 .agents/skills/game-ops-insight-suite/  一体化 Codex Skill
 .agents/skills/run-game-player-research/ 可恢复的 V1 总调度 Skill
+.agents/skills/collect-bilibili-data/   B站采集任务说明
+.agents/skills/collect-douyin-data/     抖音采集任务说明
+.agents/skills/collect-xiaohongshu-data/小红书采集任务说明
+.agents/skills/judge-game-comment-relevance/ 相关性二分类说明
+.agents/skills/build-game-comment-dashboard/  分类、情绪与看板说明
 adapter/                               三平台 FastAPI 适配层
 comment-cleaning/                      相关性与折叠协议
 dual-agent/                            Codex × Claude 主持程序

@@ -1,0 +1,65 @@
+{
+  "platform": "douyin",
+  "comments": [
+    {
+      "record_id": "DY-0001",
+      "text": "示例评论：预算只有一个金，零命角色值得抽吗？",
+      "support_count": 2,
+      "merged_record_ids": ["DY-0001", "DY-0007"]
+    },
+    {
+      "record_id": "DY-0012",
+      "text": "示例评论：这个角色能进现有队伍吗，替换谁更合适？",
+      "support_count": 1,
+      "merged_record_ids": ["DY-0012"]
+    },
+    {
+      "record_id": "DY-0023",
+      "text": "示例评论：已有两个辅助时，抽新角色是补强还是重复投资？",
+      "support_count": 1,
+      "merged_record_ids": ["DY-0023"]
+    },
+    {
+      "record_id": "DY-0031",
+      "text": "示例评论：零命叠层速度快吗，实战能稳定吃满增益吗？",
+      "support_count": 2,
+      "merged_record_ids": ["DY-0031", "DY-0046"]
+    },
+    {
+      "record_id": "DY-0054",
+      "text": "示例评论：专属装备和一命优先补哪个？只够一个金。",
+      "support_count": 1,
+      "merged_record_ids": ["DY-0054"]
+    },
+    {
+      "record_id": "DY-0068",
+      "text": "示例评论：应该选速度鞋还是攻击鞋？机制好像不太吃速度。",
+      "support_count": 1,
+      "merged_record_ids": ["DY-0068"]
+    },
+    {
+      "record_id": "DY-0075",
+      "text": "示例评论：能否补测两个不同体系，看看实际提升幅度？",
+      "support_count": 3,
+      "merged_record_ids": ["DY-0075", "DY-0092", "DY-0101"]
+    },
+    {
+      "record_id": "DY-0114",
+      "text": "示例评论：旧角色现在伤害不足，抽新角色能给旧体系续命吗？",
+      "support_count": 1,
+      "merged_record_ids": ["DY-0114"]
+    },
+    {
+      "record_id": "DY-0128",
+      "text": "示例评论：技能动画很好看，但更关心实际伤害能涨多少。",
+      "support_count": 1,
+      "merged_record_ids": ["DY-0128"]
+    },
+    {
+      "record_id": "DY-0140",
+      "text": "示例评论：两金预算只能选一个角色，求抽取建议。",
+      "support_count": 2,
+      "merged_record_ids": ["DY-0140", "DY-0157"]
+    }
+  ]
+}

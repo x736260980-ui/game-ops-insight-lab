@@ -20,6 +20,7 @@ from var import request_keyword_var
 from .models import (
     BilibiliCollectRequest,
     BilibiliCollectionTaskRequest,
+    BilibiliDynamicCollectRequest,
     BilibiliSearchRequest,
     DouyinCollectRequest,
     DouyinCollectionTaskRequest,
@@ -306,6 +307,116 @@ async def collect_bilibili(client: BilibiliClient, request: BilibiliCollectReque
     return result
 
 
+def _bilibili_dynamic_images(item: dict[str, Any]) -> list[str]:
+    module_dynamic = ((item.get("modules") or {}).get("module_dynamic") or {})
+    major = module_dynamic.get("major") or {}
+    candidates: list[Any] = []
+    draw = major.get("draw") or {}
+    candidates.extend(draw.get("items") or [])
+    opus = major.get("opus") or {}
+    candidates.extend(opus.get("pics") or [])
+    images: list[str] = []
+    for candidate in candidates:
+        if not isinstance(candidate, dict):
+            continue
+        url = str(candidate.get("src") or candidate.get("url") or "").strip()
+        if url and url not in images:
+            images.append(url)
+    return images
+
+
+def _normalize_bilibili_dynamic(dynamic_id: str, item: dict[str, Any]) -> dict[str, Any]:
+    modules = item.get("modules") or {}
+    module_dynamic = modules.get("module_dynamic") or {}
+    desc = module_dynamic.get("desc") or {}
+    major = module_dynamic.get("major") or {}
+    opus = major.get("opus") or {}
+    summary = opus.get("summary") or {}
+    author = modules.get("module_author") or {}
+    text = str(desc.get("text") or summary.get("text") or "").strip()
+    title = str(opus.get("title") or "").strip()
+    if not title:
+        title = text[:80]
+    return {
+        "platform": "bilibili",
+        "content_type": "dynamic",
+        "dynamic_type": str(item.get("type") or ""),
+        "content_id": dynamic_id,
+        "dynamic_id": dynamic_id,
+        "source_url": f"https://www.bilibili.com/opus/{dynamic_id}",
+        "title": title,
+        "description": text,
+        "author": str(author.get("name") or ""),
+        "published_at": author.get("pub_ts"),
+        "image_urls": _bilibili_dynamic_images(item),
+    }
+
+
+async def collect_bilibili_dynamics(
+    client: BilibiliClient, request: BilibiliDynamicCollectRequest
+) -> dict[str, Any]:
+    """Collect explicitly supplied Bilibili dynamic/opus posts and first-level comments."""
+
+    async def collect_one(dynamic_id: str) -> dict[str, Any]:
+        comment_limit = request.comment_limit_for(dynamic_id)
+        try:
+            detail = await client.get_dynamic_detail(dynamic_id)
+            item = detail.get("item") or detail
+            if not isinstance(item, dict) or not item:
+                raise RuntimeError("dynamic_not_found")
+            basic = item.get("basic") or {}
+            reply_oid = str(basic.get("comment_id_str") or "").strip()
+            reply_type_raw = basic.get("comment_type")
+            if not reply_oid or reply_type_raw in (None, ""):
+                raise RuntimeError("dynamic_reply_subject_not_found")
+            reply_type = int(reply_type_raw)
+            comments: list[dict[str, Any]] = []
+            if comment_limit:
+                comments = await client.get_video_all_comments(
+                    video_id=reply_oid,
+                    crawl_interval=0.5,
+                    is_fetch_sub_comments=False,
+                    max_count=comment_limit,
+                    comment_type=reply_type,
+                )
+            normalized = _normalize_bilibili_dynamic(dynamic_id, item)
+            normalized["reply_subject"] = {"oid": reply_oid, "type": reply_type}
+            normalized["comments"] = {
+                "requested_count": comment_limit,
+                "returned_count": len(comments[:comment_limit]),
+                "include_replies": False,
+                "items": [normalize_bilibili_comment(comment) for comment in comments[:comment_limit]],
+            }
+            return normalized
+        except Exception as exc:
+            return {
+                "platform": "bilibili",
+                "content_type": "dynamic",
+                "content_id": dynamic_id,
+                "dynamic_id": dynamic_id,
+                "source_url": f"https://www.bilibili.com/opus/{dynamic_id}",
+                "error": {"code": "bilibili_dynamic_collection_failed", "message": str(exc)},
+                "comments": {
+                    "requested_count": comment_limit,
+                    "returned_count": 0,
+                    "include_replies": False,
+                    "items": [],
+                },
+            }
+
+    posts = await gather_limited(request.dynamic_ids, collect_one)
+    return {
+        "schema_version": "1.1",
+        "platform": "bilibili",
+        "operation": "collect_dynamic",
+        "collected_at": datetime.now(timezone.utc).isoformat(),
+        "request": request.model_dump(),
+        "data": {"posts": posts},
+        "meta": {"post_count": len(posts), "concurrency": PLATFORM_CONCURRENCY},
+        "warnings": [],
+    }
+
+
 async def search_xiaohongshu(
     client: XiaoHongShuClient, request: XiaohongshuSearchRequest
 ) -> dict[str, Any]:
@@ -526,7 +637,8 @@ async def collect_bilibili_task(
             )
 
     video_ids = list(selected)[:MAX_TASK_VIDEOS]
-    unknown_comment_overrides = set(request.comments_per_video) - set(video_ids)
+    known_content_ids = {*video_ids, *request.pinned_dynamic_ids}
+    unknown_comment_overrides = set(request.comments_per_content) - known_content_ids
     unknown_danmaku_overrides = set(request.danmaku_per_video) - set(video_ids)
     if unknown_comment_overrides:
         warnings.append({"code": "unused_comment_overrides", "video_ids": sorted(unknown_comment_overrides)})
@@ -535,8 +647,10 @@ async def collect_bilibili_task(
     if video_ids:
         collect_request = BilibiliCollectRequest(
             video_ids=video_ids,
-            default_comments_per_video=request.default_comments_per_video,
-            comments_per_video={key: value for key, value in request.comments_per_video.items() if key in selected},
+            default_comments_per_video=request.default_comments_per_content,
+            comments_per_video={
+                key: value for key, value in request.comments_per_content.items() if key in selected
+            },
             default_danmaku_per_video=request.default_danmaku_per_video,
             danmaku_per_video={key: value for key, value in request.danmaku_per_video.items() if key in selected},
             include_replies=False,
@@ -548,18 +662,42 @@ async def collect_bilibili_task(
     for video in videos:
         video["selection_reasons"] = selected.get(str(video.get("video_id") or ""), [])
 
+    if request.pinned_dynamic_ids:
+        dynamic_request = BilibiliDynamicCollectRequest(
+            dynamic_ids=request.pinned_dynamic_ids,
+            default_comments_per_dynamic=request.default_comments_per_content,
+            comments_per_dynamic={
+                key: value
+                for key, value in request.comments_per_content.items()
+                if key in request.pinned_dynamic_ids
+            },
+            include_replies=False,
+        )
+        dynamic_collected = await collect_bilibili_dynamics(client, dynamic_request)
+        posts = dynamic_collected["data"]["posts"]
+    else:
+        posts = []
+    for post in posts:
+        post["selection_reasons"] = [{"type": "pinned_dynamic"}]
+
+    contents = [*videos, *posts]
+
     return {
         "schema_version": "1.1",
         "platform": "bilibili",
         "operation": "collect_task",
-        "status": _task_status(videos, warnings),
+        "status": _task_status(contents, warnings),
         "collected_at": datetime.now(timezone.utc).isoformat(),
         "request": request.model_dump(),
-        "data": {"videos": videos},
+        "data": {"videos": videos, "posts": posts},
         "meta": {
             "search_count": len(request.searches),
-            "pinned_count": len(request.pinned_video_ids),
+            "pinned_count": len(request.pinned_contents),
+            "pinned_video_count": len(request.pinned_video_ids),
+            "pinned_dynamic_count": len(request.pinned_dynamic_ids),
             "video_count": len(videos),
+            "post_count": len(posts),
+            "content_count": len(contents),
             "concurrency": PLATFORM_CONCURRENCY,
         },
         "warnings": warnings,

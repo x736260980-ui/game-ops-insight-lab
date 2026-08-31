@@ -1,0 +1,4 @@
+interface:
+  display_name: "采集小红书数据"
+  short_description: "按关键词、排序、笔记类型和固定链接采集小红书一级评论"
+  default_prompt: "使用 $collect-xiaohongshu-data 搜索小红书，合并固定笔记链接，并采集一级评论。"

@@ -7,6 +7,7 @@ from fastapi import FastAPI, HTTPException, Query
 from .models import (
     BilibiliCollectRequest,
     BilibiliCollectionTaskRequest,
+    BilibiliDynamicCollectRequest,
     BilibiliSearchRequest,
     DouyinCollectRequest,
     DouyinCollectionTaskRequest,
@@ -17,6 +18,7 @@ from .models import (
 )
 from .operations import (
     collect_bilibili,
+    collect_bilibili_dynamics,
     collect_bilibili_task,
     collect_douyin,
     collect_douyin_task,
@@ -104,7 +106,16 @@ def create_app(platform: str, chrome_port: int) -> FastAPI:
                 except Exception as exc:
                     raise HTTPException(status_code=502, detail={"code": "bilibili_collect_failed", "message": "B站评论采集失败", "detail": str(exc)}) from exc
 
-        @app.post("/collect-task", summary="一次完成B站搜索、固定 ID 合并、评论和弹幕采集")
+        @app.post("/collect-dynamic", summary="按固定图文/动态链接或 ID 批量获取正文和一级评论")
+        async def collect_dynamic(request: BilibiliDynamicCollectRequest):
+            async with runtime.lock:
+                try:
+                    client = await runtime.refresh_client()
+                    return await collect_bilibili_dynamics(client, request)  # type: ignore[arg-type]
+                except Exception as exc:
+                    raise HTTPException(status_code=502, detail={"code": "bilibili_dynamic_collect_failed", "message": "B站图文评论采集失败", "detail": str(exc)}) from exc
+
+        @app.post("/collect-task", summary="自动识别视频与图文动态，一次完成搜索和评论采集")
         async def collect_task(request: BilibiliCollectionTaskRequest):
             async with runtime.lock:
                 try:

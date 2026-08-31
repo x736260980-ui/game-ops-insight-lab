@@ -1,0 +1,47 @@
+{
+  "schema_version": "game-comment-semantic-analysis-1.0",
+  "research_target": "SP知更鸟的强度、配队与抽取价值",
+  "results": [
+    {
+      "record_id": "DY-0001",
+      "include_in_dashboard": true,
+      "overall_sentiment": "mixed",
+      "aspects": [
+        {"category_id": "combat_strength", "sentiment": "negative"},
+        {"category_id": "visual_and_audio", "sentiment": "positive"}
+      ]
+    },
+    {
+      "record_id": "DY-0003",
+      "include_in_dashboard": false,
+      "overall_sentiment": null,
+      "aspects": [],
+      "exclusion_reason": "只询问主播开播时间，与研究主题无关"
+    },
+    {
+      "record_id": "BILI-0001",
+      "include_in_dashboard": true,
+      "overall_sentiment": "neutral",
+      "aspects": [
+        {"category_id": "team_fit", "sentiment": "neutral"}
+      ]
+    }
+  ],
+  "category_outputs": [
+    {
+      "category_id": "combat_strength",
+      "summary": "评论在肯定视听表现的同时质疑实战强度。",
+      "representative_ids": ["DY-0001"]
+    },
+    {
+      "category_id": "visual_and_audio",
+      "summary": "评论对角色特效给出正向评价。",
+      "representative_ids": ["DY-0001"]
+    },
+    {
+      "category_id": "team_fit",
+      "summary": "玩家询问角色可以适配的队伍。",
+      "representative_ids": ["BILI-0001"]
+    }
+  ]
+}

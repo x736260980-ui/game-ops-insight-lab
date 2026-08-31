@@ -1,6 +1,6 @@
 ---
 name: run-game-player-research
-description: Orchestrate one resumable end-to-end game-player research run across collection, cleaning, dynamic classification and sentiment, dashboard freeze, two-phase SQLite persistence, mutually exclusive single/dual event analysis, optional second-pass historical review, and optional persona simulation. Use when starting, resuming, validating, or routing a run-directory research pipeline. Do not use for one isolated cleaning, dashboard, or event-analysis task when no pipeline coordination is needed.
+description: Orchestrate a resumable game-player research run across externally produced collection/cleaning artifacts, dynamic classification and sentiment, dashboard freeze, two-phase SQLite persistence, mutually exclusive single/dual event analysis, optional second-pass historical review, and optional persona simulation. Use when starting, resuming, validating, routing, or handing off one run-directory research pipeline. Do not use for one isolated cleaning, dashboard, or event-analysis task when no pipeline coordination is needed.
 ---
 
 # Game Player Research Orchestrator
@@ -11,9 +11,9 @@ Use `run-manifest.json` as the only source of truth for pipeline progress. SQLit
 
 1. Read `references/pipeline-contract.md`, `references/stage-file-contracts.md`, and `references/routing-rules.md`.
 2. Locate or initialize the run manifest with `scripts/init_run.py`.
-3. Inspect existing artifacts before doing work. Never rerun a completed stage when its recorded outputs still pass validation.
+3. Inspect existing artifacts before doing work. Never rerun a completed stage merely because its executor was external.
 4. Validate inputs before execution with `scripts/validate_stage.py`; validate outputs again with `--phase after` before marking the stage complete.
-5. Perform only that stage with the repository's skill, script, API, or model route.
+5. Perform only that stage using the designated local skill/tool or accept its external handoff.
 6. Record status, executor, validation, outputs, sizes, and SHA-256 hashes with `scripts/update_manifest.py`.
 7. Stop at `waiting` or `needs_review`; report the exact missing input. Resume from the manifest after handoff.
 
@@ -28,6 +28,7 @@ Use `run-manifest.json` as the only source of truth for pipeline progress. SQLit
 - Persona simulation must receive only the event and independently confirmed facts before predictions; compare against real comments afterward.
 - Public comments are biased samples. Never describe them as all players or population proportions.
 - Preserve source artifacts. Write derived results beside them and record their lineage.
+- Treat Bilibili as one platform task: send mixed BV/video URLs/dynamic IDs/opus URLs through `pinned_contents`; preserve `data.videos` and `data.posts`, then merge both into one stable `BILI-xxxx` cleaning stream.
 
 ## Analysis route
 

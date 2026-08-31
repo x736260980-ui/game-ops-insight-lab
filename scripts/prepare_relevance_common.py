@@ -17,19 +17,29 @@ def load_json(path: Path) -> dict[str, Any]:
 def extract_video(
     path: Path, source: dict[str, Any], platform: str
 ) -> list[tuple[str, list[dict[str, Any]]]]:
-    """兼容 collect-task 的 data.videos 和单视频 video+comments 分片。"""
+    """兼容 data.videos、B站 data.posts 和单内容 comments 分片。"""
     if source.get("platform") == platform and isinstance(source.get("data"), dict):
-        videos = source["data"].get("videos") or []
-        if not isinstance(videos, list):
-            raise ValueError(f"{path.name}: data.videos 必须是数组")
+        contents: list[Any] = []
+        for field in ("videos", "posts"):
+            values = source["data"].get(field) or []
+            if not isinstance(values, list):
+                raise ValueError(f"{path.name}: data.{field} 必须是数组")
+            contents.extend(values)
         result: list[tuple[str, list[dict[str, Any]]]] = []
-        for index, video in enumerate(videos, start=1):
-            if not isinstance(video, dict):
-                raise ValueError(f"{path.name}: 第 {index} 个视频必须是对象")
-            comments = ((video.get("comments") or {}).get("items") or [])
+        for index, content in enumerate(contents, start=1):
+            if not isinstance(content, dict):
+                raise ValueError(f"{path.name}: 第 {index} 个内容必须是对象")
+            comments = ((content.get("comments") or {}).get("items") or [])
             if not isinstance(comments, list):
-                raise ValueError(f"{path.name}: 第 {index} 个视频的评论必须是数组")
-            result.append((str(video.get("video_id") or ""), comments))
+                raise ValueError(f"{path.name}: 第 {index} 个内容的评论必须是数组")
+            content_id = str(
+                content.get("video_id")
+                or content.get("content_id")
+                or content.get("dynamic_id")
+                or content.get("note_id")
+                or ""
+            )
+            result.append((content_id, comments))
         return result
 
     video = source.get("video")
@@ -75,6 +85,8 @@ def build_output(
     for index, comment in enumerate(merged, start=1):
         numbered[f"{prefix}{index:04d}"] = {
             "text": comment["content"],
+            "relevance_score": None,
+            "relevance_label": None,
         }
     return {
         "schema_version": "relevance-input-1.0",

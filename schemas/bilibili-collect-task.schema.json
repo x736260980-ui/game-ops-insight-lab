@@ -21,15 +21,18 @@
         }
       }
     },
-    "pinned_video_ids": {
+    "pinned_contents": {
       "type": "array",
       "maxItems": 20,
-      "items": {"type": "string", "pattern": "^BV[0-9A-Za-z]+$"}
+      "items": {
+        "type": "string",
+        "description": "BV号、B站视频链接、动态数字ID或opus/t.bilibili.com链接"
+      }
     },
-    "default_comments_per_video": {"type": "integer", "minimum": 0, "maximum": 1000, "default": 100},
-    "comments_per_video": {
+    "default_comments_per_content": {"type": "integer", "minimum": 0, "maximum": 1000, "default": 100},
+    "comments_per_content": {
       "type": "object",
-      "propertyNames": {"pattern": "^BV[0-9A-Za-z]+$"},
+      "description": "按规范化内容ID覆盖评论数；键可为BV号、动态ID或相应完整链接",
       "additionalProperties": {"type": "integer", "minimum": 0, "maximum": 1000}
     },
     "default_danmaku_per_video": {"type": "integer", "minimum": 0, "maximum": 1000, "default": 100},
@@ -42,6 +45,6 @@
   },
   "anyOf": [
     {"required": ["searches"], "properties": {"searches": {"minItems": 1}}},
-    {"required": ["pinned_video_ids"], "properties": {"pinned_video_ids": {"minItems": 1}}}
+    {"required": ["pinned_contents"], "properties": {"pinned_contents": {"minItems": 1}}}
   ]
 }
