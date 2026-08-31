@@ -2,6 +2,14 @@
 
 Dashboard 的主数据源是事件目录中的 `dashboard.json`。存在根目录 `final-summary.json` 时，后端自动补充核心判断、风险、关键发现和运营方向。旧调查可以继续回退读取 `dual-agent/05-final-summary.json`；没有摘要的普通调查仍可展示分类与评论证据。
 
+## 动态分类确认
+
+模型先依据研究主题和折叠评论生成 `classification-plan.json`，初始状态必须为 `draft`。计划应包含4—8个动态类别和一个 `other`，并明确每类的名称、定义、纳入条件和排除条件。
+
+必须先向用户展示整套分类表。用户确认类别结构和边界后，才能把状态改为 `approved`，再生成全量 `semantic-analysis.json`。这是一次分类体系确认，不是逐条评论的相关性人工复核。
+
+`scripts/build_comment_dashboard.py` 在正式语义分析与看板生成阶段必须使用 `--require-approved` 或等价校验，禁止把 `draft` 分类表当成最终版本。
+
 ## 展示口径
 
 - 总体情绪环图描述当前样本，不表示全体玩家态度。

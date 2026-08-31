@@ -70,6 +70,16 @@ def _is_nonempty(path: Path) -> bool:
     return bool(path.read_text(encoding="utf-8").strip())
 
 
+def _classification_plan_is_approved(path: Path) -> bool:
+    if not path.is_file():
+        return False
+    try:
+        value = json.loads(path.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError):
+        return False
+    return isinstance(value, dict) and value.get("status") == "approved"
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(description="校验研究阶段的文件和前置状态。")
     parser.add_argument("run_dir", type=Path)
@@ -101,6 +111,19 @@ def main() -> None:
             for relative in expected
             if not _is_nonempty(run_dir / relative)
         ]
+        requires_approved_plan = (
+            stage_name == "classification_sentiment" and args.phase == "after"
+        ) or (
+            stage_name in {"dashboard_freeze", "sqlite_evidence_import"}
+            and args.phase == "before"
+        )
+        if (
+            requires_approved_plan
+            and not _classification_plan_is_approved(
+                run_dir / "classification-plan.json"
+            )
+        ):
+            missing.append("classification-plan.json (status=approved)")
         if stage_name == "cleaning" and args.phase == "before":
             incoming = run_dir / "incoming"
             if not incoming.is_dir() or not any(path.is_file() for path in incoming.iterdir()):

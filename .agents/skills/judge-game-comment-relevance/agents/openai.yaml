@@ -1,0 +1,4 @@
+interface:
+  display_name: "判断游戏评论相关性"
+  short_description: "依据事件研究主题过滤评论，仅输出相关原文与处理数量"
+  default_prompt: "使用 $judge-game-comment-relevance 过滤与当前游戏事件研究主题无关的评论，只返回相关评论。"

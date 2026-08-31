@@ -75,8 +75,6 @@ def build_output(
     for index, comment in enumerate(merged, start=1):
         numbered[f"{prefix}{index:04d}"] = {
             "text": comment["content"],
-            "relevance_score": None,
-            "relevance_label": None,
         }
     return {
         "schema_version": "relevance-input-1.0",

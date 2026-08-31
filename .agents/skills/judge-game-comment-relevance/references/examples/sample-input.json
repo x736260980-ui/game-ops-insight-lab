@@ -1,0 +1,28 @@
+{
+  "platform": "douyin",
+  "comments": [
+    {
+      "record_id": "DY-0001",
+      "text": "垫池子到一半出了，本来打算抽0+1小鸟的[流泪]"
+    },
+    {
+      "record_id": "DY-0002",
+      "text": "6+5周日哥告诉你sp鸟没出玩不了[捂脸]"
+    },
+    {
+      "record_id": "DY-0003",
+      "text": "砂金穿这么多，过冬吗[绝望的凝视][绝望的凝视][绝望的凝视]"
+    }
+  ],
+  "hard_excluded": [
+    {
+      "record_id": "DY-0004",
+      "reason": "empty_text"
+    }
+  ],
+  "stats": {
+    "input_count": 4,
+    "kept_count": 3,
+    "empty_excluded_count": 1
+  }
+}

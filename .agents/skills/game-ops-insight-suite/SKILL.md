@@ -39,7 +39,7 @@ description: Execute the evidence-processing and analysis stages of a game opera
 ## 阶段路由
 
 - 采集：读取 [三平台采集](references/collection.md)。
-- 清洗、相关性和折叠：读取 [评论处理](references/comment-processing.md)。
+- 清洗、相关性和折叠：读取 [评论处理](references/comment-processing.md)；逐条相关性判断使用 `$judge-game-comment-relevance`。
 - 分类、Dashboard 与评论回溯：读取 [Dashboard](references/dashboard.md)。
 - 输出文件和恢复规则：读取 [工作流与产物](references/workflow.md)。
 - SQLite 证据导入、历史复核与最终分析写入：由 `$run-game-player-research` 按清单阶段调用 `storage/`。

@@ -1,122 +1,67 @@
-# 评论相关性清洗与高同质折叠
+# 评论相关性与高同质折叠
 
-本流程读取 `prepare_douyin_relevance.py` 或 `prepare_bilibili_relevance.py` 生成的简化编号 JSON。程序本身不调用模型：它准备 LLM 输入、验证 LLM 输出、等待人工决定并生成最终极简数据。
+本目录只保留当前正式清洗协议。主线为：
 
-## 文件流
-
-1. `relevance-request.json`：删除空评论后的相关性 LLM 输入。
-2. `hard-excluded.json`：被确定性删除的空评论编号。
-3. `relevance-scores.json`：验证后的 LLM 分数。
-4. `relevance-review.json`：只包含 `0.30 <= score < 0.70` 的人工审核项。
-5. `relevance-result.json`：自动高分与人工保留项的合集。
-6. `cluster-request.json`：高同质聚类 LLM 输入。
-7. `cluster-review.json` / `cluster-review.md`：聚类机器审核文件与人类阅读版。
-8. `cluster-index.json`：批准折叠后的成员关系。
-9. `final-cleaned-comments.json`：最终交给下游的极简数据。
-
-所有步骤使用同一个 `run-dir`。示例中的 Python 是 MediaCrawler 虚拟环境解释器。
-
-## 1. 准备相关性输入
-
-```powershell
-.\source\.venv\Scripts\python.exe `
-  .\scripts\comment_cleaning_pipeline.py prepare `
-  --input .\collection-data\numbered-comments\douyin-relevance-input.json `
-  --run-dir .\runs\cleaning-demo `
-  --target "研究玩家对目标角色塑造的评价"
+```text
+base-cleaned.json
+        ↓
+相关性二分类（保留 / 排除）
+        ↓
+relevance.json
+        ↓
+高同质评论直接折叠
+        ↓
+folded.json
 ```
 
-将 `relevance-request.json` 与 `prompts/relevance-scoring.md` 交给 LLM，把纯 JSON 输出保存为任意文件。
+## 1. 相关性二分类
 
-## 2. 校验分数并生成相关性审核队列
+使用项目 Skill：
 
-```powershell
-.\source\.venv\Scripts\python.exe `
-  .\scripts\comment_cleaning_pipeline.py route-relevance `
-  --run-dir .\runs\cleaning-demo `
-  --scores .\path\to\llm-relevance-scores.json
+```text
+.agents/skills/judge-game-comment-relevance/SKILL.md
 ```
 
-编辑 `relevance-review.json`，把每个 `human_decision` 从 `pending` 改为 `keep` 或 `exclude`，然后运行：
+输入是明确的研究主题和各平台 `*-base-cleaned.json`。模型逐条判断评论能否回答本次研究问题：
 
-```powershell
-.\source\.venv\Scripts\python.exe `
-  .\scripts\comment_cleaning_pipeline.py finalize-relevance `
-  --run-dir .\runs\cleaning-demo
+- 能建立真实且可说明的关联：保留；
+- 必须猜测缺失对象、反讽方向或不存在的因果关系才能纳入：排除。
+
+该阶段没有相关性分数、第三种标签或逐条人工复核。边界评论必须由模型按照 Skill 规则完成二分类，不能输出 `review`、`pending` 或置信度区间。
+
+正式 `*-relevance.json`：
+
+- `comments` 只包含保留评论的 `record_id` 和未经改写的 `text`；
+- 不包含 `decision`、`relevance_score` 或逐条理由；
+- `stats` 记录相关性输入数、排除数和最终保留数；
+- 保留原编号和相对顺序。
+
+完整输入输出外壳见：
+
+```text
+.agents/skills/judge-game-comment-relevance/references/io-reference.md
 ```
 
-只要还有 `pending`，程序就会停止。
+## 2. 高同质评论直接折叠
 
-## 3. 审核高同质折叠
+把各平台 `*-relevance.json` 与以下提示词交给模型：
 
-将 `cluster-request.json` 与 `prompts/high-homogeneity-clustering.md` 交给 LLM，然后运行：
-
-```powershell
-.\source\.venv\Scripts\python.exe `
-  .\scripts\comment_cleaning_pipeline.py build-cluster-review `
-  --run-dir .\runs\cleaning-demo `
-  --proposals .\path\to\llm-cluster-proposals.json
+```text
+prompts/fold-similar-comments.md
 ```
 
-先阅读 `cluster-review.md`，再编辑 `cluster-review.json`：
+模型直接输出 `*-folded.json`。只有对象、具体方面、立场、核心判断和主要理由均一致的评论才可折叠；不确定时保持独立。
 
-- `merge_all`：全部成员折叠；`accepted_member_ids` 留空即可。
-- `keep_separate`：全部保持独立；`accepted_member_ids` 留空。
-- `merge_selected`：只折叠 `accepted_member_ids` 中至少两项，但不能填写全部成员。
-- 可以修改 `representative_id`，但它必须属于最终合并成员。
+该阶段也没有逐组人工审核文件。输出必须保留代表评论原文、`support_count` 和 `merged_record_ids`，并满足数量守恒和成员唯一性。
 
-## 4. 生成最终数据
+修正示例见：
 
-```powershell
-.\source\.venv\Scripts\python.exe `
-  .\scripts\comment_cleaning_pipeline.py finalize `
-  --run-dir .\runs\cleaning-demo
+```text
+prompts/fold-similar-comments-example.md
 ```
 
-最终文件只包含：
+## 3. 与后续分类的边界
 
-```json
-{
-  "platform": "douyin",
-  "comments": {
-    "DY-0012": {
-      "text": "真实评论原文",
-      "support_count": 3
-    }
-  }
-}
-```
+相关性清洗完成后不再逐条等待人工判断。后续动态分类会先生成 `classification-plan.json`；用户确认的是整套类别名称、定义和边界，而不是重新审核每条评论是否相关。
 
-代表原文不会被改写，未折叠评论的 `support_count` 固定为 1。
-
-## 5. 折叠后的 Codex 洞察看板链
-
-Dify 可以继续完成相关性筛选和直接折叠；本地链也可以产出 `relevance-result.json`、`final-cleaned-comments.json` 与 `cluster-index.json`。两条路径从这里进入同一个确定性接口。
-
-先生成统一输入：
-
-```powershell
-python scripts/build_comment_dashboard.py prepare `
-  --target "本次研究主题" `
-  --relevance E:\path\to\douyin-relevance.json `
-  --folded E:\path\to\douyin-folded.json `
-  --relevance E:\path\to\bilibili-relevance.json `
-  --folded E:\path\to\bilibili-folded.json `
-  --output-dir E:\path\to\dashboard-run
-```
-
-使用项目 Skill `.agents/skills/game-ops-insight-suite` 的 Dashboard 阶段：
-
-1. Codex 基于 `analysis-input.json` 生成4—8个动态类别和 `other`，保存为 `classification-plan.json`，状态为 `draft`。
-2. 用户修改并批准分类表后，Codex才生成完整的 `semantic-analysis.json`。
-3. Python执行二次排除对账、多标签加权统计和最终文件输出。
-
-```powershell
-python scripts/build_comment_dashboard.py finalize `
-  --analysis-input E:\path\to\dashboard-run\analysis-input.json `
-  --classification-plan E:\path\to\dashboard-run\classification-plan.json `
-  --semantic-analysis E:\path\to\dashboard-run\semantic-analysis.json `
-  --output-dir E:\path\to\dashboard-run
-```
-
-正式终点是 `dashboard.json`，同时保留 `analysis-audit.json`。旧分类聚合节点不进入正式链路；旧文件可以继续作为历史参考，但不得与新看板统计混用。
+分类表批准后，模型才能生成全量 `semantic-analysis.json` 和 Dashboard。

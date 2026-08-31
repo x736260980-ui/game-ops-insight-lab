@@ -93,6 +93,48 @@ class RunManifestTests(unittest.TestCase):
         self.assertEqual(manifest["run_status"], "completed")
         self.assertIsNone(manifest["current_stage"])
 
+    def test_classification_stage_requires_an_approved_taxonomy(self) -> None:
+        run_script("init_run.py", str(self.run_dir), "--title", "测试事件")
+        manifest_path = self.run_dir / "run-manifest.json"
+        manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
+        for stage in ("research_brief", "collection", "cleaning"):
+            manifest["stages"][stage]["status"] = "completed"
+        manifest["current_stage"] = "classification_sentiment"
+        manifest_path.write_text(
+            json.dumps(manifest, ensure_ascii=False, indent=2), encoding="utf-8"
+        )
+        plan_path = self.run_dir / "classification-plan.json"
+        plan_path.write_text(
+            json.dumps({"status": "draft"}, ensure_ascii=False), encoding="utf-8"
+        )
+        (self.run_dir / "semantic-analysis.json").write_text(
+            "{}", encoding="utf-8"
+        )
+
+        draft = run_script(
+            "validate_stage.py",
+            str(self.run_dir),
+            "classification_sentiment",
+            "--phase",
+            "after",
+            check=False,
+        )
+        self.assertEqual(draft.returncode, 2)
+        self.assertIn("status=approved", draft.stdout)
+
+        plan_path.write_text(
+            json.dumps({"status": "approved"}, ensure_ascii=False), encoding="utf-8"
+        )
+        approved = run_script(
+            "validate_stage.py",
+            str(self.run_dir),
+            "classification_sentiment",
+            "--phase",
+            "after",
+            check=False,
+        )
+        self.assertEqual(approved.returncode, 0)
+
 
 if __name__ == "__main__":
     unittest.main()

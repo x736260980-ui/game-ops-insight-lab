@@ -123,6 +123,8 @@ Dashboard 最终结果注入
 
 每个调查目录使用 `run-manifest.json` 记录状态：`pending`、`waiting`、`completed`、`needs_review`、`skipped` 或 `failed`。执行方式只记录为 `codex`、`automation` 或 `manual`；它不会改变阶段的输入输出协议。
 
+相关性阶段采用模型直接二分类：相关评论保留，无关评论排除，不使用0—1分数、中间区间或逐条人工复核。动态分类阶段另有一次分类表确认：模型先提交 `draft` 类别方案，用户确认类别名称、定义和边界后才进入全量分类与情绪判断。
+
 ```powershell
 python .\.agents\skills\run-game-player-research\scripts\init_run.py `
   .\runs\<run_id> `
